@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ITAApp">
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <title>ITA -- high-throughput integrated toxicology analyzer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.ico" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jqcloud.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+  </head>
+  <body ng-controller="indexController">
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="img/logo.png" /> ITA</a>
+          </div> <!-- /.navbar-header -->
+
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right navbar-dropdown">
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle dropdown-highlight"> Search <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="sample">Sample</a></li>
+                  <li><a href="analyze">Analyze</a></li>
+                  <li><a href="chemical">Chemical</a></li>
+                  <li><a href="assay">Bioactivity</a></li>
+                  <li><a href="pathway">Pathway</a></li>
+                </ul>
+              </li>              
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle dropdown-highlight">Tools <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Docking-based potential target screening</a></li>
+                  <li><a href="#">Ligand-based target prediction</a></li>
+                </ul>
+              </li>
+              <li><a href="download" class="nav-link dropdown-highlight">Download</a></li>
+              <li><a href="signin" class="nav-link dropdown-highlight" ng-if="!user">Sign In</a></li>
+              <li><a href="#" class="nav-link dropdown-highlight" ng-click="logout()" ng-if="user">Sign Out</a></li>
+            </ul>
+          </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container -->
+      </nav> <!-- /.navbar -->
+    </div>
+    <ng-view></ng-view>
+    <footer>
+      <div class="container clearfix">
+        <div class="footer-large">
+          <p class="col-md-3 text-center">
+            <a href="" ng-click="redirect('/about')"> About</a>
+          </p>
+          <p class="col-md-3 text-center">
+            <a href="team"> Team</a>
+          </p>
+          <p class="col-md-3 text-center">
+            <a href="publication"> Publications</a>
+          </p>
+          <p class="col-md-3 text-center">
+            Founded by:<a href="http://www.nsfc.gov.cn/"> NSFC</a>
+          </p>
+        </div>
+        <hr class="col-xs-12">
+        <div class="row footer-small">
+          <p>
+            Copyright &copy; 2019 - 2020. State Key Laboratory of Environmental Chemistry and Ecotoxicology, Research Center for Eco-environmental Sciences. All Rights Reserved.
+          </p>
+        </div>
+      </div> <!-- /.container -->
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jqcloud.min.js"></script>
+    <script src="js/jquery.noty.packaged.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/angular-cookies.min.js"></script>
+    <script src="js/angular-jqcloud.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/services/userService.js"></script>
+    <script src="js/services/jobService.js"></script>
+    <script src="js/services/captchaService.js"></script>
+    <script src="js/controllers/indexController.js"></script>
+    <script src="js/controllers/homeController.js"></script>
+    <script src="js/controllers/signupController.js"></script>
+    <script src="js/controllers/signinController.js"></script>
+    <script src="js/controllers/sampleController.js"></script>
+    <script src="js/controllers/assayController.js"></script>
+    <script src="js/controllers/chemicalController.js"></script>
+    <script src="js/controllers/sampleItemController.js"></script>
+    <script src="js/controllers/chemicalItemController.js"></script>
+    <script src="js/controllers/assayItemController.js"></script>
+    <script src="js/derivatives/signupCheckDerivatives.js"></script>
+    <script src="js/derivatives/captchaDerivatives.js"></script>
+    <script src="js/marvinjs-19.9.0-all/gui/lib/promise-1.0.0.min.js"></script>
+    <script src="js/marvinjs-19.9.0-all/js/marvinjslauncher.js"></script>
+  </body>
+</html>

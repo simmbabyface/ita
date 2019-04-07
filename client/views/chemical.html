@@ -1,0 +1,89 @@
+<div class="container">
+  <div class="middlepart">
+    <div class="search-title">
+      <img src="img/view-chemical.png" width="30px" height="30px" /> Chemical Query
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form name="form "class="form-horizontal" role="form" novalidate="novalidate" method="post">
+          <div class="form-group">
+            <div class="col-md-3">
+              <label for="cas" class="control-label">Chemical CAS</label>
+            </div>
+            <div class="col-md-9">
+              <input class="form-control input-sm" ng-model="cas" id="cas" name="cas" placeholder="single chemical only" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-3">
+              <label for="type" class="control-label">Sample Type</label>
+            </div>
+            <div class="col-md-9">
+              <select name="type" id="type" required="required" ng-model="type" class="form-control">
+                <option ng-repeat="type in types">{{type}}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-3">
+              <label for="toxicity" class="control-label">Toxicity</label>
+            </div>
+            <div class="col-md-9">
+              <select name="toxicity" id="toxicity" required="required" ng-model="toxicity" ng-change="filter_assay()" ng-disabled="disable_toxicity" class="form-control">
+                <option ng-repeat="toxicity in toxicities">{{toxicity}}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-3">
+              <label for="assay" class="control-label">Assay</label>
+            </div>
+            <div class="col-md-9">
+              <select name="assay" id="assay" required="required" ng-model="assay" ng-change="filter_toxicity()" class="form-control">
+                <option ng-repeat="assay in assays">{{assay}}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-3">
+              <label class="control-label">SMILES</label>
+            </div>
+            <div class="col-md-9">
+              <input class="form-control" ng-model="smiles" id="smiles" name="smiles" autofocus="autofocus" />
+            </div>
+          </div>
+          <div style="text-align: center;">
+            <iframe id="sketch" src="js/marvinjs-19.9.0-all/editorws.html" style="overflow: hidden; min-width: 500px; min-height: 400px; border: 1px solid darkgray;" />
+          </div>
+          <div class="text-center">
+            <button ng-click="search_chemical()" class="btn btn-primary">Search</button>
+            <button type="reset" ng-click="clear()" class="btn">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div ng-if="searched == true">
+      <div class="title_about">Chemical Search Result</div>
+      <div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Chemical ID</th>
+              <th>Chemical Name</th>
+              <th>Molecular Formula</th>
+              <th>CAS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="values in chemicals">
+              <td><a href="chemicalItem/{{values.component_id}}">{{values.component_id}}</a></td>
+              <td>{{values.chemical_name}}</td>
+              <td>{{values.molecular_formula}}</td>
+              <td>{{values.cas}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

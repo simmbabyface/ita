@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="middlepart">
+    <div class="search-title">
+      <img src="img/view-assay.png" width="30px" height="30px" /> Assay Query
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form name="form" class="form-horizontal" role="form" method="post">
+          <div class="form-group">
+            <div class="col-md-3">
+              <label for="toxicity" class="control-label">Toxicity</label>
+            </div>
+            <div class="col-md-9">
+              <select name="toxicity" id="toxicity" required="required" ng-model="toxicity" ng-change="filter_biological_process_target()" ng-disabled="disable_toxicity"  class="form-control">
+                <option ng-repeat="toxicity in toxicities">{{toxicity}}</option>
+              </select>
+            </div>
+          </div>          
+          <div class="form-group">
+            <div class="col-md-3">
+              <label for="type" class="control-label">Biological process target</label>
+            </div>
+            <div class="col-md-9">
+              <select name="biological_process_target" id="biological_process_target" ng-change="filter_toxicity()" required="required" ng-model="biological_process_target" class="form-control">
+                <option ng-repeat="biological_process_target in biological_process_targets">{{biological_process_target}}</option>
+              </select>
+            </div>
+          </div>
+          <div class="text-center">
+            <button ng-click="search_assay()" class="btn btn-primary">Search</button>
+            <button type="reset" class="btn" ng-click="reset()">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div ng-if="searched == true">
+      <div class="title_about">Assay Search Result</div>
+      <div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Assay ID</th>
+              <th>Assay Name</th>
+              <th>Tissue</th>
+              <th>Cell Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="values in assays">
+              <td><a href="assayItem/{{values.assay_id}}">{{values.assay_id}}</a></td>
+              <td>{{values.assay_name}}</td>
+              <td>{{values.tissue}}</td>
+              <td>{{values.cell_name}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

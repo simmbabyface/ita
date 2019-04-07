@@ -1,0 +1,6 @@
+docs/
+examples/
+*.pyc
+*.log
+*.smi
+.DS_Store

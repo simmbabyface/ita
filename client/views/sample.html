@@ -1,0 +1,95 @@
+
+<div class="container">
+  <div class="middlepart">
+    <div class="search-title">
+      <img src="img/view-sample.png" width="30px" height="30px" /> Sample Query
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form name="form" class="form-horizontal" role="form" method="post">
+          <div class="form-group">
+            <div class="col-md-3">
+              <label for="type" class="control-label">Sampling Time</label>
+            </div>
+            <div class="col-md-4">
+              <input type="date" name="start_time" id="start_time" ng-model="start_time" class="form-control" />
+            </div>
+            <div class="col-md-1" style="text-align:center">
+              <label for="type" class="control-label"> to </label>
+            </div>
+            <div class="col-md-4">
+              <input type="date" name="end_time" id="end_time" ng-model="end_time" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-3">
+              <label for="type" class="control-label">Sample Type</label>
+            </div>
+            <div class="col-md-9">
+              <select name="type" id="type" required="required" ng-model="type" class="form-control">
+                <option ng-repeat="type in types">{{type}}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-3">
+              <label for="toxicity" class="control-label">Toxicity</label>
+            </div>
+            <div class="col-md-9">
+              <select name="toxicity" id="toxicity" required="required" ng-model="toxicity" ng-change="filter_assay()" ng-disabled="disable_toxicity" class="form-control">
+                <option ng-repeat="toxicity in toxicities">{{toxicity}}</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-3">
+              <label for="assay" class="control-label">Assay</label>
+            </div>
+            <div class="col-md-9">
+              <select name="assay" id="assay" required="required" ng-model="assay" ng-change="filter_toxicity()" class="form-control">
+                <option ng-repeat="assay in assays">{{assay}}</option>
+              </select>
+            </div>
+          </div>
+<!--           <div class="form-group">
+            <div class="col-md-3">
+              <label for="assay" class="control-label">Chemical CAS</label>
+            </div>
+            <div class="col-md-9">
+              <input class="form-control" ng-model="cas" id="cas" name="cas" placeholder="single chemical only" />
+            </div>
+          </div> -->
+          <div class="text-center">
+            <button ng-click="search_sample()" class="btn btn-primary">Search</button>
+            <button type="reset" class="btn" ng-click="reset()">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div ng-if="searched == true">
+      <div class="title_about">Sample Search Result</div>
+      <div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Sample ID</th>
+              <th>Sample Name</th>
+              <th>Sampling Location</th>
+              <th>Sampling Time</th>
+              <th>Sampling Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="values in samples">
+              <td><a href="sampleItem/{{values.sample_id}}">{{values.sample_id}}</a></td>
+              <td>{{values.sampling_name}}</td>
+              <td>{{values.sampling_location}}</td>
+              <td>{{values.sampling_time | date}}</td>
+              <td>{{values.sample_type}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
