@@ -58,8 +58,9 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 .nav-pills .pill-2 .nav-link:not(.active) {
     color:white;
-    font-size: 18px;    
-    background-color: rgba(92, 184, 92, 1);
+    font-size: 18px;
+    background-color: rgba(217, 83, 79, 1); 
+    
 }
 .nav-pills .pill-3 .nav-link:not(.active) {
     color:white;
@@ -69,7 +70,7 @@ body, h1, h2, h3, h4, h5, h6 {
 .nav-pills .pill-4 .nav-link:not(.active) {
     color:white;
     font-size: 18px;
-    background-color: rgba(217, 83, 79, 1);
+    background-color: rgba(92, 184, 92, 1);
 }
 
 .dropdown-highlight:hover {

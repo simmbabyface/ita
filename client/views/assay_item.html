@@ -3,7 +3,14 @@
     <div class="search-title">
       <img src="img/view-assay.png" width="30px" height="30px" /> Assay Detail
     </div>
-    <div class="title_about">Identification</div>
+    <div>
+      <ul class="nav nav-pills nav-justified">
+        <li role="presentation" class="nav-item pill-3"><a class="nav-link" href="" ng-click="scrollTo('Identification')">Identification</a></li>
+        <li role="presentation" class="nav-item pill-4"><a class="nav-link" href="" ng-click="scrollTo('Related_Samples')">Related Samples</a></li>
+        <li role="presentation" class="nav-item pill-1"><a class="nav-link" href="" ng-click="scrollTo('Related_Chemicals')">Related Chemicals</a></li>
+      </ul>
+    </div>
+    <div class="title_about" id="Identification">Identification</div>
       <div ng-repeat="(key, value) in assay_detail_info" class="row bottom-border">
         <div class="col-md-3">
           <label class="control-label">{{key}}</label>
@@ -13,7 +20,7 @@
         </div>
       </div>
     <div>
-    <div class="title_about">Related Samples</div>
+    <div class="title_about" id="Related_Samples">Related Samples</div>
     <div>
       <table class="table table-striped">
         <thead>
@@ -38,7 +45,7 @@
         </tbody>
       </table>
     </div>
-    <div class="title_about">Related Chemicals</div>
+    <div class="title_about" id="Related_Chemicals">Related Chemicals</div>
     <div>
       <table class="table table-striped">
         <thead>
