@@ -204,7 +204,7 @@ def search_chemical_handler(db):
         constraint_chemical.append('cas = %s')
         constraint_variables.append(cas)
     if smiles != '':
-        constraint_chemical.append('smiles = %s')
+        constraint_chemical.append('canonical_smiles = %s')
         constraint_variables.append(smiles)
     if sample_type != '':
         constraint_sample.append('sample_type = %s')
@@ -216,16 +216,16 @@ def search_chemical_handler(db):
         constraint_assay.append('toxicity = %s')
         constraint_variables.append(toxicity)
 
-    query = 'SELECT DISTINCT c.component_id, c.chemical_name, c.molecular_formula, c.CAS FROM ( SELECT * FROM component'
+    query = 'SELECT DISTINCT c.chemical_id, c.chemical_name, c.molecular_formula, c.CAS FROM ( SELECT * FROM chemical'
     if len(constraint_chemical) > 0:
         query += ' WHERE ' + ' AND '.join(constraint_chemical)
-    query += ') AS c INNER JOIN sample_component ON c.component_id = sample_component.component_id INNER JOIN ( SELECT * FROM sample'
+    query += ') AS c INNER JOIN sample_chemical ON c.chemical_id = sample_chemical.chemical_id INNER JOIN ( SELECT * FROM sample'
     if len(constraint_sample) > 0:
         query += ' WHERE ' + ' AND '.join(constraint_sample)
-    query += ') AS s ON sample_component.sample_id = s.sample_id INNER JOIN component_assay ON c.component_id = component_assay.component_id INNER JOIN ( SELECT * FROM assay'
+    query += ') AS s ON sample_chemical.sample_id = s.sample_id INNER JOIN chemical_assay ON c.chemical_id = chemical_assay.chemical_id INNER JOIN ( SELECT * FROM assay'
     if len(constraint_assay) > 0:
         query += ' WHERE ' + ' AND '.join(constraint_assay)
-    query += ') AS a ON component_assay.assay_id = a.assay_id;'
+    query += ') AS a ON chemical_assay.assay_id = a.assay_id;'
     db.execute(query, tuple(constraint_variables))
     rows = db.fetchall()
     return json.dumps(rows, default=datetime_handler)
@@ -277,7 +277,7 @@ def sample_chemical_handler(db):
         response.status = 400
         return {'error': 'empty request body'}
 
-    db.execute('SELECT * FROM sample_component WHERE sample_id = %s;', (data['sample_id'], ))
+    db.execute('SELECT * FROM sample_chemical WHERE sample_id = %s;', (data['sample_id'], ))
     rows = db.fetchall()
     return json.dumps(rows, default=datetime_handler)
 
@@ -294,7 +294,7 @@ def chemical_detail_handler(db):
         response.status = 400
         return {'error': 'empty request body'}
 
-    db.execute('SELECT * FROM component WHERE component_id = %s;', (data['chemical_id'], ))
+    db.execute('SELECT * FROM chemical WHERE chemical_id = %s;', (data['chemical_id'], ))
     row = db.fetchone()
     return json.dumps(row, default=datetime_handler)
 
@@ -311,7 +311,7 @@ def chemical_assay_handler(db):
         response.status = 400
         return {'error': 'empty request body'}
 
-    db.execute('SELECT * FROM component_assay WHERE component_id = %s;', (data['chemical_id'], ))
+    db.execute('SELECT * FROM chemical_assay WHERE chemical_id = %s;', (data['chemical_id'], ))
     rows = db.fetchall()
     return json.dumps(rows, default=datetime_handler)
 
@@ -328,7 +328,7 @@ def chemical_sample_handler(db):
         response.status = 400
         return {'error': 'empty request body'}
 
-    db.execute('SELECT * FROM sample_component WHERE component_id = %s;', (data['chemical_id'], ))
+    db.execute('SELECT * FROM sample_chemical WHERE chemical_id = %s;', (data['chemical_id'], ))
     rows = db.fetchall()
     return json.dumps(rows, default=datetime_handler)
 
@@ -362,7 +362,7 @@ def assay_chemical_handler(db):
         response.status = 400
         return {'error': 'empty request body'}
 
-    db.execute('SELECT * FROM component_assay WHERE assay_id = %s;', (data['assay_id'], ))
+    db.execute('SELECT * FROM chemical_assay WHERE assay_id = %s;', (data['assay_id'], ))
     rows = db.fetchall()
     return json.dumps(rows, default=datetime_handler)
 

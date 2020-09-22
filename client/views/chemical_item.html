@@ -3,9 +3,39 @@
     <div class="search-title">
       <img src="img/view-chemical.png" width="30px" height="30px" /> Chemical Detail
     </div>
+    <div>
+      <ul class="nav nav-pills nav-justified">
+        <li role="presentation" class="nav-item pill-1"><a class="nav-link" href="" ng-click="scrollTo('Identification')">Identification</a></li>
+        <li role="presentation" class="nav-item pill-2"><a class="nav-link" href="" ng-click="scrollTo('Computed_Properties')">Computed Properties</a></li>
+        <li role="presentation" class="nav-item pill-3"><a class="nav-link" href="" ng-click="scrollTo('Related_Assays')">Related Assays</a></li>
+        <li role="presentation" class="nav-item pill-4"><a class="nav-link" href="" ng-click="scrollTo('Related_Samples')">Related Samples</a></li>
+      </ul>
+    </div>
+    <div class="title_about" id="Identification">Identification</div>
+      <div ng-repeat="(key, value) in chemical_detail_info"> 
+        <div class="row no-gutter bottom-border">
+          <div class="col-md-3">
+            <label class="control-label">{{key}}</label>
+          </div>
+          <div class="col-md-9">
+            <p>{{value}}</p>
+          </div>
+        </div>
+        <div ng-if="key == 'cas'">
+          <div class="row no-gutter bottom-border">
+            <div class="col-md-3">
+              <label class="control-label">structure</label>
+            </div>
+            <div class="col-md-9">
+              <img src="https://chem.nlm.nih.gov/chemidplus/structure/{{value}}"></img>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div>
 
-    <div class="title_about">Identification</div>
-      <div ng-repeat="(key, value) in chemical_detail_info" class="row bottom-border">
+    <div class="title_about" id="Computed_Properties">Computed Properties</div>
+      <div ng-repeat="(key, value) in chemical_detail_info" class="row no-gutter bottom-border">
         <div class="col-md-3">
           <label class="control-label">{{key}}</label>
         </div>
@@ -15,18 +45,7 @@
       </div>
     <div>
 
-    <div class="title_about">Computed Properties</div>
-      <div ng-repeat="(key, value) in chemical_detail_info" class="row bottom-border">
-        <div class="col-md-3">
-          <label class="control-label">{{key}}</label>
-        </div>
-        <div class="col-md-9">
-          <p>{{value}}</p>
-        </div>
-      </div>
-    <div>
-
-    <div class="title_about">Related Assays</div>
+    <div class="title_about" id="Related_Assays">Related Assays</div>
     <div>
       <table class="table table-striped">
         <thead>
@@ -51,7 +70,7 @@
         </tbody>
       </table>
     </div>
-    <div class="title_about">Related Samples</div>
+    <div class="title_about" id="Related_Samples">Related Samples</div>
     <div>
       <table class="table table-striped">
         <thead>

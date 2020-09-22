@@ -1,0 +1,2917 @@
+Separation_Phase,Separation_System,Separation_Mechanism,Separation_Cycle,Ionization_Mode,Ionization_Polarity
+LC,Vanquish,normal phase,1,ESI,+
+LC,Vanquish,normal phase,1,ESI,-
+LC,Vanquish,normal phase,1,ESI,+/-
+LC,Vanquish,normal phase,1,APCI,+
+LC,Vanquish,normal phase,1,APCI,-
+LC,Vanquish,normal phase,1,APCI,+/-
+LC,Vanquish,normal phase,1,APPI,+
+LC,Vanquish,normal phase,1,APPI,-
+LC,Vanquish,normal phase,1,APPI,+/-
+LC,Vanquish,normal phase,1,EI,+
+LC,Vanquish,normal phase,1,EI,-
+LC,Vanquish,normal phase,1,EI,+/-
+LC,Vanquish,normal phase,1,CI,+
+LC,Vanquish,normal phase,1,CI,-
+LC,Vanquish,normal phase,1,CI,+/-
+LC,Vanquish,normal phase,1,others,+
+LC,Vanquish,normal phase,1,others,-
+LC,Vanquish,normal phase,1,others,+/-
+LC,Vanquish,normal phase,2,ESI,+
+LC,Vanquish,normal phase,2,ESI,-
+LC,Vanquish,normal phase,2,ESI,+/-
+LC,Vanquish,normal phase,2,APCI,+
+LC,Vanquish,normal phase,2,APCI,-
+LC,Vanquish,normal phase,2,APCI,+/-
+LC,Vanquish,normal phase,2,APPI,+
+LC,Vanquish,normal phase,2,APPI,-
+LC,Vanquish,normal phase,2,APPI,+/-
+LC,Vanquish,normal phase,2,EI,+
+LC,Vanquish,normal phase,2,EI,-
+LC,Vanquish,normal phase,2,EI,+/-
+LC,Vanquish,normal phase,2,CI,+
+LC,Vanquish,normal phase,2,CI,-
+LC,Vanquish,normal phase,2,CI,+/-
+LC,Vanquish,normal phase,2,others,+
+LC,Vanquish,normal phase,2,others,-
+LC,Vanquish,normal phase,2,others,+/-
+LC,Vanquish,normal phase,3,ESI,+
+LC,Vanquish,normal phase,3,ESI,-
+LC,Vanquish,normal phase,3,ESI,+/-
+LC,Vanquish,normal phase,3,APCI,+
+LC,Vanquish,normal phase,3,APCI,-
+LC,Vanquish,normal phase,3,APCI,+/-
+LC,Vanquish,normal phase,3,APPI,+
+LC,Vanquish,normal phase,3,APPI,-
+LC,Vanquish,normal phase,3,APPI,+/-
+LC,Vanquish,normal phase,3,EI,+
+LC,Vanquish,normal phase,3,EI,-
+LC,Vanquish,normal phase,3,EI,+/-
+LC,Vanquish,normal phase,3,CI,+
+LC,Vanquish,normal phase,3,CI,-
+LC,Vanquish,normal phase,3,CI,+/-
+LC,Vanquish,normal phase,3,others,+
+LC,Vanquish,normal phase,3,others,-
+LC,Vanquish,normal phase,3,others,+/-
+LC,Vanquish,reverse phase,1,ESI,+
+LC,Vanquish,reverse phase,1,ESI,-
+LC,Vanquish,reverse phase,1,ESI,+/-
+LC,Vanquish,reverse phase,1,APCI,+
+LC,Vanquish,reverse phase,1,APCI,-
+LC,Vanquish,reverse phase,1,APCI,+/-
+LC,Vanquish,reverse phase,1,APPI,+
+LC,Vanquish,reverse phase,1,APPI,-
+LC,Vanquish,reverse phase,1,APPI,+/-
+LC,Vanquish,reverse phase,1,EI,+
+LC,Vanquish,reverse phase,1,EI,-
+LC,Vanquish,reverse phase,1,EI,+/-
+LC,Vanquish,reverse phase,1,CI,+
+LC,Vanquish,reverse phase,1,CI,-
+LC,Vanquish,reverse phase,1,CI,+/-
+LC,Vanquish,reverse phase,1,others,+
+LC,Vanquish,reverse phase,1,others,-
+LC,Vanquish,reverse phase,1,others,+/-
+LC,Vanquish,reverse phase,2,ESI,+
+LC,Vanquish,reverse phase,2,ESI,-
+LC,Vanquish,reverse phase,2,ESI,+/-
+LC,Vanquish,reverse phase,2,APCI,+
+LC,Vanquish,reverse phase,2,APCI,-
+LC,Vanquish,reverse phase,2,APCI,+/-
+LC,Vanquish,reverse phase,2,APPI,+
+LC,Vanquish,reverse phase,2,APPI,-
+LC,Vanquish,reverse phase,2,APPI,+/-
+LC,Vanquish,reverse phase,2,EI,+
+LC,Vanquish,reverse phase,2,EI,-
+LC,Vanquish,reverse phase,2,EI,+/-
+LC,Vanquish,reverse phase,2,CI,+
+LC,Vanquish,reverse phase,2,CI,-
+LC,Vanquish,reverse phase,2,CI,+/-
+LC,Vanquish,reverse phase,2,others,+
+LC,Vanquish,reverse phase,2,others,-
+LC,Vanquish,reverse phase,2,others,+/-
+LC,Vanquish,reverse phase,3,ESI,+
+LC,Vanquish,reverse phase,3,ESI,-
+LC,Vanquish,reverse phase,3,ESI,+/-
+LC,Vanquish,reverse phase,3,APCI,+
+LC,Vanquish,reverse phase,3,APCI,-
+LC,Vanquish,reverse phase,3,APCI,+/-
+LC,Vanquish,reverse phase,3,APPI,+
+LC,Vanquish,reverse phase,3,APPI,-
+LC,Vanquish,reverse phase,3,APPI,+/-
+LC,Vanquish,reverse phase,3,EI,+
+LC,Vanquish,reverse phase,3,EI,-
+LC,Vanquish,reverse phase,3,EI,+/-
+LC,Vanquish,reverse phase,3,CI,+
+LC,Vanquish,reverse phase,3,CI,-
+LC,Vanquish,reverse phase,3,CI,+/-
+LC,Vanquish,reverse phase,3,others,+
+LC,Vanquish,reverse phase,3,others,-
+LC,Vanquish,reverse phase,3,others,+/-
+LC,Vanquish,ion exchange,1,ESI,+
+LC,Vanquish,ion exchange,1,ESI,-
+LC,Vanquish,ion exchange,1,ESI,+/-
+LC,Vanquish,ion exchange,1,APCI,+
+LC,Vanquish,ion exchange,1,APCI,-
+LC,Vanquish,ion exchange,1,APCI,+/-
+LC,Vanquish,ion exchange,1,APPI,+
+LC,Vanquish,ion exchange,1,APPI,-
+LC,Vanquish,ion exchange,1,APPI,+/-
+LC,Vanquish,ion exchange,1,EI,+
+LC,Vanquish,ion exchange,1,EI,-
+LC,Vanquish,ion exchange,1,EI,+/-
+LC,Vanquish,ion exchange,1,CI,+
+LC,Vanquish,ion exchange,1,CI,-
+LC,Vanquish,ion exchange,1,CI,+/-
+LC,Vanquish,ion exchange,1,others,+
+LC,Vanquish,ion exchange,1,others,-
+LC,Vanquish,ion exchange,1,others,+/-
+LC,Vanquish,ion exchange,2,ESI,+
+LC,Vanquish,ion exchange,2,ESI,-
+LC,Vanquish,ion exchange,2,ESI,+/-
+LC,Vanquish,ion exchange,2,APCI,+
+LC,Vanquish,ion exchange,2,APCI,-
+LC,Vanquish,ion exchange,2,APCI,+/-
+LC,Vanquish,ion exchange,2,APPI,+
+LC,Vanquish,ion exchange,2,APPI,-
+LC,Vanquish,ion exchange,2,APPI,+/-
+LC,Vanquish,ion exchange,2,EI,+
+LC,Vanquish,ion exchange,2,EI,-
+LC,Vanquish,ion exchange,2,EI,+/-
+LC,Vanquish,ion exchange,2,CI,+
+LC,Vanquish,ion exchange,2,CI,-
+LC,Vanquish,ion exchange,2,CI,+/-
+LC,Vanquish,ion exchange,2,others,+
+LC,Vanquish,ion exchange,2,others,-
+LC,Vanquish,ion exchange,2,others,+/-
+LC,Vanquish,ion exchange,3,ESI,+
+LC,Vanquish,ion exchange,3,ESI,-
+LC,Vanquish,ion exchange,3,ESI,+/-
+LC,Vanquish,ion exchange,3,APCI,+
+LC,Vanquish,ion exchange,3,APCI,-
+LC,Vanquish,ion exchange,3,APCI,+/-
+LC,Vanquish,ion exchange,3,APPI,+
+LC,Vanquish,ion exchange,3,APPI,-
+LC,Vanquish,ion exchange,3,APPI,+/-
+LC,Vanquish,ion exchange,3,EI,+
+LC,Vanquish,ion exchange,3,EI,-
+LC,Vanquish,ion exchange,3,EI,+/-
+LC,Vanquish,ion exchange,3,CI,+
+LC,Vanquish,ion exchange,3,CI,-
+LC,Vanquish,ion exchange,3,CI,+/-
+LC,Vanquish,ion exchange,3,others,+
+LC,Vanquish,ion exchange,3,others,-
+LC,Vanquish,ion exchange,3,others,+/-
+LC,Vanquish,ion pair,1,ESI,+
+LC,Vanquish,ion pair,1,ESI,-
+LC,Vanquish,ion pair,1,ESI,+/-
+LC,Vanquish,ion pair,1,APCI,+
+LC,Vanquish,ion pair,1,APCI,-
+LC,Vanquish,ion pair,1,APCI,+/-
+LC,Vanquish,ion pair,1,APPI,+
+LC,Vanquish,ion pair,1,APPI,-
+LC,Vanquish,ion pair,1,APPI,+/-
+LC,Vanquish,ion pair,1,EI,+
+LC,Vanquish,ion pair,1,EI,-
+LC,Vanquish,ion pair,1,EI,+/-
+LC,Vanquish,ion pair,1,CI,+
+LC,Vanquish,ion pair,1,CI,-
+LC,Vanquish,ion pair,1,CI,+/-
+LC,Vanquish,ion pair,1,others,+
+LC,Vanquish,ion pair,1,others,-
+LC,Vanquish,ion pair,1,others,+/-
+LC,Vanquish,ion pair,2,ESI,+
+LC,Vanquish,ion pair,2,ESI,-
+LC,Vanquish,ion pair,2,ESI,+/-
+LC,Vanquish,ion pair,2,APCI,+
+LC,Vanquish,ion pair,2,APCI,-
+LC,Vanquish,ion pair,2,APCI,+/-
+LC,Vanquish,ion pair,2,APPI,+
+LC,Vanquish,ion pair,2,APPI,-
+LC,Vanquish,ion pair,2,APPI,+/-
+LC,Vanquish,ion pair,2,EI,+
+LC,Vanquish,ion pair,2,EI,-
+LC,Vanquish,ion pair,2,EI,+/-
+LC,Vanquish,ion pair,2,CI,+
+LC,Vanquish,ion pair,2,CI,-
+LC,Vanquish,ion pair,2,CI,+/-
+LC,Vanquish,ion pair,2,others,+
+LC,Vanquish,ion pair,2,others,-
+LC,Vanquish,ion pair,2,others,+/-
+LC,Vanquish,ion pair,3,ESI,+
+LC,Vanquish,ion pair,3,ESI,-
+LC,Vanquish,ion pair,3,ESI,+/-
+LC,Vanquish,ion pair,3,APCI,+
+LC,Vanquish,ion pair,3,APCI,-
+LC,Vanquish,ion pair,3,APCI,+/-
+LC,Vanquish,ion pair,3,APPI,+
+LC,Vanquish,ion pair,3,APPI,-
+LC,Vanquish,ion pair,3,APPI,+/-
+LC,Vanquish,ion pair,3,EI,+
+LC,Vanquish,ion pair,3,EI,-
+LC,Vanquish,ion pair,3,EI,+/-
+LC,Vanquish,ion pair,3,CI,+
+LC,Vanquish,ion pair,3,CI,-
+LC,Vanquish,ion pair,3,CI,+/-
+LC,Vanquish,ion pair,3,others,+
+LC,Vanquish,ion pair,3,others,-
+LC,Vanquish,ion pair,3,others,+/-
+LC,Vanquish,Size Exclusion,1,ESI,+
+LC,Vanquish,Size Exclusion,1,ESI,-
+LC,Vanquish,Size Exclusion,1,ESI,+/-
+LC,Vanquish,Size Exclusion,1,APCI,+
+LC,Vanquish,Size Exclusion,1,APCI,-
+LC,Vanquish,Size Exclusion,1,APCI,+/-
+LC,Vanquish,Size Exclusion,1,APPI,+
+LC,Vanquish,Size Exclusion,1,APPI,-
+LC,Vanquish,Size Exclusion,1,APPI,+/-
+LC,Vanquish,Size Exclusion,1,EI,+
+LC,Vanquish,Size Exclusion,1,EI,-
+LC,Vanquish,Size Exclusion,1,EI,+/-
+LC,Vanquish,Size Exclusion,1,CI,+
+LC,Vanquish,Size Exclusion,1,CI,-
+LC,Vanquish,Size Exclusion,1,CI,+/-
+LC,Vanquish,Size Exclusion,1,others,+
+LC,Vanquish,Size Exclusion,1,others,-
+LC,Vanquish,Size Exclusion,1,others,+/-
+LC,Vanquish,Size Exclusion,2,ESI,+
+LC,Vanquish,Size Exclusion,2,ESI,-
+LC,Vanquish,Size Exclusion,2,ESI,+/-
+LC,Vanquish,Size Exclusion,2,APCI,+
+LC,Vanquish,Size Exclusion,2,APCI,-
+LC,Vanquish,Size Exclusion,2,APCI,+/-
+LC,Vanquish,Size Exclusion,2,APPI,+
+LC,Vanquish,Size Exclusion,2,APPI,-
+LC,Vanquish,Size Exclusion,2,APPI,+/-
+LC,Vanquish,Size Exclusion,2,EI,+
+LC,Vanquish,Size Exclusion,2,EI,-
+LC,Vanquish,Size Exclusion,2,EI,+/-
+LC,Vanquish,Size Exclusion,2,CI,+
+LC,Vanquish,Size Exclusion,2,CI,-
+LC,Vanquish,Size Exclusion,2,CI,+/-
+LC,Vanquish,Size Exclusion,2,others,+
+LC,Vanquish,Size Exclusion,2,others,-
+LC,Vanquish,Size Exclusion,2,others,+/-
+LC,Vanquish,Size Exclusion,3,ESI,+
+LC,Vanquish,Size Exclusion,3,ESI,-
+LC,Vanquish,Size Exclusion,3,ESI,+/-
+LC,Vanquish,Size Exclusion,3,APCI,+
+LC,Vanquish,Size Exclusion,3,APCI,-
+LC,Vanquish,Size Exclusion,3,APCI,+/-
+LC,Vanquish,Size Exclusion,3,APPI,+
+LC,Vanquish,Size Exclusion,3,APPI,-
+LC,Vanquish,Size Exclusion,3,APPI,+/-
+LC,Vanquish,Size Exclusion,3,EI,+
+LC,Vanquish,Size Exclusion,3,EI,-
+LC,Vanquish,Size Exclusion,3,EI,+/-
+LC,Vanquish,Size Exclusion,3,CI,+
+LC,Vanquish,Size Exclusion,3,CI,-
+LC,Vanquish,Size Exclusion,3,CI,+/-
+LC,Vanquish,Size Exclusion,3,others,+
+LC,Vanquish,Size Exclusion,3,others,-
+LC,Vanquish,Size Exclusion,3,others,+/-
+LC,Vanquish,others,1,ESI,+
+LC,Vanquish,others,1,ESI,-
+LC,Vanquish,others,1,ESI,+/-
+LC,Vanquish,others,1,APCI,+
+LC,Vanquish,others,1,APCI,-
+LC,Vanquish,others,1,APCI,+/-
+LC,Vanquish,others,1,APPI,+
+LC,Vanquish,others,1,APPI,-
+LC,Vanquish,others,1,APPI,+/-
+LC,Vanquish,others,1,EI,+
+LC,Vanquish,others,1,EI,-
+LC,Vanquish,others,1,EI,+/-
+LC,Vanquish,others,1,CI,+
+LC,Vanquish,others,1,CI,-
+LC,Vanquish,others,1,CI,+/-
+LC,Vanquish,others,1,others,+
+LC,Vanquish,others,1,others,-
+LC,Vanquish,others,1,others,+/-
+LC,Vanquish,others,2,ESI,+
+LC,Vanquish,others,2,ESI,-
+LC,Vanquish,others,2,ESI,+/-
+LC,Vanquish,others,2,APCI,+
+LC,Vanquish,others,2,APCI,-
+LC,Vanquish,others,2,APCI,+/-
+LC,Vanquish,others,2,APPI,+
+LC,Vanquish,others,2,APPI,-
+LC,Vanquish,others,2,APPI,+/-
+LC,Vanquish,others,2,EI,+
+LC,Vanquish,others,2,EI,-
+LC,Vanquish,others,2,EI,+/-
+LC,Vanquish,others,2,CI,+
+LC,Vanquish,others,2,CI,-
+LC,Vanquish,others,2,CI,+/-
+LC,Vanquish,others,2,others,+
+LC,Vanquish,others,2,others,-
+LC,Vanquish,others,2,others,+/-
+LC,Vanquish,others,3,ESI,+
+LC,Vanquish,others,3,ESI,-
+LC,Vanquish,others,3,ESI,+/-
+LC,Vanquish,others,3,APCI,+
+LC,Vanquish,others,3,APCI,-
+LC,Vanquish,others,3,APCI,+/-
+LC,Vanquish,others,3,APPI,+
+LC,Vanquish,others,3,APPI,-
+LC,Vanquish,others,3,APPI,+/-
+LC,Vanquish,others,3,EI,+
+LC,Vanquish,others,3,EI,-
+LC,Vanquish,others,3,EI,+/-
+LC,Vanquish,others,3,CI,+
+LC,Vanquish,others,3,CI,-
+LC,Vanquish,others,3,CI,+/-
+LC,Vanquish,others,3,others,+
+LC,Vanquish,others,3,others,-
+LC,Vanquish,others,3,others,+/-
+LC,U3000,normal phase,1,ESI,+
+LC,U3000,normal phase,1,ESI,-
+LC,U3000,normal phase,1,ESI,+/-
+LC,U3000,normal phase,1,APCI,+
+LC,U3000,normal phase,1,APCI,-
+LC,U3000,normal phase,1,APCI,+/-
+LC,U3000,normal phase,1,APPI,+
+LC,U3000,normal phase,1,APPI,-
+LC,U3000,normal phase,1,APPI,+/-
+LC,U3000,normal phase,1,EI,+
+LC,U3000,normal phase,1,EI,-
+LC,U3000,normal phase,1,EI,+/-
+LC,U3000,normal phase,1,CI,+
+LC,U3000,normal phase,1,CI,-
+LC,U3000,normal phase,1,CI,+/-
+LC,U3000,normal phase,1,others,+
+LC,U3000,normal phase,1,others,-
+LC,U3000,normal phase,1,others,+/-
+LC,U3000,normal phase,2,ESI,+
+LC,U3000,normal phase,2,ESI,-
+LC,U3000,normal phase,2,ESI,+/-
+LC,U3000,normal phase,2,APCI,+
+LC,U3000,normal phase,2,APCI,-
+LC,U3000,normal phase,2,APCI,+/-
+LC,U3000,normal phase,2,APPI,+
+LC,U3000,normal phase,2,APPI,-
+LC,U3000,normal phase,2,APPI,+/-
+LC,U3000,normal phase,2,EI,+
+LC,U3000,normal phase,2,EI,-
+LC,U3000,normal phase,2,EI,+/-
+LC,U3000,normal phase,2,CI,+
+LC,U3000,normal phase,2,CI,-
+LC,U3000,normal phase,2,CI,+/-
+LC,U3000,normal phase,2,others,+
+LC,U3000,normal phase,2,others,-
+LC,U3000,normal phase,2,others,+/-
+LC,U3000,normal phase,3,ESI,+
+LC,U3000,normal phase,3,ESI,-
+LC,U3000,normal phase,3,ESI,+/-
+LC,U3000,normal phase,3,APCI,+
+LC,U3000,normal phase,3,APCI,-
+LC,U3000,normal phase,3,APCI,+/-
+LC,U3000,normal phase,3,APPI,+
+LC,U3000,normal phase,3,APPI,-
+LC,U3000,normal phase,3,APPI,+/-
+LC,U3000,normal phase,3,EI,+
+LC,U3000,normal phase,3,EI,-
+LC,U3000,normal phase,3,EI,+/-
+LC,U3000,normal phase,3,CI,+
+LC,U3000,normal phase,3,CI,-
+LC,U3000,normal phase,3,CI,+/-
+LC,U3000,normal phase,3,others,+
+LC,U3000,normal phase,3,others,-
+LC,U3000,normal phase,3,others,+/-
+LC,U3000,reverse phase,1,ESI,+
+LC,U3000,reverse phase,1,ESI,-
+LC,U3000,reverse phase,1,ESI,+/-
+LC,U3000,reverse phase,1,APCI,+
+LC,U3000,reverse phase,1,APCI,-
+LC,U3000,reverse phase,1,APCI,+/-
+LC,U3000,reverse phase,1,APPI,+
+LC,U3000,reverse phase,1,APPI,-
+LC,U3000,reverse phase,1,APPI,+/-
+LC,U3000,reverse phase,1,EI,+
+LC,U3000,reverse phase,1,EI,-
+LC,U3000,reverse phase,1,EI,+/-
+LC,U3000,reverse phase,1,CI,+
+LC,U3000,reverse phase,1,CI,-
+LC,U3000,reverse phase,1,CI,+/-
+LC,U3000,reverse phase,1,others,+
+LC,U3000,reverse phase,1,others,-
+LC,U3000,reverse phase,1,others,+/-
+LC,U3000,reverse phase,2,ESI,+
+LC,U3000,reverse phase,2,ESI,-
+LC,U3000,reverse phase,2,ESI,+/-
+LC,U3000,reverse phase,2,APCI,+
+LC,U3000,reverse phase,2,APCI,-
+LC,U3000,reverse phase,2,APCI,+/-
+LC,U3000,reverse phase,2,APPI,+
+LC,U3000,reverse phase,2,APPI,-
+LC,U3000,reverse phase,2,APPI,+/-
+LC,U3000,reverse phase,2,EI,+
+LC,U3000,reverse phase,2,EI,-
+LC,U3000,reverse phase,2,EI,+/-
+LC,U3000,reverse phase,2,CI,+
+LC,U3000,reverse phase,2,CI,-
+LC,U3000,reverse phase,2,CI,+/-
+LC,U3000,reverse phase,2,others,+
+LC,U3000,reverse phase,2,others,-
+LC,U3000,reverse phase,2,others,+/-
+LC,U3000,reverse phase,3,ESI,+
+LC,U3000,reverse phase,3,ESI,-
+LC,U3000,reverse phase,3,ESI,+/-
+LC,U3000,reverse phase,3,APCI,+
+LC,U3000,reverse phase,3,APCI,-
+LC,U3000,reverse phase,3,APCI,+/-
+LC,U3000,reverse phase,3,APPI,+
+LC,U3000,reverse phase,3,APPI,-
+LC,U3000,reverse phase,3,APPI,+/-
+LC,U3000,reverse phase,3,EI,+
+LC,U3000,reverse phase,3,EI,-
+LC,U3000,reverse phase,3,EI,+/-
+LC,U3000,reverse phase,3,CI,+
+LC,U3000,reverse phase,3,CI,-
+LC,U3000,reverse phase,3,CI,+/-
+LC,U3000,reverse phase,3,others,+
+LC,U3000,reverse phase,3,others,-
+LC,U3000,reverse phase,3,others,+/-
+LC,U3000,ion exchange,1,ESI,+
+LC,U3000,ion exchange,1,ESI,-
+LC,U3000,ion exchange,1,ESI,+/-
+LC,U3000,ion exchange,1,APCI,+
+LC,U3000,ion exchange,1,APCI,-
+LC,U3000,ion exchange,1,APCI,+/-
+LC,U3000,ion exchange,1,APPI,+
+LC,U3000,ion exchange,1,APPI,-
+LC,U3000,ion exchange,1,APPI,+/-
+LC,U3000,ion exchange,1,EI,+
+LC,U3000,ion exchange,1,EI,-
+LC,U3000,ion exchange,1,EI,+/-
+LC,U3000,ion exchange,1,CI,+
+LC,U3000,ion exchange,1,CI,-
+LC,U3000,ion exchange,1,CI,+/-
+LC,U3000,ion exchange,1,others,+
+LC,U3000,ion exchange,1,others,-
+LC,U3000,ion exchange,1,others,+/-
+LC,U3000,ion exchange,2,ESI,+
+LC,U3000,ion exchange,2,ESI,-
+LC,U3000,ion exchange,2,ESI,+/-
+LC,U3000,ion exchange,2,APCI,+
+LC,U3000,ion exchange,2,APCI,-
+LC,U3000,ion exchange,2,APCI,+/-
+LC,U3000,ion exchange,2,APPI,+
+LC,U3000,ion exchange,2,APPI,-
+LC,U3000,ion exchange,2,APPI,+/-
+LC,U3000,ion exchange,2,EI,+
+LC,U3000,ion exchange,2,EI,-
+LC,U3000,ion exchange,2,EI,+/-
+LC,U3000,ion exchange,2,CI,+
+LC,U3000,ion exchange,2,CI,-
+LC,U3000,ion exchange,2,CI,+/-
+LC,U3000,ion exchange,2,others,+
+LC,U3000,ion exchange,2,others,-
+LC,U3000,ion exchange,2,others,+/-
+LC,U3000,ion exchange,3,ESI,+
+LC,U3000,ion exchange,3,ESI,-
+LC,U3000,ion exchange,3,ESI,+/-
+LC,U3000,ion exchange,3,APCI,+
+LC,U3000,ion exchange,3,APCI,-
+LC,U3000,ion exchange,3,APCI,+/-
+LC,U3000,ion exchange,3,APPI,+
+LC,U3000,ion exchange,3,APPI,-
+LC,U3000,ion exchange,3,APPI,+/-
+LC,U3000,ion exchange,3,EI,+
+LC,U3000,ion exchange,3,EI,-
+LC,U3000,ion exchange,3,EI,+/-
+LC,U3000,ion exchange,3,CI,+
+LC,U3000,ion exchange,3,CI,-
+LC,U3000,ion exchange,3,CI,+/-
+LC,U3000,ion exchange,3,others,+
+LC,U3000,ion exchange,3,others,-
+LC,U3000,ion exchange,3,others,+/-
+LC,U3000,ion pair,1,ESI,+
+LC,U3000,ion pair,1,ESI,-
+LC,U3000,ion pair,1,ESI,+/-
+LC,U3000,ion pair,1,APCI,+
+LC,U3000,ion pair,1,APCI,-
+LC,U3000,ion pair,1,APCI,+/-
+LC,U3000,ion pair,1,APPI,+
+LC,U3000,ion pair,1,APPI,-
+LC,U3000,ion pair,1,APPI,+/-
+LC,U3000,ion pair,1,EI,+
+LC,U3000,ion pair,1,EI,-
+LC,U3000,ion pair,1,EI,+/-
+LC,U3000,ion pair,1,CI,+
+LC,U3000,ion pair,1,CI,-
+LC,U3000,ion pair,1,CI,+/-
+LC,U3000,ion pair,1,others,+
+LC,U3000,ion pair,1,others,-
+LC,U3000,ion pair,1,others,+/-
+LC,U3000,ion pair,2,ESI,+
+LC,U3000,ion pair,2,ESI,-
+LC,U3000,ion pair,2,ESI,+/-
+LC,U3000,ion pair,2,APCI,+
+LC,U3000,ion pair,2,APCI,-
+LC,U3000,ion pair,2,APCI,+/-
+LC,U3000,ion pair,2,APPI,+
+LC,U3000,ion pair,2,APPI,-
+LC,U3000,ion pair,2,APPI,+/-
+LC,U3000,ion pair,2,EI,+
+LC,U3000,ion pair,2,EI,-
+LC,U3000,ion pair,2,EI,+/-
+LC,U3000,ion pair,2,CI,+
+LC,U3000,ion pair,2,CI,-
+LC,U3000,ion pair,2,CI,+/-
+LC,U3000,ion pair,2,others,+
+LC,U3000,ion pair,2,others,-
+LC,U3000,ion pair,2,others,+/-
+LC,U3000,ion pair,3,ESI,+
+LC,U3000,ion pair,3,ESI,-
+LC,U3000,ion pair,3,ESI,+/-
+LC,U3000,ion pair,3,APCI,+
+LC,U3000,ion pair,3,APCI,-
+LC,U3000,ion pair,3,APCI,+/-
+LC,U3000,ion pair,3,APPI,+
+LC,U3000,ion pair,3,APPI,-
+LC,U3000,ion pair,3,APPI,+/-
+LC,U3000,ion pair,3,EI,+
+LC,U3000,ion pair,3,EI,-
+LC,U3000,ion pair,3,EI,+/-
+LC,U3000,ion pair,3,CI,+
+LC,U3000,ion pair,3,CI,-
+LC,U3000,ion pair,3,CI,+/-
+LC,U3000,ion pair,3,others,+
+LC,U3000,ion pair,3,others,-
+LC,U3000,ion pair,3,others,+/-
+LC,U3000,Size Exclusion,1,ESI,+
+LC,U3000,Size Exclusion,1,ESI,-
+LC,U3000,Size Exclusion,1,ESI,+/-
+LC,U3000,Size Exclusion,1,APCI,+
+LC,U3000,Size Exclusion,1,APCI,-
+LC,U3000,Size Exclusion,1,APCI,+/-
+LC,U3000,Size Exclusion,1,APPI,+
+LC,U3000,Size Exclusion,1,APPI,-
+LC,U3000,Size Exclusion,1,APPI,+/-
+LC,U3000,Size Exclusion,1,EI,+
+LC,U3000,Size Exclusion,1,EI,-
+LC,U3000,Size Exclusion,1,EI,+/-
+LC,U3000,Size Exclusion,1,CI,+
+LC,U3000,Size Exclusion,1,CI,-
+LC,U3000,Size Exclusion,1,CI,+/-
+LC,U3000,Size Exclusion,1,others,+
+LC,U3000,Size Exclusion,1,others,-
+LC,U3000,Size Exclusion,1,others,+/-
+LC,U3000,Size Exclusion,2,ESI,+
+LC,U3000,Size Exclusion,2,ESI,-
+LC,U3000,Size Exclusion,2,ESI,+/-
+LC,U3000,Size Exclusion,2,APCI,+
+LC,U3000,Size Exclusion,2,APCI,-
+LC,U3000,Size Exclusion,2,APCI,+/-
+LC,U3000,Size Exclusion,2,APPI,+
+LC,U3000,Size Exclusion,2,APPI,-
+LC,U3000,Size Exclusion,2,APPI,+/-
+LC,U3000,Size Exclusion,2,EI,+
+LC,U3000,Size Exclusion,2,EI,-
+LC,U3000,Size Exclusion,2,EI,+/-
+LC,U3000,Size Exclusion,2,CI,+
+LC,U3000,Size Exclusion,2,CI,-
+LC,U3000,Size Exclusion,2,CI,+/-
+LC,U3000,Size Exclusion,2,others,+
+LC,U3000,Size Exclusion,2,others,-
+LC,U3000,Size Exclusion,2,others,+/-
+LC,U3000,Size Exclusion,3,ESI,+
+LC,U3000,Size Exclusion,3,ESI,-
+LC,U3000,Size Exclusion,3,ESI,+/-
+LC,U3000,Size Exclusion,3,APCI,+
+LC,U3000,Size Exclusion,3,APCI,-
+LC,U3000,Size Exclusion,3,APCI,+/-
+LC,U3000,Size Exclusion,3,APPI,+
+LC,U3000,Size Exclusion,3,APPI,-
+LC,U3000,Size Exclusion,3,APPI,+/-
+LC,U3000,Size Exclusion,3,EI,+
+LC,U3000,Size Exclusion,3,EI,-
+LC,U3000,Size Exclusion,3,EI,+/-
+LC,U3000,Size Exclusion,3,CI,+
+LC,U3000,Size Exclusion,3,CI,-
+LC,U3000,Size Exclusion,3,CI,+/-
+LC,U3000,Size Exclusion,3,others,+
+LC,U3000,Size Exclusion,3,others,-
+LC,U3000,Size Exclusion,3,others,+/-
+LC,U3000,others,1,ESI,+
+LC,U3000,others,1,ESI,-
+LC,U3000,others,1,ESI,+/-
+LC,U3000,others,1,APCI,+
+LC,U3000,others,1,APCI,-
+LC,U3000,others,1,APCI,+/-
+LC,U3000,others,1,APPI,+
+LC,U3000,others,1,APPI,-
+LC,U3000,others,1,APPI,+/-
+LC,U3000,others,1,EI,+
+LC,U3000,others,1,EI,-
+LC,U3000,others,1,EI,+/-
+LC,U3000,others,1,CI,+
+LC,U3000,others,1,CI,-
+LC,U3000,others,1,CI,+/-
+LC,U3000,others,1,others,+
+LC,U3000,others,1,others,-
+LC,U3000,others,1,others,+/-
+LC,U3000,others,2,ESI,+
+LC,U3000,others,2,ESI,-
+LC,U3000,others,2,ESI,+/-
+LC,U3000,others,2,APCI,+
+LC,U3000,others,2,APCI,-
+LC,U3000,others,2,APCI,+/-
+LC,U3000,others,2,APPI,+
+LC,U3000,others,2,APPI,-
+LC,U3000,others,2,APPI,+/-
+LC,U3000,others,2,EI,+
+LC,U3000,others,2,EI,-
+LC,U3000,others,2,EI,+/-
+LC,U3000,others,2,CI,+
+LC,U3000,others,2,CI,-
+LC,U3000,others,2,CI,+/-
+LC,U3000,others,2,others,+
+LC,U3000,others,2,others,-
+LC,U3000,others,2,others,+/-
+LC,U3000,others,3,ESI,+
+LC,U3000,others,3,ESI,-
+LC,U3000,others,3,ESI,+/-
+LC,U3000,others,3,APCI,+
+LC,U3000,others,3,APCI,-
+LC,U3000,others,3,APCI,+/-
+LC,U3000,others,3,APPI,+
+LC,U3000,others,3,APPI,-
+LC,U3000,others,3,APPI,+/-
+LC,U3000,others,3,EI,+
+LC,U3000,others,3,EI,-
+LC,U3000,others,3,EI,+/-
+LC,U3000,others,3,CI,+
+LC,U3000,others,3,CI,-
+LC,U3000,others,3,CI,+/-
+LC,U3000,others,3,others,+
+LC,U3000,others,3,others,-
+LC,U3000,others,3,others,+/-
+LC,others,normal phase,1,ESI,+
+LC,others,normal phase,1,ESI,-
+LC,others,normal phase,1,ESI,+/-
+LC,others,normal phase,1,APCI,+
+LC,others,normal phase,1,APCI,-
+LC,others,normal phase,1,APCI,+/-
+LC,others,normal phase,1,APPI,+
+LC,others,normal phase,1,APPI,-
+LC,others,normal phase,1,APPI,+/-
+LC,others,normal phase,1,EI,+
+LC,others,normal phase,1,EI,-
+LC,others,normal phase,1,EI,+/-
+LC,others,normal phase,1,CI,+
+LC,others,normal phase,1,CI,-
+LC,others,normal phase,1,CI,+/-
+LC,others,normal phase,1,others,+
+LC,others,normal phase,1,others,-
+LC,others,normal phase,1,others,+/-
+LC,others,normal phase,2,ESI,+
+LC,others,normal phase,2,ESI,-
+LC,others,normal phase,2,ESI,+/-
+LC,others,normal phase,2,APCI,+
+LC,others,normal phase,2,APCI,-
+LC,others,normal phase,2,APCI,+/-
+LC,others,normal phase,2,APPI,+
+LC,others,normal phase,2,APPI,-
+LC,others,normal phase,2,APPI,+/-
+LC,others,normal phase,2,EI,+
+LC,others,normal phase,2,EI,-
+LC,others,normal phase,2,EI,+/-
+LC,others,normal phase,2,CI,+
+LC,others,normal phase,2,CI,-
+LC,others,normal phase,2,CI,+/-
+LC,others,normal phase,2,others,+
+LC,others,normal phase,2,others,-
+LC,others,normal phase,2,others,+/-
+LC,others,normal phase,3,ESI,+
+LC,others,normal phase,3,ESI,-
+LC,others,normal phase,3,ESI,+/-
+LC,others,normal phase,3,APCI,+
+LC,others,normal phase,3,APCI,-
+LC,others,normal phase,3,APCI,+/-
+LC,others,normal phase,3,APPI,+
+LC,others,normal phase,3,APPI,-
+LC,others,normal phase,3,APPI,+/-
+LC,others,normal phase,3,EI,+
+LC,others,normal phase,3,EI,-
+LC,others,normal phase,3,EI,+/-
+LC,others,normal phase,3,CI,+
+LC,others,normal phase,3,CI,-
+LC,others,normal phase,3,CI,+/-
+LC,others,normal phase,3,others,+
+LC,others,normal phase,3,others,-
+LC,others,normal phase,3,others,+/-
+LC,others,reverse phase,1,ESI,+
+LC,others,reverse phase,1,ESI,-
+LC,others,reverse phase,1,ESI,+/-
+LC,others,reverse phase,1,APCI,+
+LC,others,reverse phase,1,APCI,-
+LC,others,reverse phase,1,APCI,+/-
+LC,others,reverse phase,1,APPI,+
+LC,others,reverse phase,1,APPI,-
+LC,others,reverse phase,1,APPI,+/-
+LC,others,reverse phase,1,EI,+
+LC,others,reverse phase,1,EI,-
+LC,others,reverse phase,1,EI,+/-
+LC,others,reverse phase,1,CI,+
+LC,others,reverse phase,1,CI,-
+LC,others,reverse phase,1,CI,+/-
+LC,others,reverse phase,1,others,+
+LC,others,reverse phase,1,others,-
+LC,others,reverse phase,1,others,+/-
+LC,others,reverse phase,2,ESI,+
+LC,others,reverse phase,2,ESI,-
+LC,others,reverse phase,2,ESI,+/-
+LC,others,reverse phase,2,APCI,+
+LC,others,reverse phase,2,APCI,-
+LC,others,reverse phase,2,APCI,+/-
+LC,others,reverse phase,2,APPI,+
+LC,others,reverse phase,2,APPI,-
+LC,others,reverse phase,2,APPI,+/-
+LC,others,reverse phase,2,EI,+
+LC,others,reverse phase,2,EI,-
+LC,others,reverse phase,2,EI,+/-
+LC,others,reverse phase,2,CI,+
+LC,others,reverse phase,2,CI,-
+LC,others,reverse phase,2,CI,+/-
+LC,others,reverse phase,2,others,+
+LC,others,reverse phase,2,others,-
+LC,others,reverse phase,2,others,+/-
+LC,others,reverse phase,3,ESI,+
+LC,others,reverse phase,3,ESI,-
+LC,others,reverse phase,3,ESI,+/-
+LC,others,reverse phase,3,APCI,+
+LC,others,reverse phase,3,APCI,-
+LC,others,reverse phase,3,APCI,+/-
+LC,others,reverse phase,3,APPI,+
+LC,others,reverse phase,3,APPI,-
+LC,others,reverse phase,3,APPI,+/-
+LC,others,reverse phase,3,EI,+
+LC,others,reverse phase,3,EI,-
+LC,others,reverse phase,3,EI,+/-
+LC,others,reverse phase,3,CI,+
+LC,others,reverse phase,3,CI,-
+LC,others,reverse phase,3,CI,+/-
+LC,others,reverse phase,3,others,+
+LC,others,reverse phase,3,others,-
+LC,others,reverse phase,3,others,+/-
+LC,others,ion exchange,1,ESI,+
+LC,others,ion exchange,1,ESI,-
+LC,others,ion exchange,1,ESI,+/-
+LC,others,ion exchange,1,APCI,+
+LC,others,ion exchange,1,APCI,-
+LC,others,ion exchange,1,APCI,+/-
+LC,others,ion exchange,1,APPI,+
+LC,others,ion exchange,1,APPI,-
+LC,others,ion exchange,1,APPI,+/-
+LC,others,ion exchange,1,EI,+
+LC,others,ion exchange,1,EI,-
+LC,others,ion exchange,1,EI,+/-
+LC,others,ion exchange,1,CI,+
+LC,others,ion exchange,1,CI,-
+LC,others,ion exchange,1,CI,+/-
+LC,others,ion exchange,1,others,+
+LC,others,ion exchange,1,others,-
+LC,others,ion exchange,1,others,+/-
+LC,others,ion exchange,2,ESI,+
+LC,others,ion exchange,2,ESI,-
+LC,others,ion exchange,2,ESI,+/-
+LC,others,ion exchange,2,APCI,+
+LC,others,ion exchange,2,APCI,-
+LC,others,ion exchange,2,APCI,+/-
+LC,others,ion exchange,2,APPI,+
+LC,others,ion exchange,2,APPI,-
+LC,others,ion exchange,2,APPI,+/-
+LC,others,ion exchange,2,EI,+
+LC,others,ion exchange,2,EI,-
+LC,others,ion exchange,2,EI,+/-
+LC,others,ion exchange,2,CI,+
+LC,others,ion exchange,2,CI,-
+LC,others,ion exchange,2,CI,+/-
+LC,others,ion exchange,2,others,+
+LC,others,ion exchange,2,others,-
+LC,others,ion exchange,2,others,+/-
+LC,others,ion exchange,3,ESI,+
+LC,others,ion exchange,3,ESI,-
+LC,others,ion exchange,3,ESI,+/-
+LC,others,ion exchange,3,APCI,+
+LC,others,ion exchange,3,APCI,-
+LC,others,ion exchange,3,APCI,+/-
+LC,others,ion exchange,3,APPI,+
+LC,others,ion exchange,3,APPI,-
+LC,others,ion exchange,3,APPI,+/-
+LC,others,ion exchange,3,EI,+
+LC,others,ion exchange,3,EI,-
+LC,others,ion exchange,3,EI,+/-
+LC,others,ion exchange,3,CI,+
+LC,others,ion exchange,3,CI,-
+LC,others,ion exchange,3,CI,+/-
+LC,others,ion exchange,3,others,+
+LC,others,ion exchange,3,others,-
+LC,others,ion exchange,3,others,+/-
+LC,others,ion pair,1,ESI,+
+LC,others,ion pair,1,ESI,-
+LC,others,ion pair,1,ESI,+/-
+LC,others,ion pair,1,APCI,+
+LC,others,ion pair,1,APCI,-
+LC,others,ion pair,1,APCI,+/-
+LC,others,ion pair,1,APPI,+
+LC,others,ion pair,1,APPI,-
+LC,others,ion pair,1,APPI,+/-
+LC,others,ion pair,1,EI,+
+LC,others,ion pair,1,EI,-
+LC,others,ion pair,1,EI,+/-
+LC,others,ion pair,1,CI,+
+LC,others,ion pair,1,CI,-
+LC,others,ion pair,1,CI,+/-
+LC,others,ion pair,1,others,+
+LC,others,ion pair,1,others,-
+LC,others,ion pair,1,others,+/-
+LC,others,ion pair,2,ESI,+
+LC,others,ion pair,2,ESI,-
+LC,others,ion pair,2,ESI,+/-
+LC,others,ion pair,2,APCI,+
+LC,others,ion pair,2,APCI,-
+LC,others,ion pair,2,APCI,+/-
+LC,others,ion pair,2,APPI,+
+LC,others,ion pair,2,APPI,-
+LC,others,ion pair,2,APPI,+/-
+LC,others,ion pair,2,EI,+
+LC,others,ion pair,2,EI,-
+LC,others,ion pair,2,EI,+/-
+LC,others,ion pair,2,CI,+
+LC,others,ion pair,2,CI,-
+LC,others,ion pair,2,CI,+/-
+LC,others,ion pair,2,others,+
+LC,others,ion pair,2,others,-
+LC,others,ion pair,2,others,+/-
+LC,others,ion pair,3,ESI,+
+LC,others,ion pair,3,ESI,-
+LC,others,ion pair,3,ESI,+/-
+LC,others,ion pair,3,APCI,+
+LC,others,ion pair,3,APCI,-
+LC,others,ion pair,3,APCI,+/-
+LC,others,ion pair,3,APPI,+
+LC,others,ion pair,3,APPI,-
+LC,others,ion pair,3,APPI,+/-
+LC,others,ion pair,3,EI,+
+LC,others,ion pair,3,EI,-
+LC,others,ion pair,3,EI,+/-
+LC,others,ion pair,3,CI,+
+LC,others,ion pair,3,CI,-
+LC,others,ion pair,3,CI,+/-
+LC,others,ion pair,3,others,+
+LC,others,ion pair,3,others,-
+LC,others,ion pair,3,others,+/-
+LC,others,Size Exclusion,1,ESI,+
+LC,others,Size Exclusion,1,ESI,-
+LC,others,Size Exclusion,1,ESI,+/-
+LC,others,Size Exclusion,1,APCI,+
+LC,others,Size Exclusion,1,APCI,-
+LC,others,Size Exclusion,1,APCI,+/-
+LC,others,Size Exclusion,1,APPI,+
+LC,others,Size Exclusion,1,APPI,-
+LC,others,Size Exclusion,1,APPI,+/-
+LC,others,Size Exclusion,1,EI,+
+LC,others,Size Exclusion,1,EI,-
+LC,others,Size Exclusion,1,EI,+/-
+LC,others,Size Exclusion,1,CI,+
+LC,others,Size Exclusion,1,CI,-
+LC,others,Size Exclusion,1,CI,+/-
+LC,others,Size Exclusion,1,others,+
+LC,others,Size Exclusion,1,others,-
+LC,others,Size Exclusion,1,others,+/-
+LC,others,Size Exclusion,2,ESI,+
+LC,others,Size Exclusion,2,ESI,-
+LC,others,Size Exclusion,2,ESI,+/-
+LC,others,Size Exclusion,2,APCI,+
+LC,others,Size Exclusion,2,APCI,-
+LC,others,Size Exclusion,2,APCI,+/-
+LC,others,Size Exclusion,2,APPI,+
+LC,others,Size Exclusion,2,APPI,-
+LC,others,Size Exclusion,2,APPI,+/-
+LC,others,Size Exclusion,2,EI,+
+LC,others,Size Exclusion,2,EI,-
+LC,others,Size Exclusion,2,EI,+/-
+LC,others,Size Exclusion,2,CI,+
+LC,others,Size Exclusion,2,CI,-
+LC,others,Size Exclusion,2,CI,+/-
+LC,others,Size Exclusion,2,others,+
+LC,others,Size Exclusion,2,others,-
+LC,others,Size Exclusion,2,others,+/-
+LC,others,Size Exclusion,3,ESI,+
+LC,others,Size Exclusion,3,ESI,-
+LC,others,Size Exclusion,3,ESI,+/-
+LC,others,Size Exclusion,3,APCI,+
+LC,others,Size Exclusion,3,APCI,-
+LC,others,Size Exclusion,3,APCI,+/-
+LC,others,Size Exclusion,3,APPI,+
+LC,others,Size Exclusion,3,APPI,-
+LC,others,Size Exclusion,3,APPI,+/-
+LC,others,Size Exclusion,3,EI,+
+LC,others,Size Exclusion,3,EI,-
+LC,others,Size Exclusion,3,EI,+/-
+LC,others,Size Exclusion,3,CI,+
+LC,others,Size Exclusion,3,CI,-
+LC,others,Size Exclusion,3,CI,+/-
+LC,others,Size Exclusion,3,others,+
+LC,others,Size Exclusion,3,others,-
+LC,others,Size Exclusion,3,others,+/-
+LC,others,others,1,ESI,+
+LC,others,others,1,ESI,-
+LC,others,others,1,ESI,+/-
+LC,others,others,1,APCI,+
+LC,others,others,1,APCI,-
+LC,others,others,1,APCI,+/-
+LC,others,others,1,APPI,+
+LC,others,others,1,APPI,-
+LC,others,others,1,APPI,+/-
+LC,others,others,1,EI,+
+LC,others,others,1,EI,-
+LC,others,others,1,EI,+/-
+LC,others,others,1,CI,+
+LC,others,others,1,CI,-
+LC,others,others,1,CI,+/-
+LC,others,others,1,others,+
+LC,others,others,1,others,-
+LC,others,others,1,others,+/-
+LC,others,others,2,ESI,+
+LC,others,others,2,ESI,-
+LC,others,others,2,ESI,+/-
+LC,others,others,2,APCI,+
+LC,others,others,2,APCI,-
+LC,others,others,2,APCI,+/-
+LC,others,others,2,APPI,+
+LC,others,others,2,APPI,-
+LC,others,others,2,APPI,+/-
+LC,others,others,2,EI,+
+LC,others,others,2,EI,-
+LC,others,others,2,EI,+/-
+LC,others,others,2,CI,+
+LC,others,others,2,CI,-
+LC,others,others,2,CI,+/-
+LC,others,others,2,others,+
+LC,others,others,2,others,-
+LC,others,others,2,others,+/-
+LC,others,others,3,ESI,+
+LC,others,others,3,ESI,-
+LC,others,others,3,ESI,+/-
+LC,others,others,3,APCI,+
+LC,others,others,3,APCI,-
+LC,others,others,3,APCI,+/-
+LC,others,others,3,APPI,+
+LC,others,others,3,APPI,-
+LC,others,others,3,APPI,+/-
+LC,others,others,3,EI,+
+LC,others,others,3,EI,-
+LC,others,others,3,EI,+/-
+LC,others,others,3,CI,+
+LC,others,others,3,CI,-
+LC,others,others,3,CI,+/-
+LC,others,others,3,others,+
+LC,others,others,3,others,-
+LC,others,others,3,others,+/-
+GC,Vanquish,normal phase,1,ESI,+
+GC,Vanquish,normal phase,1,ESI,-
+GC,Vanquish,normal phase,1,ESI,+/-
+GC,Vanquish,normal phase,1,APCI,+
+GC,Vanquish,normal phase,1,APCI,-
+GC,Vanquish,normal phase,1,APCI,+/-
+GC,Vanquish,normal phase,1,APPI,+
+GC,Vanquish,normal phase,1,APPI,-
+GC,Vanquish,normal phase,1,APPI,+/-
+GC,Vanquish,normal phase,1,EI,+
+GC,Vanquish,normal phase,1,EI,-
+GC,Vanquish,normal phase,1,EI,+/-
+GC,Vanquish,normal phase,1,CI,+
+GC,Vanquish,normal phase,1,CI,-
+GC,Vanquish,normal phase,1,CI,+/-
+GC,Vanquish,normal phase,1,others,+
+GC,Vanquish,normal phase,1,others,-
+GC,Vanquish,normal phase,1,others,+/-
+GC,Vanquish,normal phase,2,ESI,+
+GC,Vanquish,normal phase,2,ESI,-
+GC,Vanquish,normal phase,2,ESI,+/-
+GC,Vanquish,normal phase,2,APCI,+
+GC,Vanquish,normal phase,2,APCI,-
+GC,Vanquish,normal phase,2,APCI,+/-
+GC,Vanquish,normal phase,2,APPI,+
+GC,Vanquish,normal phase,2,APPI,-
+GC,Vanquish,normal phase,2,APPI,+/-
+GC,Vanquish,normal phase,2,EI,+
+GC,Vanquish,normal phase,2,EI,-
+GC,Vanquish,normal phase,2,EI,+/-
+GC,Vanquish,normal phase,2,CI,+
+GC,Vanquish,normal phase,2,CI,-
+GC,Vanquish,normal phase,2,CI,+/-
+GC,Vanquish,normal phase,2,others,+
+GC,Vanquish,normal phase,2,others,-
+GC,Vanquish,normal phase,2,others,+/-
+GC,Vanquish,normal phase,3,ESI,+
+GC,Vanquish,normal phase,3,ESI,-
+GC,Vanquish,normal phase,3,ESI,+/-
+GC,Vanquish,normal phase,3,APCI,+
+GC,Vanquish,normal phase,3,APCI,-
+GC,Vanquish,normal phase,3,APCI,+/-
+GC,Vanquish,normal phase,3,APPI,+
+GC,Vanquish,normal phase,3,APPI,-
+GC,Vanquish,normal phase,3,APPI,+/-
+GC,Vanquish,normal phase,3,EI,+
+GC,Vanquish,normal phase,3,EI,-
+GC,Vanquish,normal phase,3,EI,+/-
+GC,Vanquish,normal phase,3,CI,+
+GC,Vanquish,normal phase,3,CI,-
+GC,Vanquish,normal phase,3,CI,+/-
+GC,Vanquish,normal phase,3,others,+
+GC,Vanquish,normal phase,3,others,-
+GC,Vanquish,normal phase,3,others,+/-
+GC,Vanquish,reverse phase,1,ESI,+
+GC,Vanquish,reverse phase,1,ESI,-
+GC,Vanquish,reverse phase,1,ESI,+/-
+GC,Vanquish,reverse phase,1,APCI,+
+GC,Vanquish,reverse phase,1,APCI,-
+GC,Vanquish,reverse phase,1,APCI,+/-
+GC,Vanquish,reverse phase,1,APPI,+
+GC,Vanquish,reverse phase,1,APPI,-
+GC,Vanquish,reverse phase,1,APPI,+/-
+GC,Vanquish,reverse phase,1,EI,+
+GC,Vanquish,reverse phase,1,EI,-
+GC,Vanquish,reverse phase,1,EI,+/-
+GC,Vanquish,reverse phase,1,CI,+
+GC,Vanquish,reverse phase,1,CI,-
+GC,Vanquish,reverse phase,1,CI,+/-
+GC,Vanquish,reverse phase,1,others,+
+GC,Vanquish,reverse phase,1,others,-
+GC,Vanquish,reverse phase,1,others,+/-
+GC,Vanquish,reverse phase,2,ESI,+
+GC,Vanquish,reverse phase,2,ESI,-
+GC,Vanquish,reverse phase,2,ESI,+/-
+GC,Vanquish,reverse phase,2,APCI,+
+GC,Vanquish,reverse phase,2,APCI,-
+GC,Vanquish,reverse phase,2,APCI,+/-
+GC,Vanquish,reverse phase,2,APPI,+
+GC,Vanquish,reverse phase,2,APPI,-
+GC,Vanquish,reverse phase,2,APPI,+/-
+GC,Vanquish,reverse phase,2,EI,+
+GC,Vanquish,reverse phase,2,EI,-
+GC,Vanquish,reverse phase,2,EI,+/-
+GC,Vanquish,reverse phase,2,CI,+
+GC,Vanquish,reverse phase,2,CI,-
+GC,Vanquish,reverse phase,2,CI,+/-
+GC,Vanquish,reverse phase,2,others,+
+GC,Vanquish,reverse phase,2,others,-
+GC,Vanquish,reverse phase,2,others,+/-
+GC,Vanquish,reverse phase,3,ESI,+
+GC,Vanquish,reverse phase,3,ESI,-
+GC,Vanquish,reverse phase,3,ESI,+/-
+GC,Vanquish,reverse phase,3,APCI,+
+GC,Vanquish,reverse phase,3,APCI,-
+GC,Vanquish,reverse phase,3,APCI,+/-
+GC,Vanquish,reverse phase,3,APPI,+
+GC,Vanquish,reverse phase,3,APPI,-
+GC,Vanquish,reverse phase,3,APPI,+/-
+GC,Vanquish,reverse phase,3,EI,+
+GC,Vanquish,reverse phase,3,EI,-
+GC,Vanquish,reverse phase,3,EI,+/-
+GC,Vanquish,reverse phase,3,CI,+
+GC,Vanquish,reverse phase,3,CI,-
+GC,Vanquish,reverse phase,3,CI,+/-
+GC,Vanquish,reverse phase,3,others,+
+GC,Vanquish,reverse phase,3,others,-
+GC,Vanquish,reverse phase,3,others,+/-
+GC,Vanquish,ion exchange,1,ESI,+
+GC,Vanquish,ion exchange,1,ESI,-
+GC,Vanquish,ion exchange,1,ESI,+/-
+GC,Vanquish,ion exchange,1,APCI,+
+GC,Vanquish,ion exchange,1,APCI,-
+GC,Vanquish,ion exchange,1,APCI,+/-
+GC,Vanquish,ion exchange,1,APPI,+
+GC,Vanquish,ion exchange,1,APPI,-
+GC,Vanquish,ion exchange,1,APPI,+/-
+GC,Vanquish,ion exchange,1,EI,+
+GC,Vanquish,ion exchange,1,EI,-
+GC,Vanquish,ion exchange,1,EI,+/-
+GC,Vanquish,ion exchange,1,CI,+
+GC,Vanquish,ion exchange,1,CI,-
+GC,Vanquish,ion exchange,1,CI,+/-
+GC,Vanquish,ion exchange,1,others,+
+GC,Vanquish,ion exchange,1,others,-
+GC,Vanquish,ion exchange,1,others,+/-
+GC,Vanquish,ion exchange,2,ESI,+
+GC,Vanquish,ion exchange,2,ESI,-
+GC,Vanquish,ion exchange,2,ESI,+/-
+GC,Vanquish,ion exchange,2,APCI,+
+GC,Vanquish,ion exchange,2,APCI,-
+GC,Vanquish,ion exchange,2,APCI,+/-
+GC,Vanquish,ion exchange,2,APPI,+
+GC,Vanquish,ion exchange,2,APPI,-
+GC,Vanquish,ion exchange,2,APPI,+/-
+GC,Vanquish,ion exchange,2,EI,+
+GC,Vanquish,ion exchange,2,EI,-
+GC,Vanquish,ion exchange,2,EI,+/-
+GC,Vanquish,ion exchange,2,CI,+
+GC,Vanquish,ion exchange,2,CI,-
+GC,Vanquish,ion exchange,2,CI,+/-
+GC,Vanquish,ion exchange,2,others,+
+GC,Vanquish,ion exchange,2,others,-
+GC,Vanquish,ion exchange,2,others,+/-
+GC,Vanquish,ion exchange,3,ESI,+
+GC,Vanquish,ion exchange,3,ESI,-
+GC,Vanquish,ion exchange,3,ESI,+/-
+GC,Vanquish,ion exchange,3,APCI,+
+GC,Vanquish,ion exchange,3,APCI,-
+GC,Vanquish,ion exchange,3,APCI,+/-
+GC,Vanquish,ion exchange,3,APPI,+
+GC,Vanquish,ion exchange,3,APPI,-
+GC,Vanquish,ion exchange,3,APPI,+/-
+GC,Vanquish,ion exchange,3,EI,+
+GC,Vanquish,ion exchange,3,EI,-
+GC,Vanquish,ion exchange,3,EI,+/-
+GC,Vanquish,ion exchange,3,CI,+
+GC,Vanquish,ion exchange,3,CI,-
+GC,Vanquish,ion exchange,3,CI,+/-
+GC,Vanquish,ion exchange,3,others,+
+GC,Vanquish,ion exchange,3,others,-
+GC,Vanquish,ion exchange,3,others,+/-
+GC,Vanquish,ion pair,1,ESI,+
+GC,Vanquish,ion pair,1,ESI,-
+GC,Vanquish,ion pair,1,ESI,+/-
+GC,Vanquish,ion pair,1,APCI,+
+GC,Vanquish,ion pair,1,APCI,-
+GC,Vanquish,ion pair,1,APCI,+/-
+GC,Vanquish,ion pair,1,APPI,+
+GC,Vanquish,ion pair,1,APPI,-
+GC,Vanquish,ion pair,1,APPI,+/-
+GC,Vanquish,ion pair,1,EI,+
+GC,Vanquish,ion pair,1,EI,-
+GC,Vanquish,ion pair,1,EI,+/-
+GC,Vanquish,ion pair,1,CI,+
+GC,Vanquish,ion pair,1,CI,-
+GC,Vanquish,ion pair,1,CI,+/-
+GC,Vanquish,ion pair,1,others,+
+GC,Vanquish,ion pair,1,others,-
+GC,Vanquish,ion pair,1,others,+/-
+GC,Vanquish,ion pair,2,ESI,+
+GC,Vanquish,ion pair,2,ESI,-
+GC,Vanquish,ion pair,2,ESI,+/-
+GC,Vanquish,ion pair,2,APCI,+
+GC,Vanquish,ion pair,2,APCI,-
+GC,Vanquish,ion pair,2,APCI,+/-
+GC,Vanquish,ion pair,2,APPI,+
+GC,Vanquish,ion pair,2,APPI,-
+GC,Vanquish,ion pair,2,APPI,+/-
+GC,Vanquish,ion pair,2,EI,+
+GC,Vanquish,ion pair,2,EI,-
+GC,Vanquish,ion pair,2,EI,+/-
+GC,Vanquish,ion pair,2,CI,+
+GC,Vanquish,ion pair,2,CI,-
+GC,Vanquish,ion pair,2,CI,+/-
+GC,Vanquish,ion pair,2,others,+
+GC,Vanquish,ion pair,2,others,-
+GC,Vanquish,ion pair,2,others,+/-
+GC,Vanquish,ion pair,3,ESI,+
+GC,Vanquish,ion pair,3,ESI,-
+GC,Vanquish,ion pair,3,ESI,+/-
+GC,Vanquish,ion pair,3,APCI,+
+GC,Vanquish,ion pair,3,APCI,-
+GC,Vanquish,ion pair,3,APCI,+/-
+GC,Vanquish,ion pair,3,APPI,+
+GC,Vanquish,ion pair,3,APPI,-
+GC,Vanquish,ion pair,3,APPI,+/-
+GC,Vanquish,ion pair,3,EI,+
+GC,Vanquish,ion pair,3,EI,-
+GC,Vanquish,ion pair,3,EI,+/-
+GC,Vanquish,ion pair,3,CI,+
+GC,Vanquish,ion pair,3,CI,-
+GC,Vanquish,ion pair,3,CI,+/-
+GC,Vanquish,ion pair,3,others,+
+GC,Vanquish,ion pair,3,others,-
+GC,Vanquish,ion pair,3,others,+/-
+GC,Vanquish,Size Exclusion,1,ESI,+
+GC,Vanquish,Size Exclusion,1,ESI,-
+GC,Vanquish,Size Exclusion,1,ESI,+/-
+GC,Vanquish,Size Exclusion,1,APCI,+
+GC,Vanquish,Size Exclusion,1,APCI,-
+GC,Vanquish,Size Exclusion,1,APCI,+/-
+GC,Vanquish,Size Exclusion,1,APPI,+
+GC,Vanquish,Size Exclusion,1,APPI,-
+GC,Vanquish,Size Exclusion,1,APPI,+/-
+GC,Vanquish,Size Exclusion,1,EI,+
+GC,Vanquish,Size Exclusion,1,EI,-
+GC,Vanquish,Size Exclusion,1,EI,+/-
+GC,Vanquish,Size Exclusion,1,CI,+
+GC,Vanquish,Size Exclusion,1,CI,-
+GC,Vanquish,Size Exclusion,1,CI,+/-
+GC,Vanquish,Size Exclusion,1,others,+
+GC,Vanquish,Size Exclusion,1,others,-
+GC,Vanquish,Size Exclusion,1,others,+/-
+GC,Vanquish,Size Exclusion,2,ESI,+
+GC,Vanquish,Size Exclusion,2,ESI,-
+GC,Vanquish,Size Exclusion,2,ESI,+/-
+GC,Vanquish,Size Exclusion,2,APCI,+
+GC,Vanquish,Size Exclusion,2,APCI,-
+GC,Vanquish,Size Exclusion,2,APCI,+/-
+GC,Vanquish,Size Exclusion,2,APPI,+
+GC,Vanquish,Size Exclusion,2,APPI,-
+GC,Vanquish,Size Exclusion,2,APPI,+/-
+GC,Vanquish,Size Exclusion,2,EI,+
+GC,Vanquish,Size Exclusion,2,EI,-
+GC,Vanquish,Size Exclusion,2,EI,+/-
+GC,Vanquish,Size Exclusion,2,CI,+
+GC,Vanquish,Size Exclusion,2,CI,-
+GC,Vanquish,Size Exclusion,2,CI,+/-
+GC,Vanquish,Size Exclusion,2,others,+
+GC,Vanquish,Size Exclusion,2,others,-
+GC,Vanquish,Size Exclusion,2,others,+/-
+GC,Vanquish,Size Exclusion,3,ESI,+
+GC,Vanquish,Size Exclusion,3,ESI,-
+GC,Vanquish,Size Exclusion,3,ESI,+/-
+GC,Vanquish,Size Exclusion,3,APCI,+
+GC,Vanquish,Size Exclusion,3,APCI,-
+GC,Vanquish,Size Exclusion,3,APCI,+/-
+GC,Vanquish,Size Exclusion,3,APPI,+
+GC,Vanquish,Size Exclusion,3,APPI,-
+GC,Vanquish,Size Exclusion,3,APPI,+/-
+GC,Vanquish,Size Exclusion,3,EI,+
+GC,Vanquish,Size Exclusion,3,EI,-
+GC,Vanquish,Size Exclusion,3,EI,+/-
+GC,Vanquish,Size Exclusion,3,CI,+
+GC,Vanquish,Size Exclusion,3,CI,-
+GC,Vanquish,Size Exclusion,3,CI,+/-
+GC,Vanquish,Size Exclusion,3,others,+
+GC,Vanquish,Size Exclusion,3,others,-
+GC,Vanquish,Size Exclusion,3,others,+/-
+GC,Vanquish,others,1,ESI,+
+GC,Vanquish,others,1,ESI,-
+GC,Vanquish,others,1,ESI,+/-
+GC,Vanquish,others,1,APCI,+
+GC,Vanquish,others,1,APCI,-
+GC,Vanquish,others,1,APCI,+/-
+GC,Vanquish,others,1,APPI,+
+GC,Vanquish,others,1,APPI,-
+GC,Vanquish,others,1,APPI,+/-
+GC,Vanquish,others,1,EI,+
+GC,Vanquish,others,1,EI,-
+GC,Vanquish,others,1,EI,+/-
+GC,Vanquish,others,1,CI,+
+GC,Vanquish,others,1,CI,-
+GC,Vanquish,others,1,CI,+/-
+GC,Vanquish,others,1,others,+
+GC,Vanquish,others,1,others,-
+GC,Vanquish,others,1,others,+/-
+GC,Vanquish,others,2,ESI,+
+GC,Vanquish,others,2,ESI,-
+GC,Vanquish,others,2,ESI,+/-
+GC,Vanquish,others,2,APCI,+
+GC,Vanquish,others,2,APCI,-
+GC,Vanquish,others,2,APCI,+/-
+GC,Vanquish,others,2,APPI,+
+GC,Vanquish,others,2,APPI,-
+GC,Vanquish,others,2,APPI,+/-
+GC,Vanquish,others,2,EI,+
+GC,Vanquish,others,2,EI,-
+GC,Vanquish,others,2,EI,+/-
+GC,Vanquish,others,2,CI,+
+GC,Vanquish,others,2,CI,-
+GC,Vanquish,others,2,CI,+/-
+GC,Vanquish,others,2,others,+
+GC,Vanquish,others,2,others,-
+GC,Vanquish,others,2,others,+/-
+GC,Vanquish,others,3,ESI,+
+GC,Vanquish,others,3,ESI,-
+GC,Vanquish,others,3,ESI,+/-
+GC,Vanquish,others,3,APCI,+
+GC,Vanquish,others,3,APCI,-
+GC,Vanquish,others,3,APCI,+/-
+GC,Vanquish,others,3,APPI,+
+GC,Vanquish,others,3,APPI,-
+GC,Vanquish,others,3,APPI,+/-
+GC,Vanquish,others,3,EI,+
+GC,Vanquish,others,3,EI,-
+GC,Vanquish,others,3,EI,+/-
+GC,Vanquish,others,3,CI,+
+GC,Vanquish,others,3,CI,-
+GC,Vanquish,others,3,CI,+/-
+GC,Vanquish,others,3,others,+
+GC,Vanquish,others,3,others,-
+GC,Vanquish,others,3,others,+/-
+GC,U3000,normal phase,1,ESI,+
+GC,U3000,normal phase,1,ESI,-
+GC,U3000,normal phase,1,ESI,+/-
+GC,U3000,normal phase,1,APCI,+
+GC,U3000,normal phase,1,APCI,-
+GC,U3000,normal phase,1,APCI,+/-
+GC,U3000,normal phase,1,APPI,+
+GC,U3000,normal phase,1,APPI,-
+GC,U3000,normal phase,1,APPI,+/-
+GC,U3000,normal phase,1,EI,+
+GC,U3000,normal phase,1,EI,-
+GC,U3000,normal phase,1,EI,+/-
+GC,U3000,normal phase,1,CI,+
+GC,U3000,normal phase,1,CI,-
+GC,U3000,normal phase,1,CI,+/-
+GC,U3000,normal phase,1,others,+
+GC,U3000,normal phase,1,others,-
+GC,U3000,normal phase,1,others,+/-
+GC,U3000,normal phase,2,ESI,+
+GC,U3000,normal phase,2,ESI,-
+GC,U3000,normal phase,2,ESI,+/-
+GC,U3000,normal phase,2,APCI,+
+GC,U3000,normal phase,2,APCI,-
+GC,U3000,normal phase,2,APCI,+/-
+GC,U3000,normal phase,2,APPI,+
+GC,U3000,normal phase,2,APPI,-
+GC,U3000,normal phase,2,APPI,+/-
+GC,U3000,normal phase,2,EI,+
+GC,U3000,normal phase,2,EI,-
+GC,U3000,normal phase,2,EI,+/-
+GC,U3000,normal phase,2,CI,+
+GC,U3000,normal phase,2,CI,-
+GC,U3000,normal phase,2,CI,+/-
+GC,U3000,normal phase,2,others,+
+GC,U3000,normal phase,2,others,-
+GC,U3000,normal phase,2,others,+/-
+GC,U3000,normal phase,3,ESI,+
+GC,U3000,normal phase,3,ESI,-
+GC,U3000,normal phase,3,ESI,+/-
+GC,U3000,normal phase,3,APCI,+
+GC,U3000,normal phase,3,APCI,-
+GC,U3000,normal phase,3,APCI,+/-
+GC,U3000,normal phase,3,APPI,+
+GC,U3000,normal phase,3,APPI,-
+GC,U3000,normal phase,3,APPI,+/-
+GC,U3000,normal phase,3,EI,+
+GC,U3000,normal phase,3,EI,-
+GC,U3000,normal phase,3,EI,+/-
+GC,U3000,normal phase,3,CI,+
+GC,U3000,normal phase,3,CI,-
+GC,U3000,normal phase,3,CI,+/-
+GC,U3000,normal phase,3,others,+
+GC,U3000,normal phase,3,others,-
+GC,U3000,normal phase,3,others,+/-
+GC,U3000,reverse phase,1,ESI,+
+GC,U3000,reverse phase,1,ESI,-
+GC,U3000,reverse phase,1,ESI,+/-
+GC,U3000,reverse phase,1,APCI,+
+GC,U3000,reverse phase,1,APCI,-
+GC,U3000,reverse phase,1,APCI,+/-
+GC,U3000,reverse phase,1,APPI,+
+GC,U3000,reverse phase,1,APPI,-
+GC,U3000,reverse phase,1,APPI,+/-
+GC,U3000,reverse phase,1,EI,+
+GC,U3000,reverse phase,1,EI,-
+GC,U3000,reverse phase,1,EI,+/-
+GC,U3000,reverse phase,1,CI,+
+GC,U3000,reverse phase,1,CI,-
+GC,U3000,reverse phase,1,CI,+/-
+GC,U3000,reverse phase,1,others,+
+GC,U3000,reverse phase,1,others,-
+GC,U3000,reverse phase,1,others,+/-
+GC,U3000,reverse phase,2,ESI,+
+GC,U3000,reverse phase,2,ESI,-
+GC,U3000,reverse phase,2,ESI,+/-
+GC,U3000,reverse phase,2,APCI,+
+GC,U3000,reverse phase,2,APCI,-
+GC,U3000,reverse phase,2,APCI,+/-
+GC,U3000,reverse phase,2,APPI,+
+GC,U3000,reverse phase,2,APPI,-
+GC,U3000,reverse phase,2,APPI,+/-
+GC,U3000,reverse phase,2,EI,+
+GC,U3000,reverse phase,2,EI,-
+GC,U3000,reverse phase,2,EI,+/-
+GC,U3000,reverse phase,2,CI,+
+GC,U3000,reverse phase,2,CI,-
+GC,U3000,reverse phase,2,CI,+/-
+GC,U3000,reverse phase,2,others,+
+GC,U3000,reverse phase,2,others,-
+GC,U3000,reverse phase,2,others,+/-
+GC,U3000,reverse phase,3,ESI,+
+GC,U3000,reverse phase,3,ESI,-
+GC,U3000,reverse phase,3,ESI,+/-
+GC,U3000,reverse phase,3,APCI,+
+GC,U3000,reverse phase,3,APCI,-
+GC,U3000,reverse phase,3,APCI,+/-
+GC,U3000,reverse phase,3,APPI,+
+GC,U3000,reverse phase,3,APPI,-
+GC,U3000,reverse phase,3,APPI,+/-
+GC,U3000,reverse phase,3,EI,+
+GC,U3000,reverse phase,3,EI,-
+GC,U3000,reverse phase,3,EI,+/-
+GC,U3000,reverse phase,3,CI,+
+GC,U3000,reverse phase,3,CI,-
+GC,U3000,reverse phase,3,CI,+/-
+GC,U3000,reverse phase,3,others,+
+GC,U3000,reverse phase,3,others,-
+GC,U3000,reverse phase,3,others,+/-
+GC,U3000,ion exchange,1,ESI,+
+GC,U3000,ion exchange,1,ESI,-
+GC,U3000,ion exchange,1,ESI,+/-
+GC,U3000,ion exchange,1,APCI,+
+GC,U3000,ion exchange,1,APCI,-
+GC,U3000,ion exchange,1,APCI,+/-
+GC,U3000,ion exchange,1,APPI,+
+GC,U3000,ion exchange,1,APPI,-
+GC,U3000,ion exchange,1,APPI,+/-
+GC,U3000,ion exchange,1,EI,+
+GC,U3000,ion exchange,1,EI,-
+GC,U3000,ion exchange,1,EI,+/-
+GC,U3000,ion exchange,1,CI,+
+GC,U3000,ion exchange,1,CI,-
+GC,U3000,ion exchange,1,CI,+/-
+GC,U3000,ion exchange,1,others,+
+GC,U3000,ion exchange,1,others,-
+GC,U3000,ion exchange,1,others,+/-
+GC,U3000,ion exchange,2,ESI,+
+GC,U3000,ion exchange,2,ESI,-
+GC,U3000,ion exchange,2,ESI,+/-
+GC,U3000,ion exchange,2,APCI,+
+GC,U3000,ion exchange,2,APCI,-
+GC,U3000,ion exchange,2,APCI,+/-
+GC,U3000,ion exchange,2,APPI,+
+GC,U3000,ion exchange,2,APPI,-
+GC,U3000,ion exchange,2,APPI,+/-
+GC,U3000,ion exchange,2,EI,+
+GC,U3000,ion exchange,2,EI,-
+GC,U3000,ion exchange,2,EI,+/-
+GC,U3000,ion exchange,2,CI,+
+GC,U3000,ion exchange,2,CI,-
+GC,U3000,ion exchange,2,CI,+/-
+GC,U3000,ion exchange,2,others,+
+GC,U3000,ion exchange,2,others,-
+GC,U3000,ion exchange,2,others,+/-
+GC,U3000,ion exchange,3,ESI,+
+GC,U3000,ion exchange,3,ESI,-
+GC,U3000,ion exchange,3,ESI,+/-
+GC,U3000,ion exchange,3,APCI,+
+GC,U3000,ion exchange,3,APCI,-
+GC,U3000,ion exchange,3,APCI,+/-
+GC,U3000,ion exchange,3,APPI,+
+GC,U3000,ion exchange,3,APPI,-
+GC,U3000,ion exchange,3,APPI,+/-
+GC,U3000,ion exchange,3,EI,+
+GC,U3000,ion exchange,3,EI,-
+GC,U3000,ion exchange,3,EI,+/-
+GC,U3000,ion exchange,3,CI,+
+GC,U3000,ion exchange,3,CI,-
+GC,U3000,ion exchange,3,CI,+/-
+GC,U3000,ion exchange,3,others,+
+GC,U3000,ion exchange,3,others,-
+GC,U3000,ion exchange,3,others,+/-
+GC,U3000,ion pair,1,ESI,+
+GC,U3000,ion pair,1,ESI,-
+GC,U3000,ion pair,1,ESI,+/-
+GC,U3000,ion pair,1,APCI,+
+GC,U3000,ion pair,1,APCI,-
+GC,U3000,ion pair,1,APCI,+/-
+GC,U3000,ion pair,1,APPI,+
+GC,U3000,ion pair,1,APPI,-
+GC,U3000,ion pair,1,APPI,+/-
+GC,U3000,ion pair,1,EI,+
+GC,U3000,ion pair,1,EI,-
+GC,U3000,ion pair,1,EI,+/-
+GC,U3000,ion pair,1,CI,+
+GC,U3000,ion pair,1,CI,-
+GC,U3000,ion pair,1,CI,+/-
+GC,U3000,ion pair,1,others,+
+GC,U3000,ion pair,1,others,-
+GC,U3000,ion pair,1,others,+/-
+GC,U3000,ion pair,2,ESI,+
+GC,U3000,ion pair,2,ESI,-
+GC,U3000,ion pair,2,ESI,+/-
+GC,U3000,ion pair,2,APCI,+
+GC,U3000,ion pair,2,APCI,-
+GC,U3000,ion pair,2,APCI,+/-
+GC,U3000,ion pair,2,APPI,+
+GC,U3000,ion pair,2,APPI,-
+GC,U3000,ion pair,2,APPI,+/-
+GC,U3000,ion pair,2,EI,+
+GC,U3000,ion pair,2,EI,-
+GC,U3000,ion pair,2,EI,+/-
+GC,U3000,ion pair,2,CI,+
+GC,U3000,ion pair,2,CI,-
+GC,U3000,ion pair,2,CI,+/-
+GC,U3000,ion pair,2,others,+
+GC,U3000,ion pair,2,others,-
+GC,U3000,ion pair,2,others,+/-
+GC,U3000,ion pair,3,ESI,+
+GC,U3000,ion pair,3,ESI,-
+GC,U3000,ion pair,3,ESI,+/-
+GC,U3000,ion pair,3,APCI,+
+GC,U3000,ion pair,3,APCI,-
+GC,U3000,ion pair,3,APCI,+/-
+GC,U3000,ion pair,3,APPI,+
+GC,U3000,ion pair,3,APPI,-
+GC,U3000,ion pair,3,APPI,+/-
+GC,U3000,ion pair,3,EI,+
+GC,U3000,ion pair,3,EI,-
+GC,U3000,ion pair,3,EI,+/-
+GC,U3000,ion pair,3,CI,+
+GC,U3000,ion pair,3,CI,-
+GC,U3000,ion pair,3,CI,+/-
+GC,U3000,ion pair,3,others,+
+GC,U3000,ion pair,3,others,-
+GC,U3000,ion pair,3,others,+/-
+GC,U3000,Size Exclusion,1,ESI,+
+GC,U3000,Size Exclusion,1,ESI,-
+GC,U3000,Size Exclusion,1,ESI,+/-
+GC,U3000,Size Exclusion,1,APCI,+
+GC,U3000,Size Exclusion,1,APCI,-
+GC,U3000,Size Exclusion,1,APCI,+/-
+GC,U3000,Size Exclusion,1,APPI,+
+GC,U3000,Size Exclusion,1,APPI,-
+GC,U3000,Size Exclusion,1,APPI,+/-
+GC,U3000,Size Exclusion,1,EI,+
+GC,U3000,Size Exclusion,1,EI,-
+GC,U3000,Size Exclusion,1,EI,+/-
+GC,U3000,Size Exclusion,1,CI,+
+GC,U3000,Size Exclusion,1,CI,-
+GC,U3000,Size Exclusion,1,CI,+/-
+GC,U3000,Size Exclusion,1,others,+
+GC,U3000,Size Exclusion,1,others,-
+GC,U3000,Size Exclusion,1,others,+/-
+GC,U3000,Size Exclusion,2,ESI,+
+GC,U3000,Size Exclusion,2,ESI,-
+GC,U3000,Size Exclusion,2,ESI,+/-
+GC,U3000,Size Exclusion,2,APCI,+
+GC,U3000,Size Exclusion,2,APCI,-
+GC,U3000,Size Exclusion,2,APCI,+/-
+GC,U3000,Size Exclusion,2,APPI,+
+GC,U3000,Size Exclusion,2,APPI,-
+GC,U3000,Size Exclusion,2,APPI,+/-
+GC,U3000,Size Exclusion,2,EI,+
+GC,U3000,Size Exclusion,2,EI,-
+GC,U3000,Size Exclusion,2,EI,+/-
+GC,U3000,Size Exclusion,2,CI,+
+GC,U3000,Size Exclusion,2,CI,-
+GC,U3000,Size Exclusion,2,CI,+/-
+GC,U3000,Size Exclusion,2,others,+
+GC,U3000,Size Exclusion,2,others,-
+GC,U3000,Size Exclusion,2,others,+/-
+GC,U3000,Size Exclusion,3,ESI,+
+GC,U3000,Size Exclusion,3,ESI,-
+GC,U3000,Size Exclusion,3,ESI,+/-
+GC,U3000,Size Exclusion,3,APCI,+
+GC,U3000,Size Exclusion,3,APCI,-
+GC,U3000,Size Exclusion,3,APCI,+/-
+GC,U3000,Size Exclusion,3,APPI,+
+GC,U3000,Size Exclusion,3,APPI,-
+GC,U3000,Size Exclusion,3,APPI,+/-
+GC,U3000,Size Exclusion,3,EI,+
+GC,U3000,Size Exclusion,3,EI,-
+GC,U3000,Size Exclusion,3,EI,+/-
+GC,U3000,Size Exclusion,3,CI,+
+GC,U3000,Size Exclusion,3,CI,-
+GC,U3000,Size Exclusion,3,CI,+/-
+GC,U3000,Size Exclusion,3,others,+
+GC,U3000,Size Exclusion,3,others,-
+GC,U3000,Size Exclusion,3,others,+/-
+GC,U3000,others,1,ESI,+
+GC,U3000,others,1,ESI,-
+GC,U3000,others,1,ESI,+/-
+GC,U3000,others,1,APCI,+
+GC,U3000,others,1,APCI,-
+GC,U3000,others,1,APCI,+/-
+GC,U3000,others,1,APPI,+
+GC,U3000,others,1,APPI,-
+GC,U3000,others,1,APPI,+/-
+GC,U3000,others,1,EI,+
+GC,U3000,others,1,EI,-
+GC,U3000,others,1,EI,+/-
+GC,U3000,others,1,CI,+
+GC,U3000,others,1,CI,-
+GC,U3000,others,1,CI,+/-
+GC,U3000,others,1,others,+
+GC,U3000,others,1,others,-
+GC,U3000,others,1,others,+/-
+GC,U3000,others,2,ESI,+
+GC,U3000,others,2,ESI,-
+GC,U3000,others,2,ESI,+/-
+GC,U3000,others,2,APCI,+
+GC,U3000,others,2,APCI,-
+GC,U3000,others,2,APCI,+/-
+GC,U3000,others,2,APPI,+
+GC,U3000,others,2,APPI,-
+GC,U3000,others,2,APPI,+/-
+GC,U3000,others,2,EI,+
+GC,U3000,others,2,EI,-
+GC,U3000,others,2,EI,+/-
+GC,U3000,others,2,CI,+
+GC,U3000,others,2,CI,-
+GC,U3000,others,2,CI,+/-
+GC,U3000,others,2,others,+
+GC,U3000,others,2,others,-
+GC,U3000,others,2,others,+/-
+GC,U3000,others,3,ESI,+
+GC,U3000,others,3,ESI,-
+GC,U3000,others,3,ESI,+/-
+GC,U3000,others,3,APCI,+
+GC,U3000,others,3,APCI,-
+GC,U3000,others,3,APCI,+/-
+GC,U3000,others,3,APPI,+
+GC,U3000,others,3,APPI,-
+GC,U3000,others,3,APPI,+/-
+GC,U3000,others,3,EI,+
+GC,U3000,others,3,EI,-
+GC,U3000,others,3,EI,+/-
+GC,U3000,others,3,CI,+
+GC,U3000,others,3,CI,-
+GC,U3000,others,3,CI,+/-
+GC,U3000,others,3,others,+
+GC,U3000,others,3,others,-
+GC,U3000,others,3,others,+/-
+GC,others,normal phase,1,ESI,+
+GC,others,normal phase,1,ESI,-
+GC,others,normal phase,1,ESI,+/-
+GC,others,normal phase,1,APCI,+
+GC,others,normal phase,1,APCI,-
+GC,others,normal phase,1,APCI,+/-
+GC,others,normal phase,1,APPI,+
+GC,others,normal phase,1,APPI,-
+GC,others,normal phase,1,APPI,+/-
+GC,others,normal phase,1,EI,+
+GC,others,normal phase,1,EI,-
+GC,others,normal phase,1,EI,+/-
+GC,others,normal phase,1,CI,+
+GC,others,normal phase,1,CI,-
+GC,others,normal phase,1,CI,+/-
+GC,others,normal phase,1,others,+
+GC,others,normal phase,1,others,-
+GC,others,normal phase,1,others,+/-
+GC,others,normal phase,2,ESI,+
+GC,others,normal phase,2,ESI,-
+GC,others,normal phase,2,ESI,+/-
+GC,others,normal phase,2,APCI,+
+GC,others,normal phase,2,APCI,-
+GC,others,normal phase,2,APCI,+/-
+GC,others,normal phase,2,APPI,+
+GC,others,normal phase,2,APPI,-
+GC,others,normal phase,2,APPI,+/-
+GC,others,normal phase,2,EI,+
+GC,others,normal phase,2,EI,-
+GC,others,normal phase,2,EI,+/-
+GC,others,normal phase,2,CI,+
+GC,others,normal phase,2,CI,-
+GC,others,normal phase,2,CI,+/-
+GC,others,normal phase,2,others,+
+GC,others,normal phase,2,others,-
+GC,others,normal phase,2,others,+/-
+GC,others,normal phase,3,ESI,+
+GC,others,normal phase,3,ESI,-
+GC,others,normal phase,3,ESI,+/-
+GC,others,normal phase,3,APCI,+
+GC,others,normal phase,3,APCI,-
+GC,others,normal phase,3,APCI,+/-
+GC,others,normal phase,3,APPI,+
+GC,others,normal phase,3,APPI,-
+GC,others,normal phase,3,APPI,+/-
+GC,others,normal phase,3,EI,+
+GC,others,normal phase,3,EI,-
+GC,others,normal phase,3,EI,+/-
+GC,others,normal phase,3,CI,+
+GC,others,normal phase,3,CI,-
+GC,others,normal phase,3,CI,+/-
+GC,others,normal phase,3,others,+
+GC,others,normal phase,3,others,-
+GC,others,normal phase,3,others,+/-
+GC,others,reverse phase,1,ESI,+
+GC,others,reverse phase,1,ESI,-
+GC,others,reverse phase,1,ESI,+/-
+GC,others,reverse phase,1,APCI,+
+GC,others,reverse phase,1,APCI,-
+GC,others,reverse phase,1,APCI,+/-
+GC,others,reverse phase,1,APPI,+
+GC,others,reverse phase,1,APPI,-
+GC,others,reverse phase,1,APPI,+/-
+GC,others,reverse phase,1,EI,+
+GC,others,reverse phase,1,EI,-
+GC,others,reverse phase,1,EI,+/-
+GC,others,reverse phase,1,CI,+
+GC,others,reverse phase,1,CI,-
+GC,others,reverse phase,1,CI,+/-
+GC,others,reverse phase,1,others,+
+GC,others,reverse phase,1,others,-
+GC,others,reverse phase,1,others,+/-
+GC,others,reverse phase,2,ESI,+
+GC,others,reverse phase,2,ESI,-
+GC,others,reverse phase,2,ESI,+/-
+GC,others,reverse phase,2,APCI,+
+GC,others,reverse phase,2,APCI,-
+GC,others,reverse phase,2,APCI,+/-
+GC,others,reverse phase,2,APPI,+
+GC,others,reverse phase,2,APPI,-
+GC,others,reverse phase,2,APPI,+/-
+GC,others,reverse phase,2,EI,+
+GC,others,reverse phase,2,EI,-
+GC,others,reverse phase,2,EI,+/-
+GC,others,reverse phase,2,CI,+
+GC,others,reverse phase,2,CI,-
+GC,others,reverse phase,2,CI,+/-
+GC,others,reverse phase,2,others,+
+GC,others,reverse phase,2,others,-
+GC,others,reverse phase,2,others,+/-
+GC,others,reverse phase,3,ESI,+
+GC,others,reverse phase,3,ESI,-
+GC,others,reverse phase,3,ESI,+/-
+GC,others,reverse phase,3,APCI,+
+GC,others,reverse phase,3,APCI,-
+GC,others,reverse phase,3,APCI,+/-
+GC,others,reverse phase,3,APPI,+
+GC,others,reverse phase,3,APPI,-
+GC,others,reverse phase,3,APPI,+/-
+GC,others,reverse phase,3,EI,+
+GC,others,reverse phase,3,EI,-
+GC,others,reverse phase,3,EI,+/-
+GC,others,reverse phase,3,CI,+
+GC,others,reverse phase,3,CI,-
+GC,others,reverse phase,3,CI,+/-
+GC,others,reverse phase,3,others,+
+GC,others,reverse phase,3,others,-
+GC,others,reverse phase,3,others,+/-
+GC,others,ion exchange,1,ESI,+
+GC,others,ion exchange,1,ESI,-
+GC,others,ion exchange,1,ESI,+/-
+GC,others,ion exchange,1,APCI,+
+GC,others,ion exchange,1,APCI,-
+GC,others,ion exchange,1,APCI,+/-
+GC,others,ion exchange,1,APPI,+
+GC,others,ion exchange,1,APPI,-
+GC,others,ion exchange,1,APPI,+/-
+GC,others,ion exchange,1,EI,+
+GC,others,ion exchange,1,EI,-
+GC,others,ion exchange,1,EI,+/-
+GC,others,ion exchange,1,CI,+
+GC,others,ion exchange,1,CI,-
+GC,others,ion exchange,1,CI,+/-
+GC,others,ion exchange,1,others,+
+GC,others,ion exchange,1,others,-
+GC,others,ion exchange,1,others,+/-
+GC,others,ion exchange,2,ESI,+
+GC,others,ion exchange,2,ESI,-
+GC,others,ion exchange,2,ESI,+/-
+GC,others,ion exchange,2,APCI,+
+GC,others,ion exchange,2,APCI,-
+GC,others,ion exchange,2,APCI,+/-
+GC,others,ion exchange,2,APPI,+
+GC,others,ion exchange,2,APPI,-
+GC,others,ion exchange,2,APPI,+/-
+GC,others,ion exchange,2,EI,+
+GC,others,ion exchange,2,EI,-
+GC,others,ion exchange,2,EI,+/-
+GC,others,ion exchange,2,CI,+
+GC,others,ion exchange,2,CI,-
+GC,others,ion exchange,2,CI,+/-
+GC,others,ion exchange,2,others,+
+GC,others,ion exchange,2,others,-
+GC,others,ion exchange,2,others,+/-
+GC,others,ion exchange,3,ESI,+
+GC,others,ion exchange,3,ESI,-
+GC,others,ion exchange,3,ESI,+/-
+GC,others,ion exchange,3,APCI,+
+GC,others,ion exchange,3,APCI,-
+GC,others,ion exchange,3,APCI,+/-
+GC,others,ion exchange,3,APPI,+
+GC,others,ion exchange,3,APPI,-
+GC,others,ion exchange,3,APPI,+/-
+GC,others,ion exchange,3,EI,+
+GC,others,ion exchange,3,EI,-
+GC,others,ion exchange,3,EI,+/-
+GC,others,ion exchange,3,CI,+
+GC,others,ion exchange,3,CI,-
+GC,others,ion exchange,3,CI,+/-
+GC,others,ion exchange,3,others,+
+GC,others,ion exchange,3,others,-
+GC,others,ion exchange,3,others,+/-
+GC,others,ion pair,1,ESI,+
+GC,others,ion pair,1,ESI,-
+GC,others,ion pair,1,ESI,+/-
+GC,others,ion pair,1,APCI,+
+GC,others,ion pair,1,APCI,-
+GC,others,ion pair,1,APCI,+/-
+GC,others,ion pair,1,APPI,+
+GC,others,ion pair,1,APPI,-
+GC,others,ion pair,1,APPI,+/-
+GC,others,ion pair,1,EI,+
+GC,others,ion pair,1,EI,-
+GC,others,ion pair,1,EI,+/-
+GC,others,ion pair,1,CI,+
+GC,others,ion pair,1,CI,-
+GC,others,ion pair,1,CI,+/-
+GC,others,ion pair,1,others,+
+GC,others,ion pair,1,others,-
+GC,others,ion pair,1,others,+/-
+GC,others,ion pair,2,ESI,+
+GC,others,ion pair,2,ESI,-
+GC,others,ion pair,2,ESI,+/-
+GC,others,ion pair,2,APCI,+
+GC,others,ion pair,2,APCI,-
+GC,others,ion pair,2,APCI,+/-
+GC,others,ion pair,2,APPI,+
+GC,others,ion pair,2,APPI,-
+GC,others,ion pair,2,APPI,+/-
+GC,others,ion pair,2,EI,+
+GC,others,ion pair,2,EI,-
+GC,others,ion pair,2,EI,+/-
+GC,others,ion pair,2,CI,+
+GC,others,ion pair,2,CI,-
+GC,others,ion pair,2,CI,+/-
+GC,others,ion pair,2,others,+
+GC,others,ion pair,2,others,-
+GC,others,ion pair,2,others,+/-
+GC,others,ion pair,3,ESI,+
+GC,others,ion pair,3,ESI,-
+GC,others,ion pair,3,ESI,+/-
+GC,others,ion pair,3,APCI,+
+GC,others,ion pair,3,APCI,-
+GC,others,ion pair,3,APCI,+/-
+GC,others,ion pair,3,APPI,+
+GC,others,ion pair,3,APPI,-
+GC,others,ion pair,3,APPI,+/-
+GC,others,ion pair,3,EI,+
+GC,others,ion pair,3,EI,-
+GC,others,ion pair,3,EI,+/-
+GC,others,ion pair,3,CI,+
+GC,others,ion pair,3,CI,-
+GC,others,ion pair,3,CI,+/-
+GC,others,ion pair,3,others,+
+GC,others,ion pair,3,others,-
+GC,others,ion pair,3,others,+/-
+GC,others,Size Exclusion,1,ESI,+
+GC,others,Size Exclusion,1,ESI,-
+GC,others,Size Exclusion,1,ESI,+/-
+GC,others,Size Exclusion,1,APCI,+
+GC,others,Size Exclusion,1,APCI,-
+GC,others,Size Exclusion,1,APCI,+/-
+GC,others,Size Exclusion,1,APPI,+
+GC,others,Size Exclusion,1,APPI,-
+GC,others,Size Exclusion,1,APPI,+/-
+GC,others,Size Exclusion,1,EI,+
+GC,others,Size Exclusion,1,EI,-
+GC,others,Size Exclusion,1,EI,+/-
+GC,others,Size Exclusion,1,CI,+
+GC,others,Size Exclusion,1,CI,-
+GC,others,Size Exclusion,1,CI,+/-
+GC,others,Size Exclusion,1,others,+
+GC,others,Size Exclusion,1,others,-
+GC,others,Size Exclusion,1,others,+/-
+GC,others,Size Exclusion,2,ESI,+
+GC,others,Size Exclusion,2,ESI,-
+GC,others,Size Exclusion,2,ESI,+/-
+GC,others,Size Exclusion,2,APCI,+
+GC,others,Size Exclusion,2,APCI,-
+GC,others,Size Exclusion,2,APCI,+/-
+GC,others,Size Exclusion,2,APPI,+
+GC,others,Size Exclusion,2,APPI,-
+GC,others,Size Exclusion,2,APPI,+/-
+GC,others,Size Exclusion,2,EI,+
+GC,others,Size Exclusion,2,EI,-
+GC,others,Size Exclusion,2,EI,+/-
+GC,others,Size Exclusion,2,CI,+
+GC,others,Size Exclusion,2,CI,-
+GC,others,Size Exclusion,2,CI,+/-
+GC,others,Size Exclusion,2,others,+
+GC,others,Size Exclusion,2,others,-
+GC,others,Size Exclusion,2,others,+/-
+GC,others,Size Exclusion,3,ESI,+
+GC,others,Size Exclusion,3,ESI,-
+GC,others,Size Exclusion,3,ESI,+/-
+GC,others,Size Exclusion,3,APCI,+
+GC,others,Size Exclusion,3,APCI,-
+GC,others,Size Exclusion,3,APCI,+/-
+GC,others,Size Exclusion,3,APPI,+
+GC,others,Size Exclusion,3,APPI,-
+GC,others,Size Exclusion,3,APPI,+/-
+GC,others,Size Exclusion,3,EI,+
+GC,others,Size Exclusion,3,EI,-
+GC,others,Size Exclusion,3,EI,+/-
+GC,others,Size Exclusion,3,CI,+
+GC,others,Size Exclusion,3,CI,-
+GC,others,Size Exclusion,3,CI,+/-
+GC,others,Size Exclusion,3,others,+
+GC,others,Size Exclusion,3,others,-
+GC,others,Size Exclusion,3,others,+/-
+GC,others,others,1,ESI,+
+GC,others,others,1,ESI,-
+GC,others,others,1,ESI,+/-
+GC,others,others,1,APCI,+
+GC,others,others,1,APCI,-
+GC,others,others,1,APCI,+/-
+GC,others,others,1,APPI,+
+GC,others,others,1,APPI,-
+GC,others,others,1,APPI,+/-
+GC,others,others,1,EI,+
+GC,others,others,1,EI,-
+GC,others,others,1,EI,+/-
+GC,others,others,1,CI,+
+GC,others,others,1,CI,-
+GC,others,others,1,CI,+/-
+GC,others,others,1,others,+
+GC,others,others,1,others,-
+GC,others,others,1,others,+/-
+GC,others,others,2,ESI,+
+GC,others,others,2,ESI,-
+GC,others,others,2,ESI,+/-
+GC,others,others,2,APCI,+
+GC,others,others,2,APCI,-
+GC,others,others,2,APCI,+/-
+GC,others,others,2,APPI,+
+GC,others,others,2,APPI,-
+GC,others,others,2,APPI,+/-
+GC,others,others,2,EI,+
+GC,others,others,2,EI,-
+GC,others,others,2,EI,+/-
+GC,others,others,2,CI,+
+GC,others,others,2,CI,-
+GC,others,others,2,CI,+/-
+GC,others,others,2,others,+
+GC,others,others,2,others,-
+GC,others,others,2,others,+/-
+GC,others,others,3,ESI,+
+GC,others,others,3,ESI,-
+GC,others,others,3,ESI,+/-
+GC,others,others,3,APCI,+
+GC,others,others,3,APCI,-
+GC,others,others,3,APCI,+/-
+GC,others,others,3,APPI,+
+GC,others,others,3,APPI,-
+GC,others,others,3,APPI,+/-
+GC,others,others,3,EI,+
+GC,others,others,3,EI,-
+GC,others,others,3,EI,+/-
+GC,others,others,3,CI,+
+GC,others,others,3,CI,-
+GC,others,others,3,CI,+/-
+GC,others,others,3,others,+
+GC,others,others,3,others,-
+GC,others,others,3,others,+/-
+others,Vanquish,normal phase,1,ESI,+
+others,Vanquish,normal phase,1,ESI,-
+others,Vanquish,normal phase,1,ESI,+/-
+others,Vanquish,normal phase,1,APCI,+
+others,Vanquish,normal phase,1,APCI,-
+others,Vanquish,normal phase,1,APCI,+/-
+others,Vanquish,normal phase,1,APPI,+
+others,Vanquish,normal phase,1,APPI,-
+others,Vanquish,normal phase,1,APPI,+/-
+others,Vanquish,normal phase,1,EI,+
+others,Vanquish,normal phase,1,EI,-
+others,Vanquish,normal phase,1,EI,+/-
+others,Vanquish,normal phase,1,CI,+
+others,Vanquish,normal phase,1,CI,-
+others,Vanquish,normal phase,1,CI,+/-
+others,Vanquish,normal phase,1,others,+
+others,Vanquish,normal phase,1,others,-
+others,Vanquish,normal phase,1,others,+/-
+others,Vanquish,normal phase,2,ESI,+
+others,Vanquish,normal phase,2,ESI,-
+others,Vanquish,normal phase,2,ESI,+/-
+others,Vanquish,normal phase,2,APCI,+
+others,Vanquish,normal phase,2,APCI,-
+others,Vanquish,normal phase,2,APCI,+/-
+others,Vanquish,normal phase,2,APPI,+
+others,Vanquish,normal phase,2,APPI,-
+others,Vanquish,normal phase,2,APPI,+/-
+others,Vanquish,normal phase,2,EI,+
+others,Vanquish,normal phase,2,EI,-
+others,Vanquish,normal phase,2,EI,+/-
+others,Vanquish,normal phase,2,CI,+
+others,Vanquish,normal phase,2,CI,-
+others,Vanquish,normal phase,2,CI,+/-
+others,Vanquish,normal phase,2,others,+
+others,Vanquish,normal phase,2,others,-
+others,Vanquish,normal phase,2,others,+/-
+others,Vanquish,normal phase,3,ESI,+
+others,Vanquish,normal phase,3,ESI,-
+others,Vanquish,normal phase,3,ESI,+/-
+others,Vanquish,normal phase,3,APCI,+
+others,Vanquish,normal phase,3,APCI,-
+others,Vanquish,normal phase,3,APCI,+/-
+others,Vanquish,normal phase,3,APPI,+
+others,Vanquish,normal phase,3,APPI,-
+others,Vanquish,normal phase,3,APPI,+/-
+others,Vanquish,normal phase,3,EI,+
+others,Vanquish,normal phase,3,EI,-
+others,Vanquish,normal phase,3,EI,+/-
+others,Vanquish,normal phase,3,CI,+
+others,Vanquish,normal phase,3,CI,-
+others,Vanquish,normal phase,3,CI,+/-
+others,Vanquish,normal phase,3,others,+
+others,Vanquish,normal phase,3,others,-
+others,Vanquish,normal phase,3,others,+/-
+others,Vanquish,reverse phase,1,ESI,+
+others,Vanquish,reverse phase,1,ESI,-
+others,Vanquish,reverse phase,1,ESI,+/-
+others,Vanquish,reverse phase,1,APCI,+
+others,Vanquish,reverse phase,1,APCI,-
+others,Vanquish,reverse phase,1,APCI,+/-
+others,Vanquish,reverse phase,1,APPI,+
+others,Vanquish,reverse phase,1,APPI,-
+others,Vanquish,reverse phase,1,APPI,+/-
+others,Vanquish,reverse phase,1,EI,+
+others,Vanquish,reverse phase,1,EI,-
+others,Vanquish,reverse phase,1,EI,+/-
+others,Vanquish,reverse phase,1,CI,+
+others,Vanquish,reverse phase,1,CI,-
+others,Vanquish,reverse phase,1,CI,+/-
+others,Vanquish,reverse phase,1,others,+
+others,Vanquish,reverse phase,1,others,-
+others,Vanquish,reverse phase,1,others,+/-
+others,Vanquish,reverse phase,2,ESI,+
+others,Vanquish,reverse phase,2,ESI,-
+others,Vanquish,reverse phase,2,ESI,+/-
+others,Vanquish,reverse phase,2,APCI,+
+others,Vanquish,reverse phase,2,APCI,-
+others,Vanquish,reverse phase,2,APCI,+/-
+others,Vanquish,reverse phase,2,APPI,+
+others,Vanquish,reverse phase,2,APPI,-
+others,Vanquish,reverse phase,2,APPI,+/-
+others,Vanquish,reverse phase,2,EI,+
+others,Vanquish,reverse phase,2,EI,-
+others,Vanquish,reverse phase,2,EI,+/-
+others,Vanquish,reverse phase,2,CI,+
+others,Vanquish,reverse phase,2,CI,-
+others,Vanquish,reverse phase,2,CI,+/-
+others,Vanquish,reverse phase,2,others,+
+others,Vanquish,reverse phase,2,others,-
+others,Vanquish,reverse phase,2,others,+/-
+others,Vanquish,reverse phase,3,ESI,+
+others,Vanquish,reverse phase,3,ESI,-
+others,Vanquish,reverse phase,3,ESI,+/-
+others,Vanquish,reverse phase,3,APCI,+
+others,Vanquish,reverse phase,3,APCI,-
+others,Vanquish,reverse phase,3,APCI,+/-
+others,Vanquish,reverse phase,3,APPI,+
+others,Vanquish,reverse phase,3,APPI,-
+others,Vanquish,reverse phase,3,APPI,+/-
+others,Vanquish,reverse phase,3,EI,+
+others,Vanquish,reverse phase,3,EI,-
+others,Vanquish,reverse phase,3,EI,+/-
+others,Vanquish,reverse phase,3,CI,+
+others,Vanquish,reverse phase,3,CI,-
+others,Vanquish,reverse phase,3,CI,+/-
+others,Vanquish,reverse phase,3,others,+
+others,Vanquish,reverse phase,3,others,-
+others,Vanquish,reverse phase,3,others,+/-
+others,Vanquish,ion exchange,1,ESI,+
+others,Vanquish,ion exchange,1,ESI,-
+others,Vanquish,ion exchange,1,ESI,+/-
+others,Vanquish,ion exchange,1,APCI,+
+others,Vanquish,ion exchange,1,APCI,-
+others,Vanquish,ion exchange,1,APCI,+/-
+others,Vanquish,ion exchange,1,APPI,+
+others,Vanquish,ion exchange,1,APPI,-
+others,Vanquish,ion exchange,1,APPI,+/-
+others,Vanquish,ion exchange,1,EI,+
+others,Vanquish,ion exchange,1,EI,-
+others,Vanquish,ion exchange,1,EI,+/-
+others,Vanquish,ion exchange,1,CI,+
+others,Vanquish,ion exchange,1,CI,-
+others,Vanquish,ion exchange,1,CI,+/-
+others,Vanquish,ion exchange,1,others,+
+others,Vanquish,ion exchange,1,others,-
+others,Vanquish,ion exchange,1,others,+/-
+others,Vanquish,ion exchange,2,ESI,+
+others,Vanquish,ion exchange,2,ESI,-
+others,Vanquish,ion exchange,2,ESI,+/-
+others,Vanquish,ion exchange,2,APCI,+
+others,Vanquish,ion exchange,2,APCI,-
+others,Vanquish,ion exchange,2,APCI,+/-
+others,Vanquish,ion exchange,2,APPI,+
+others,Vanquish,ion exchange,2,APPI,-
+others,Vanquish,ion exchange,2,APPI,+/-
+others,Vanquish,ion exchange,2,EI,+
+others,Vanquish,ion exchange,2,EI,-
+others,Vanquish,ion exchange,2,EI,+/-
+others,Vanquish,ion exchange,2,CI,+
+others,Vanquish,ion exchange,2,CI,-
+others,Vanquish,ion exchange,2,CI,+/-
+others,Vanquish,ion exchange,2,others,+
+others,Vanquish,ion exchange,2,others,-
+others,Vanquish,ion exchange,2,others,+/-
+others,Vanquish,ion exchange,3,ESI,+
+others,Vanquish,ion exchange,3,ESI,-
+others,Vanquish,ion exchange,3,ESI,+/-
+others,Vanquish,ion exchange,3,APCI,+
+others,Vanquish,ion exchange,3,APCI,-
+others,Vanquish,ion exchange,3,APCI,+/-
+others,Vanquish,ion exchange,3,APPI,+
+others,Vanquish,ion exchange,3,APPI,-
+others,Vanquish,ion exchange,3,APPI,+/-
+others,Vanquish,ion exchange,3,EI,+
+others,Vanquish,ion exchange,3,EI,-
+others,Vanquish,ion exchange,3,EI,+/-
+others,Vanquish,ion exchange,3,CI,+
+others,Vanquish,ion exchange,3,CI,-
+others,Vanquish,ion exchange,3,CI,+/-
+others,Vanquish,ion exchange,3,others,+
+others,Vanquish,ion exchange,3,others,-
+others,Vanquish,ion exchange,3,others,+/-
+others,Vanquish,ion pair,1,ESI,+
+others,Vanquish,ion pair,1,ESI,-
+others,Vanquish,ion pair,1,ESI,+/-
+others,Vanquish,ion pair,1,APCI,+
+others,Vanquish,ion pair,1,APCI,-
+others,Vanquish,ion pair,1,APCI,+/-
+others,Vanquish,ion pair,1,APPI,+
+others,Vanquish,ion pair,1,APPI,-
+others,Vanquish,ion pair,1,APPI,+/-
+others,Vanquish,ion pair,1,EI,+
+others,Vanquish,ion pair,1,EI,-
+others,Vanquish,ion pair,1,EI,+/-
+others,Vanquish,ion pair,1,CI,+
+others,Vanquish,ion pair,1,CI,-
+others,Vanquish,ion pair,1,CI,+/-
+others,Vanquish,ion pair,1,others,+
+others,Vanquish,ion pair,1,others,-
+others,Vanquish,ion pair,1,others,+/-
+others,Vanquish,ion pair,2,ESI,+
+others,Vanquish,ion pair,2,ESI,-
+others,Vanquish,ion pair,2,ESI,+/-
+others,Vanquish,ion pair,2,APCI,+
+others,Vanquish,ion pair,2,APCI,-
+others,Vanquish,ion pair,2,APCI,+/-
+others,Vanquish,ion pair,2,APPI,+
+others,Vanquish,ion pair,2,APPI,-
+others,Vanquish,ion pair,2,APPI,+/-
+others,Vanquish,ion pair,2,EI,+
+others,Vanquish,ion pair,2,EI,-
+others,Vanquish,ion pair,2,EI,+/-
+others,Vanquish,ion pair,2,CI,+
+others,Vanquish,ion pair,2,CI,-
+others,Vanquish,ion pair,2,CI,+/-
+others,Vanquish,ion pair,2,others,+
+others,Vanquish,ion pair,2,others,-
+others,Vanquish,ion pair,2,others,+/-
+others,Vanquish,ion pair,3,ESI,+
+others,Vanquish,ion pair,3,ESI,-
+others,Vanquish,ion pair,3,ESI,+/-
+others,Vanquish,ion pair,3,APCI,+
+others,Vanquish,ion pair,3,APCI,-
+others,Vanquish,ion pair,3,APCI,+/-
+others,Vanquish,ion pair,3,APPI,+
+others,Vanquish,ion pair,3,APPI,-
+others,Vanquish,ion pair,3,APPI,+/-
+others,Vanquish,ion pair,3,EI,+
+others,Vanquish,ion pair,3,EI,-
+others,Vanquish,ion pair,3,EI,+/-
+others,Vanquish,ion pair,3,CI,+
+others,Vanquish,ion pair,3,CI,-
+others,Vanquish,ion pair,3,CI,+/-
+others,Vanquish,ion pair,3,others,+
+others,Vanquish,ion pair,3,others,-
+others,Vanquish,ion pair,3,others,+/-
+others,Vanquish,Size Exclusion,1,ESI,+
+others,Vanquish,Size Exclusion,1,ESI,-
+others,Vanquish,Size Exclusion,1,ESI,+/-
+others,Vanquish,Size Exclusion,1,APCI,+
+others,Vanquish,Size Exclusion,1,APCI,-
+others,Vanquish,Size Exclusion,1,APCI,+/-
+others,Vanquish,Size Exclusion,1,APPI,+
+others,Vanquish,Size Exclusion,1,APPI,-
+others,Vanquish,Size Exclusion,1,APPI,+/-
+others,Vanquish,Size Exclusion,1,EI,+
+others,Vanquish,Size Exclusion,1,EI,-
+others,Vanquish,Size Exclusion,1,EI,+/-
+others,Vanquish,Size Exclusion,1,CI,+
+others,Vanquish,Size Exclusion,1,CI,-
+others,Vanquish,Size Exclusion,1,CI,+/-
+others,Vanquish,Size Exclusion,1,others,+
+others,Vanquish,Size Exclusion,1,others,-
+others,Vanquish,Size Exclusion,1,others,+/-
+others,Vanquish,Size Exclusion,2,ESI,+
+others,Vanquish,Size Exclusion,2,ESI,-
+others,Vanquish,Size Exclusion,2,ESI,+/-
+others,Vanquish,Size Exclusion,2,APCI,+
+others,Vanquish,Size Exclusion,2,APCI,-
+others,Vanquish,Size Exclusion,2,APCI,+/-
+others,Vanquish,Size Exclusion,2,APPI,+
+others,Vanquish,Size Exclusion,2,APPI,-
+others,Vanquish,Size Exclusion,2,APPI,+/-
+others,Vanquish,Size Exclusion,2,EI,+
+others,Vanquish,Size Exclusion,2,EI,-
+others,Vanquish,Size Exclusion,2,EI,+/-
+others,Vanquish,Size Exclusion,2,CI,+
+others,Vanquish,Size Exclusion,2,CI,-
+others,Vanquish,Size Exclusion,2,CI,+/-
+others,Vanquish,Size Exclusion,2,others,+
+others,Vanquish,Size Exclusion,2,others,-
+others,Vanquish,Size Exclusion,2,others,+/-
+others,Vanquish,Size Exclusion,3,ESI,+
+others,Vanquish,Size Exclusion,3,ESI,-
+others,Vanquish,Size Exclusion,3,ESI,+/-
+others,Vanquish,Size Exclusion,3,APCI,+
+others,Vanquish,Size Exclusion,3,APCI,-
+others,Vanquish,Size Exclusion,3,APCI,+/-
+others,Vanquish,Size Exclusion,3,APPI,+
+others,Vanquish,Size Exclusion,3,APPI,-
+others,Vanquish,Size Exclusion,3,APPI,+/-
+others,Vanquish,Size Exclusion,3,EI,+
+others,Vanquish,Size Exclusion,3,EI,-
+others,Vanquish,Size Exclusion,3,EI,+/-
+others,Vanquish,Size Exclusion,3,CI,+
+others,Vanquish,Size Exclusion,3,CI,-
+others,Vanquish,Size Exclusion,3,CI,+/-
+others,Vanquish,Size Exclusion,3,others,+
+others,Vanquish,Size Exclusion,3,others,-
+others,Vanquish,Size Exclusion,3,others,+/-
+others,Vanquish,others,1,ESI,+
+others,Vanquish,others,1,ESI,-
+others,Vanquish,others,1,ESI,+/-
+others,Vanquish,others,1,APCI,+
+others,Vanquish,others,1,APCI,-
+others,Vanquish,others,1,APCI,+/-
+others,Vanquish,others,1,APPI,+
+others,Vanquish,others,1,APPI,-
+others,Vanquish,others,1,APPI,+/-
+others,Vanquish,others,1,EI,+
+others,Vanquish,others,1,EI,-
+others,Vanquish,others,1,EI,+/-
+others,Vanquish,others,1,CI,+
+others,Vanquish,others,1,CI,-
+others,Vanquish,others,1,CI,+/-
+others,Vanquish,others,1,others,+
+others,Vanquish,others,1,others,-
+others,Vanquish,others,1,others,+/-
+others,Vanquish,others,2,ESI,+
+others,Vanquish,others,2,ESI,-
+others,Vanquish,others,2,ESI,+/-
+others,Vanquish,others,2,APCI,+
+others,Vanquish,others,2,APCI,-
+others,Vanquish,others,2,APCI,+/-
+others,Vanquish,others,2,APPI,+
+others,Vanquish,others,2,APPI,-
+others,Vanquish,others,2,APPI,+/-
+others,Vanquish,others,2,EI,+
+others,Vanquish,others,2,EI,-
+others,Vanquish,others,2,EI,+/-
+others,Vanquish,others,2,CI,+
+others,Vanquish,others,2,CI,-
+others,Vanquish,others,2,CI,+/-
+others,Vanquish,others,2,others,+
+others,Vanquish,others,2,others,-
+others,Vanquish,others,2,others,+/-
+others,Vanquish,others,3,ESI,+
+others,Vanquish,others,3,ESI,-
+others,Vanquish,others,3,ESI,+/-
+others,Vanquish,others,3,APCI,+
+others,Vanquish,others,3,APCI,-
+others,Vanquish,others,3,APCI,+/-
+others,Vanquish,others,3,APPI,+
+others,Vanquish,others,3,APPI,-
+others,Vanquish,others,3,APPI,+/-
+others,Vanquish,others,3,EI,+
+others,Vanquish,others,3,EI,-
+others,Vanquish,others,3,EI,+/-
+others,Vanquish,others,3,CI,+
+others,Vanquish,others,3,CI,-
+others,Vanquish,others,3,CI,+/-
+others,Vanquish,others,3,others,+
+others,Vanquish,others,3,others,-
+others,Vanquish,others,3,others,+/-
+others,U3000,normal phase,1,ESI,+
+others,U3000,normal phase,1,ESI,-
+others,U3000,normal phase,1,ESI,+/-
+others,U3000,normal phase,1,APCI,+
+others,U3000,normal phase,1,APCI,-
+others,U3000,normal phase,1,APCI,+/-
+others,U3000,normal phase,1,APPI,+
+others,U3000,normal phase,1,APPI,-
+others,U3000,normal phase,1,APPI,+/-
+others,U3000,normal phase,1,EI,+
+others,U3000,normal phase,1,EI,-
+others,U3000,normal phase,1,EI,+/-
+others,U3000,normal phase,1,CI,+
+others,U3000,normal phase,1,CI,-
+others,U3000,normal phase,1,CI,+/-
+others,U3000,normal phase,1,others,+
+others,U3000,normal phase,1,others,-
+others,U3000,normal phase,1,others,+/-
+others,U3000,normal phase,2,ESI,+
+others,U3000,normal phase,2,ESI,-
+others,U3000,normal phase,2,ESI,+/-
+others,U3000,normal phase,2,APCI,+
+others,U3000,normal phase,2,APCI,-
+others,U3000,normal phase,2,APCI,+/-
+others,U3000,normal phase,2,APPI,+
+others,U3000,normal phase,2,APPI,-
+others,U3000,normal phase,2,APPI,+/-
+others,U3000,normal phase,2,EI,+
+others,U3000,normal phase,2,EI,-
+others,U3000,normal phase,2,EI,+/-
+others,U3000,normal phase,2,CI,+
+others,U3000,normal phase,2,CI,-
+others,U3000,normal phase,2,CI,+/-
+others,U3000,normal phase,2,others,+
+others,U3000,normal phase,2,others,-
+others,U3000,normal phase,2,others,+/-
+others,U3000,normal phase,3,ESI,+
+others,U3000,normal phase,3,ESI,-
+others,U3000,normal phase,3,ESI,+/-
+others,U3000,normal phase,3,APCI,+
+others,U3000,normal phase,3,APCI,-
+others,U3000,normal phase,3,APCI,+/-
+others,U3000,normal phase,3,APPI,+
+others,U3000,normal phase,3,APPI,-
+others,U3000,normal phase,3,APPI,+/-
+others,U3000,normal phase,3,EI,+
+others,U3000,normal phase,3,EI,-
+others,U3000,normal phase,3,EI,+/-
+others,U3000,normal phase,3,CI,+
+others,U3000,normal phase,3,CI,-
+others,U3000,normal phase,3,CI,+/-
+others,U3000,normal phase,3,others,+
+others,U3000,normal phase,3,others,-
+others,U3000,normal phase,3,others,+/-
+others,U3000,reverse phase,1,ESI,+
+others,U3000,reverse phase,1,ESI,-
+others,U3000,reverse phase,1,ESI,+/-
+others,U3000,reverse phase,1,APCI,+
+others,U3000,reverse phase,1,APCI,-
+others,U3000,reverse phase,1,APCI,+/-
+others,U3000,reverse phase,1,APPI,+
+others,U3000,reverse phase,1,APPI,-
+others,U3000,reverse phase,1,APPI,+/-
+others,U3000,reverse phase,1,EI,+
+others,U3000,reverse phase,1,EI,-
+others,U3000,reverse phase,1,EI,+/-
+others,U3000,reverse phase,1,CI,+
+others,U3000,reverse phase,1,CI,-
+others,U3000,reverse phase,1,CI,+/-
+others,U3000,reverse phase,1,others,+
+others,U3000,reverse phase,1,others,-
+others,U3000,reverse phase,1,others,+/-
+others,U3000,reverse phase,2,ESI,+
+others,U3000,reverse phase,2,ESI,-
+others,U3000,reverse phase,2,ESI,+/-
+others,U3000,reverse phase,2,APCI,+
+others,U3000,reverse phase,2,APCI,-
+others,U3000,reverse phase,2,APCI,+/-
+others,U3000,reverse phase,2,APPI,+
+others,U3000,reverse phase,2,APPI,-
+others,U3000,reverse phase,2,APPI,+/-
+others,U3000,reverse phase,2,EI,+
+others,U3000,reverse phase,2,EI,-
+others,U3000,reverse phase,2,EI,+/-
+others,U3000,reverse phase,2,CI,+
+others,U3000,reverse phase,2,CI,-
+others,U3000,reverse phase,2,CI,+/-
+others,U3000,reverse phase,2,others,+
+others,U3000,reverse phase,2,others,-
+others,U3000,reverse phase,2,others,+/-
+others,U3000,reverse phase,3,ESI,+
+others,U3000,reverse phase,3,ESI,-
+others,U3000,reverse phase,3,ESI,+/-
+others,U3000,reverse phase,3,APCI,+
+others,U3000,reverse phase,3,APCI,-
+others,U3000,reverse phase,3,APCI,+/-
+others,U3000,reverse phase,3,APPI,+
+others,U3000,reverse phase,3,APPI,-
+others,U3000,reverse phase,3,APPI,+/-
+others,U3000,reverse phase,3,EI,+
+others,U3000,reverse phase,3,EI,-
+others,U3000,reverse phase,3,EI,+/-
+others,U3000,reverse phase,3,CI,+
+others,U3000,reverse phase,3,CI,-
+others,U3000,reverse phase,3,CI,+/-
+others,U3000,reverse phase,3,others,+
+others,U3000,reverse phase,3,others,-
+others,U3000,reverse phase,3,others,+/-
+others,U3000,ion exchange,1,ESI,+
+others,U3000,ion exchange,1,ESI,-
+others,U3000,ion exchange,1,ESI,+/-
+others,U3000,ion exchange,1,APCI,+
+others,U3000,ion exchange,1,APCI,-
+others,U3000,ion exchange,1,APCI,+/-
+others,U3000,ion exchange,1,APPI,+
+others,U3000,ion exchange,1,APPI,-
+others,U3000,ion exchange,1,APPI,+/-
+others,U3000,ion exchange,1,EI,+
+others,U3000,ion exchange,1,EI,-
+others,U3000,ion exchange,1,EI,+/-
+others,U3000,ion exchange,1,CI,+
+others,U3000,ion exchange,1,CI,-
+others,U3000,ion exchange,1,CI,+/-
+others,U3000,ion exchange,1,others,+
+others,U3000,ion exchange,1,others,-
+others,U3000,ion exchange,1,others,+/-
+others,U3000,ion exchange,2,ESI,+
+others,U3000,ion exchange,2,ESI,-
+others,U3000,ion exchange,2,ESI,+/-
+others,U3000,ion exchange,2,APCI,+
+others,U3000,ion exchange,2,APCI,-
+others,U3000,ion exchange,2,APCI,+/-
+others,U3000,ion exchange,2,APPI,+
+others,U3000,ion exchange,2,APPI,-
+others,U3000,ion exchange,2,APPI,+/-
+others,U3000,ion exchange,2,EI,+
+others,U3000,ion exchange,2,EI,-
+others,U3000,ion exchange,2,EI,+/-
+others,U3000,ion exchange,2,CI,+
+others,U3000,ion exchange,2,CI,-
+others,U3000,ion exchange,2,CI,+/-
+others,U3000,ion exchange,2,others,+
+others,U3000,ion exchange,2,others,-
+others,U3000,ion exchange,2,others,+/-
+others,U3000,ion exchange,3,ESI,+
+others,U3000,ion exchange,3,ESI,-
+others,U3000,ion exchange,3,ESI,+/-
+others,U3000,ion exchange,3,APCI,+
+others,U3000,ion exchange,3,APCI,-
+others,U3000,ion exchange,3,APCI,+/-
+others,U3000,ion exchange,3,APPI,+
+others,U3000,ion exchange,3,APPI,-
+others,U3000,ion exchange,3,APPI,+/-
+others,U3000,ion exchange,3,EI,+
+others,U3000,ion exchange,3,EI,-
+others,U3000,ion exchange,3,EI,+/-
+others,U3000,ion exchange,3,CI,+
+others,U3000,ion exchange,3,CI,-
+others,U3000,ion exchange,3,CI,+/-
+others,U3000,ion exchange,3,others,+
+others,U3000,ion exchange,3,others,-
+others,U3000,ion exchange,3,others,+/-
+others,U3000,ion pair,1,ESI,+
+others,U3000,ion pair,1,ESI,-
+others,U3000,ion pair,1,ESI,+/-
+others,U3000,ion pair,1,APCI,+
+others,U3000,ion pair,1,APCI,-
+others,U3000,ion pair,1,APCI,+/-
+others,U3000,ion pair,1,APPI,+
+others,U3000,ion pair,1,APPI,-
+others,U3000,ion pair,1,APPI,+/-
+others,U3000,ion pair,1,EI,+
+others,U3000,ion pair,1,EI,-
+others,U3000,ion pair,1,EI,+/-
+others,U3000,ion pair,1,CI,+
+others,U3000,ion pair,1,CI,-
+others,U3000,ion pair,1,CI,+/-
+others,U3000,ion pair,1,others,+
+others,U3000,ion pair,1,others,-
+others,U3000,ion pair,1,others,+/-
+others,U3000,ion pair,2,ESI,+
+others,U3000,ion pair,2,ESI,-
+others,U3000,ion pair,2,ESI,+/-
+others,U3000,ion pair,2,APCI,+
+others,U3000,ion pair,2,APCI,-
+others,U3000,ion pair,2,APCI,+/-
+others,U3000,ion pair,2,APPI,+
+others,U3000,ion pair,2,APPI,-
+others,U3000,ion pair,2,APPI,+/-
+others,U3000,ion pair,2,EI,+
+others,U3000,ion pair,2,EI,-
+others,U3000,ion pair,2,EI,+/-
+others,U3000,ion pair,2,CI,+
+others,U3000,ion pair,2,CI,-
+others,U3000,ion pair,2,CI,+/-
+others,U3000,ion pair,2,others,+
+others,U3000,ion pair,2,others,-
+others,U3000,ion pair,2,others,+/-
+others,U3000,ion pair,3,ESI,+
+others,U3000,ion pair,3,ESI,-
+others,U3000,ion pair,3,ESI,+/-
+others,U3000,ion pair,3,APCI,+
+others,U3000,ion pair,3,APCI,-
+others,U3000,ion pair,3,APCI,+/-
+others,U3000,ion pair,3,APPI,+
+others,U3000,ion pair,3,APPI,-
+others,U3000,ion pair,3,APPI,+/-
+others,U3000,ion pair,3,EI,+
+others,U3000,ion pair,3,EI,-
+others,U3000,ion pair,3,EI,+/-
+others,U3000,ion pair,3,CI,+
+others,U3000,ion pair,3,CI,-
+others,U3000,ion pair,3,CI,+/-
+others,U3000,ion pair,3,others,+
+others,U3000,ion pair,3,others,-
+others,U3000,ion pair,3,others,+/-
+others,U3000,Size Exclusion,1,ESI,+
+others,U3000,Size Exclusion,1,ESI,-
+others,U3000,Size Exclusion,1,ESI,+/-
+others,U3000,Size Exclusion,1,APCI,+
+others,U3000,Size Exclusion,1,APCI,-
+others,U3000,Size Exclusion,1,APCI,+/-
+others,U3000,Size Exclusion,1,APPI,+
+others,U3000,Size Exclusion,1,APPI,-
+others,U3000,Size Exclusion,1,APPI,+/-
+others,U3000,Size Exclusion,1,EI,+
+others,U3000,Size Exclusion,1,EI,-
+others,U3000,Size Exclusion,1,EI,+/-
+others,U3000,Size Exclusion,1,CI,+
+others,U3000,Size Exclusion,1,CI,-
+others,U3000,Size Exclusion,1,CI,+/-
+others,U3000,Size Exclusion,1,others,+
+others,U3000,Size Exclusion,1,others,-
+others,U3000,Size Exclusion,1,others,+/-
+others,U3000,Size Exclusion,2,ESI,+
+others,U3000,Size Exclusion,2,ESI,-
+others,U3000,Size Exclusion,2,ESI,+/-
+others,U3000,Size Exclusion,2,APCI,+
+others,U3000,Size Exclusion,2,APCI,-
+others,U3000,Size Exclusion,2,APCI,+/-
+others,U3000,Size Exclusion,2,APPI,+
+others,U3000,Size Exclusion,2,APPI,-
+others,U3000,Size Exclusion,2,APPI,+/-
+others,U3000,Size Exclusion,2,EI,+
+others,U3000,Size Exclusion,2,EI,-
+others,U3000,Size Exclusion,2,EI,+/-
+others,U3000,Size Exclusion,2,CI,+
+others,U3000,Size Exclusion,2,CI,-
+others,U3000,Size Exclusion,2,CI,+/-
+others,U3000,Size Exclusion,2,others,+
+others,U3000,Size Exclusion,2,others,-
+others,U3000,Size Exclusion,2,others,+/-
+others,U3000,Size Exclusion,3,ESI,+
+others,U3000,Size Exclusion,3,ESI,-
+others,U3000,Size Exclusion,3,ESI,+/-
+others,U3000,Size Exclusion,3,APCI,+
+others,U3000,Size Exclusion,3,APCI,-
+others,U3000,Size Exclusion,3,APCI,+/-
+others,U3000,Size Exclusion,3,APPI,+
+others,U3000,Size Exclusion,3,APPI,-
+others,U3000,Size Exclusion,3,APPI,+/-
+others,U3000,Size Exclusion,3,EI,+
+others,U3000,Size Exclusion,3,EI,-
+others,U3000,Size Exclusion,3,EI,+/-
+others,U3000,Size Exclusion,3,CI,+
+others,U3000,Size Exclusion,3,CI,-
+others,U3000,Size Exclusion,3,CI,+/-
+others,U3000,Size Exclusion,3,others,+
+others,U3000,Size Exclusion,3,others,-
+others,U3000,Size Exclusion,3,others,+/-
+others,U3000,others,1,ESI,+
+others,U3000,others,1,ESI,-
+others,U3000,others,1,ESI,+/-
+others,U3000,others,1,APCI,+
+others,U3000,others,1,APCI,-
+others,U3000,others,1,APCI,+/-
+others,U3000,others,1,APPI,+
+others,U3000,others,1,APPI,-
+others,U3000,others,1,APPI,+/-
+others,U3000,others,1,EI,+
+others,U3000,others,1,EI,-
+others,U3000,others,1,EI,+/-
+others,U3000,others,1,CI,+
+others,U3000,others,1,CI,-
+others,U3000,others,1,CI,+/-
+others,U3000,others,1,others,+
+others,U3000,others,1,others,-
+others,U3000,others,1,others,+/-
+others,U3000,others,2,ESI,+
+others,U3000,others,2,ESI,-
+others,U3000,others,2,ESI,+/-
+others,U3000,others,2,APCI,+
+others,U3000,others,2,APCI,-
+others,U3000,others,2,APCI,+/-
+others,U3000,others,2,APPI,+
+others,U3000,others,2,APPI,-
+others,U3000,others,2,APPI,+/-
+others,U3000,others,2,EI,+
+others,U3000,others,2,EI,-
+others,U3000,others,2,EI,+/-
+others,U3000,others,2,CI,+
+others,U3000,others,2,CI,-
+others,U3000,others,2,CI,+/-
+others,U3000,others,2,others,+
+others,U3000,others,2,others,-
+others,U3000,others,2,others,+/-
+others,U3000,others,3,ESI,+
+others,U3000,others,3,ESI,-
+others,U3000,others,3,ESI,+/-
+others,U3000,others,3,APCI,+
+others,U3000,others,3,APCI,-
+others,U3000,others,3,APCI,+/-
+others,U3000,others,3,APPI,+
+others,U3000,others,3,APPI,-
+others,U3000,others,3,APPI,+/-
+others,U3000,others,3,EI,+
+others,U3000,others,3,EI,-
+others,U3000,others,3,EI,+/-
+others,U3000,others,3,CI,+
+others,U3000,others,3,CI,-
+others,U3000,others,3,CI,+/-
+others,U3000,others,3,others,+
+others,U3000,others,3,others,-
+others,U3000,others,3,others,+/-
+others,others,normal phase,1,ESI,+
+others,others,normal phase,1,ESI,-
+others,others,normal phase,1,ESI,+/-
+others,others,normal phase,1,APCI,+
+others,others,normal phase,1,APCI,-
+others,others,normal phase,1,APCI,+/-
+others,others,normal phase,1,APPI,+
+others,others,normal phase,1,APPI,-
+others,others,normal phase,1,APPI,+/-
+others,others,normal phase,1,EI,+
+others,others,normal phase,1,EI,-
+others,others,normal phase,1,EI,+/-
+others,others,normal phase,1,CI,+
+others,others,normal phase,1,CI,-
+others,others,normal phase,1,CI,+/-
+others,others,normal phase,1,others,+
+others,others,normal phase,1,others,-
+others,others,normal phase,1,others,+/-
+others,others,normal phase,2,ESI,+
+others,others,normal phase,2,ESI,-
+others,others,normal phase,2,ESI,+/-
+others,others,normal phase,2,APCI,+
+others,others,normal phase,2,APCI,-
+others,others,normal phase,2,APCI,+/-
+others,others,normal phase,2,APPI,+
+others,others,normal phase,2,APPI,-
+others,others,normal phase,2,APPI,+/-
+others,others,normal phase,2,EI,+
+others,others,normal phase,2,EI,-
+others,others,normal phase,2,EI,+/-
+others,others,normal phase,2,CI,+
+others,others,normal phase,2,CI,-
+others,others,normal phase,2,CI,+/-
+others,others,normal phase,2,others,+
+others,others,normal phase,2,others,-
+others,others,normal phase,2,others,+/-
+others,others,normal phase,3,ESI,+
+others,others,normal phase,3,ESI,-
+others,others,normal phase,3,ESI,+/-
+others,others,normal phase,3,APCI,+
+others,others,normal phase,3,APCI,-
+others,others,normal phase,3,APCI,+/-
+others,others,normal phase,3,APPI,+
+others,others,normal phase,3,APPI,-
+others,others,normal phase,3,APPI,+/-
+others,others,normal phase,3,EI,+
+others,others,normal phase,3,EI,-
+others,others,normal phase,3,EI,+/-
+others,others,normal phase,3,CI,+
+others,others,normal phase,3,CI,-
+others,others,normal phase,3,CI,+/-
+others,others,normal phase,3,others,+
+others,others,normal phase,3,others,-
+others,others,normal phase,3,others,+/-
+others,others,reverse phase,1,ESI,+
+others,others,reverse phase,1,ESI,-
+others,others,reverse phase,1,ESI,+/-
+others,others,reverse phase,1,APCI,+
+others,others,reverse phase,1,APCI,-
+others,others,reverse phase,1,APCI,+/-
+others,others,reverse phase,1,APPI,+
+others,others,reverse phase,1,APPI,-
+others,others,reverse phase,1,APPI,+/-
+others,others,reverse phase,1,EI,+
+others,others,reverse phase,1,EI,-
+others,others,reverse phase,1,EI,+/-
+others,others,reverse phase,1,CI,+
+others,others,reverse phase,1,CI,-
+others,others,reverse phase,1,CI,+/-
+others,others,reverse phase,1,others,+
+others,others,reverse phase,1,others,-
+others,others,reverse phase,1,others,+/-
+others,others,reverse phase,2,ESI,+
+others,others,reverse phase,2,ESI,-
+others,others,reverse phase,2,ESI,+/-
+others,others,reverse phase,2,APCI,+
+others,others,reverse phase,2,APCI,-
+others,others,reverse phase,2,APCI,+/-
+others,others,reverse phase,2,APPI,+
+others,others,reverse phase,2,APPI,-
+others,others,reverse phase,2,APPI,+/-
+others,others,reverse phase,2,EI,+
+others,others,reverse phase,2,EI,-
+others,others,reverse phase,2,EI,+/-
+others,others,reverse phase,2,CI,+
+others,others,reverse phase,2,CI,-
+others,others,reverse phase,2,CI,+/-
+others,others,reverse phase,2,others,+
+others,others,reverse phase,2,others,-
+others,others,reverse phase,2,others,+/-
+others,others,reverse phase,3,ESI,+
+others,others,reverse phase,3,ESI,-
+others,others,reverse phase,3,ESI,+/-
+others,others,reverse phase,3,APCI,+
+others,others,reverse phase,3,APCI,-
+others,others,reverse phase,3,APCI,+/-
+others,others,reverse phase,3,APPI,+
+others,others,reverse phase,3,APPI,-
+others,others,reverse phase,3,APPI,+/-
+others,others,reverse phase,3,EI,+
+others,others,reverse phase,3,EI,-
+others,others,reverse phase,3,EI,+/-
+others,others,reverse phase,3,CI,+
+others,others,reverse phase,3,CI,-
+others,others,reverse phase,3,CI,+/-
+others,others,reverse phase,3,others,+
+others,others,reverse phase,3,others,-
+others,others,reverse phase,3,others,+/-
+others,others,ion exchange,1,ESI,+
+others,others,ion exchange,1,ESI,-
+others,others,ion exchange,1,ESI,+/-
+others,others,ion exchange,1,APCI,+
+others,others,ion exchange,1,APCI,-
+others,others,ion exchange,1,APCI,+/-
+others,others,ion exchange,1,APPI,+
+others,others,ion exchange,1,APPI,-
+others,others,ion exchange,1,APPI,+/-
+others,others,ion exchange,1,EI,+
+others,others,ion exchange,1,EI,-
+others,others,ion exchange,1,EI,+/-
+others,others,ion exchange,1,CI,+
+others,others,ion exchange,1,CI,-
+others,others,ion exchange,1,CI,+/-
+others,others,ion exchange,1,others,+
+others,others,ion exchange,1,others,-
+others,others,ion exchange,1,others,+/-
+others,others,ion exchange,2,ESI,+
+others,others,ion exchange,2,ESI,-
+others,others,ion exchange,2,ESI,+/-
+others,others,ion exchange,2,APCI,+
+others,others,ion exchange,2,APCI,-
+others,others,ion exchange,2,APCI,+/-
+others,others,ion exchange,2,APPI,+
+others,others,ion exchange,2,APPI,-
+others,others,ion exchange,2,APPI,+/-
+others,others,ion exchange,2,EI,+
+others,others,ion exchange,2,EI,-
+others,others,ion exchange,2,EI,+/-
+others,others,ion exchange,2,CI,+
+others,others,ion exchange,2,CI,-
+others,others,ion exchange,2,CI,+/-
+others,others,ion exchange,2,others,+
+others,others,ion exchange,2,others,-
+others,others,ion exchange,2,others,+/-
+others,others,ion exchange,3,ESI,+
+others,others,ion exchange,3,ESI,-
+others,others,ion exchange,3,ESI,+/-
+others,others,ion exchange,3,APCI,+
+others,others,ion exchange,3,APCI,-
+others,others,ion exchange,3,APCI,+/-
+others,others,ion exchange,3,APPI,+
+others,others,ion exchange,3,APPI,-
+others,others,ion exchange,3,APPI,+/-
+others,others,ion exchange,3,EI,+
+others,others,ion exchange,3,EI,-
+others,others,ion exchange,3,EI,+/-
+others,others,ion exchange,3,CI,+
+others,others,ion exchange,3,CI,-
+others,others,ion exchange,3,CI,+/-
+others,others,ion exchange,3,others,+
+others,others,ion exchange,3,others,-
+others,others,ion exchange,3,others,+/-
+others,others,ion pair,1,ESI,+
+others,others,ion pair,1,ESI,-
+others,others,ion pair,1,ESI,+/-
+others,others,ion pair,1,APCI,+
+others,others,ion pair,1,APCI,-
+others,others,ion pair,1,APCI,+/-
+others,others,ion pair,1,APPI,+
+others,others,ion pair,1,APPI,-
+others,others,ion pair,1,APPI,+/-
+others,others,ion pair,1,EI,+
+others,others,ion pair,1,EI,-
+others,others,ion pair,1,EI,+/-
+others,others,ion pair,1,CI,+
+others,others,ion pair,1,CI,-
+others,others,ion pair,1,CI,+/-
+others,others,ion pair,1,others,+
+others,others,ion pair,1,others,-
+others,others,ion pair,1,others,+/-
+others,others,ion pair,2,ESI,+
+others,others,ion pair,2,ESI,-
+others,others,ion pair,2,ESI,+/-
+others,others,ion pair,2,APCI,+
+others,others,ion pair,2,APCI,-
+others,others,ion pair,2,APCI,+/-
+others,others,ion pair,2,APPI,+
+others,others,ion pair,2,APPI,-
+others,others,ion pair,2,APPI,+/-
+others,others,ion pair,2,EI,+
+others,others,ion pair,2,EI,-
+others,others,ion pair,2,EI,+/-
+others,others,ion pair,2,CI,+
+others,others,ion pair,2,CI,-
+others,others,ion pair,2,CI,+/-
+others,others,ion pair,2,others,+
+others,others,ion pair,2,others,-
+others,others,ion pair,2,others,+/-
+others,others,ion pair,3,ESI,+
+others,others,ion pair,3,ESI,-
+others,others,ion pair,3,ESI,+/-
+others,others,ion pair,3,APCI,+
+others,others,ion pair,3,APCI,-
+others,others,ion pair,3,APCI,+/-
+others,others,ion pair,3,APPI,+
+others,others,ion pair,3,APPI,-
+others,others,ion pair,3,APPI,+/-
+others,others,ion pair,3,EI,+
+others,others,ion pair,3,EI,-
+others,others,ion pair,3,EI,+/-
+others,others,ion pair,3,CI,+
+others,others,ion pair,3,CI,-
+others,others,ion pair,3,CI,+/-
+others,others,ion pair,3,others,+
+others,others,ion pair,3,others,-
+others,others,ion pair,3,others,+/-
+others,others,Size Exclusion,1,ESI,+
+others,others,Size Exclusion,1,ESI,-
+others,others,Size Exclusion,1,ESI,+/-
+others,others,Size Exclusion,1,APCI,+
+others,others,Size Exclusion,1,APCI,-
+others,others,Size Exclusion,1,APCI,+/-
+others,others,Size Exclusion,1,APPI,+
+others,others,Size Exclusion,1,APPI,-
+others,others,Size Exclusion,1,APPI,+/-
+others,others,Size Exclusion,1,EI,+
+others,others,Size Exclusion,1,EI,-
+others,others,Size Exclusion,1,EI,+/-
+others,others,Size Exclusion,1,CI,+
+others,others,Size Exclusion,1,CI,-
+others,others,Size Exclusion,1,CI,+/-
+others,others,Size Exclusion,1,others,+
+others,others,Size Exclusion,1,others,-
+others,others,Size Exclusion,1,others,+/-
+others,others,Size Exclusion,2,ESI,+
+others,others,Size Exclusion,2,ESI,-
+others,others,Size Exclusion,2,ESI,+/-
+others,others,Size Exclusion,2,APCI,+
+others,others,Size Exclusion,2,APCI,-
+others,others,Size Exclusion,2,APCI,+/-
+others,others,Size Exclusion,2,APPI,+
+others,others,Size Exclusion,2,APPI,-
+others,others,Size Exclusion,2,APPI,+/-
+others,others,Size Exclusion,2,EI,+
+others,others,Size Exclusion,2,EI,-
+others,others,Size Exclusion,2,EI,+/-
+others,others,Size Exclusion,2,CI,+
+others,others,Size Exclusion,2,CI,-
+others,others,Size Exclusion,2,CI,+/-
+others,others,Size Exclusion,2,others,+
+others,others,Size Exclusion,2,others,-
+others,others,Size Exclusion,2,others,+/-
+others,others,Size Exclusion,3,ESI,+
+others,others,Size Exclusion,3,ESI,-
+others,others,Size Exclusion,3,ESI,+/-
+others,others,Size Exclusion,3,APCI,+
+others,others,Size Exclusion,3,APCI,-
+others,others,Size Exclusion,3,APCI,+/-
+others,others,Size Exclusion,3,APPI,+
+others,others,Size Exclusion,3,APPI,-
+others,others,Size Exclusion,3,APPI,+/-
+others,others,Size Exclusion,3,EI,+
+others,others,Size Exclusion,3,EI,-
+others,others,Size Exclusion,3,EI,+/-
+others,others,Size Exclusion,3,CI,+
+others,others,Size Exclusion,3,CI,-
+others,others,Size Exclusion,3,CI,+/-
+others,others,Size Exclusion,3,others,+
+others,others,Size Exclusion,3,others,-
+others,others,Size Exclusion,3,others,+/-
+others,others,others,1,ESI,+
+others,others,others,1,ESI,-
+others,others,others,1,ESI,+/-
+others,others,others,1,APCI,+
+others,others,others,1,APCI,-
+others,others,others,1,APCI,+/-
+others,others,others,1,APPI,+
+others,others,others,1,APPI,-
+others,others,others,1,APPI,+/-
+others,others,others,1,EI,+
+others,others,others,1,EI,-
+others,others,others,1,EI,+/-
+others,others,others,1,CI,+
+others,others,others,1,CI,-
+others,others,others,1,CI,+/-
+others,others,others,1,others,+
+others,others,others,1,others,-
+others,others,others,1,others,+/-
+others,others,others,2,ESI,+
+others,others,others,2,ESI,-
+others,others,others,2,ESI,+/-
+others,others,others,2,APCI,+
+others,others,others,2,APCI,-
+others,others,others,2,APCI,+/-
+others,others,others,2,APPI,+
+others,others,others,2,APPI,-
+others,others,others,2,APPI,+/-
+others,others,others,2,EI,+
+others,others,others,2,EI,-
+others,others,others,2,EI,+/-
+others,others,others,2,CI,+
+others,others,others,2,CI,-
+others,others,others,2,CI,+/-
+others,others,others,2,others,+
+others,others,others,2,others,-
+others,others,others,2,others,+/-
+others,others,others,3,ESI,+
+others,others,others,3,ESI,-
+others,others,others,3,ESI,+/-
+others,others,others,3,APCI,+
+others,others,others,3,APCI,-
+others,others,others,3,APCI,+/-
+others,others,others,3,APPI,+
+others,others,others,3,APPI,-
+others,others,others,3,APPI,+/-
+others,others,others,3,EI,+
+others,others,others,3,EI,-
+others,others,others,3,EI,+/-
+others,others,others,3,CI,+
+others,others,others,3,CI,-
+others,others,others,3,CI,+/-
+others,others,others,3,others,+
+others,others,others,3,others,-
+others,others,others,3,others,+/-

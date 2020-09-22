@@ -92,7 +92,7 @@ class PgSQLPlugin(object):
                     cur = con.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
                 else:
                     cur = con.cursor()
-            except HTTPResponse, e:
+            except HTTPResponse as e:
                 raise HTTPError(500, "Database Error", e)
 
             # Add the connection handle as a keyword argument.
@@ -102,12 +102,12 @@ class PgSQLPlugin(object):
                 rv = callback(*args, **kwargs)
                 if autocommit:
                     con.commit()
-            except psycopg2.ProgrammingError, e:
+            except psycopg2.ProgrammingError as e:
                 con.rollback()
                 raise HTTPError(500, "Database Error", e)
-            except HTTPError, e:
+            except HTTPError as e:
                 raise
-            except HTTPResponse, e:
+            except HTTPResponse as e:
                 if autocommit:
                     con.commit()
                 raise
