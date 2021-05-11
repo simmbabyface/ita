@@ -12,7 +12,15 @@ Python 3.0+
 Marvin JS
 JChem base
 
-
+Database Setup
+----------------
+```
+psql -U postgres
+postgres=# create database ita;
+postgres=# create user babyface with encrypted password '5555';
+postgres=# grant all privileges on database ita to babyface;
+postgres=# exit;
+```
 
 Start the server
 ----------------
