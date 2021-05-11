@@ -4,13 +4,13 @@ Integrated Toxicity Analysis System
 
 Dependency
 ----------------
-PostgresSQL 11
-Python 3.0+
-- bottle-pgsql
-- bottle
-- psycopg2
-Marvin JS
-JChem base
+- PostgresSQL 11
+- Python 3.0+
+- bottle-pgsql (pip install bottle-pgsql)
+- bottle (pip install bottle)
+- psycopg2 (pip install psycopg2)
+- Marvin JS
+- JChem base
 
 Database Setup
 ----------------
