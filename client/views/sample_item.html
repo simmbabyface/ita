@@ -29,7 +29,7 @@
             <th>Assay Time</th>
             <th>Model</th>
             <th>n</th>
-            <th>AC50</th>
+            <th>EC50</th>
             <th>Concentration Unit</th>
           </tr>
         </thead>
@@ -39,7 +39,7 @@
             <td>{{values.assay_time | date}}</td>
             <td>{{values.model}}</td>
             <td>{{values.n}}</td>
-            <td>{{values.ac50}}</td>
+            <td>{{values.ec50}}</td>
             <td>{{values.conc_unit}}</td>
           </tr>
         </tbody>
@@ -50,6 +50,7 @@
       <table class="table table-striped">
         <thead>
           <tr>
+            <th>Component ID</th>
             <th>Chemical ID</th>
             <th>Assay Time</th>
             <th>Concentration</th>
@@ -57,7 +58,8 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="values in sample_chemical_info">
+          <tr ng-repeat="values in sample_chemical_component_info">
+            <td>{{values.component_id}}</td>
             <td><a href="chemicalItem/{{values.chemical_id}}">{{values.chemical_id}}</a></td>
             <td>{{values.assay_time | date}}</td>
             <td>{{values.concentration}}</td>

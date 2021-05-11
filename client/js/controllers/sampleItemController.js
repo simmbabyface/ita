@@ -12,7 +12,7 @@ angular.module('ITAApp')
     jobService.sample_assay($routeParams.sid).success(function(res){
         $scope.sample_assay_info = res;
     });
-    jobService.sample_chemical($routeParams.sid).success(function(res){
-        $scope.sample_chemical_info = res;
+    jobService.sample_chemical_component($routeParams.sid).success(function(res){
+        $scope.sample_chemical_component_info = res;
     });
 });

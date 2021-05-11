@@ -1,0 +1,2 @@
+sampling_name,sampling_location,sampling_time,sample_type,sample_weight,pretreatment_method,AES_extraction,nitrogen_flow,three_line_processing,lc_preparation,sampling_person
+guiyu e-waste,"Guiyu, Guangdong province",2019/12/28,sediment,2g,freezing and drying,extraction by VFSE-6 with Dichloromethane:Acetone=3:1(v/v),50 L/min,EVA-GPC-EVA,"Mobile phase.MeOH and H2O, 1mL/min",QC Ma

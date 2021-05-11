@@ -1,6 +1,0 @@
-chemical_type,MS_Type,MS_Level,precursor_mz,Total_Peaks,mz_Top_Peak,mz_2nd_Highest,mz_3rd_Highest,molecular_formula,suspected_structure,chemical_name,CAS,canonical_smiles
-Organic Chemicals,Chromatography identified as LC-MS,MS2,178.0347,96,72,160,55,C6H11NOS2,,sulforafan,4478-93-7,CS(=O)CCCCN=C=S
-Lipids,,,,61,73,55,41,C9H16O3,,9-oxononanoic acid,2553-17-5,C(CCCC=O)CCCC(=O)O
-Organic Chemicals,Chromatography identified as GC-MS,MS1,,159,58,97,72,C14H19N3S,,Methapyrilene,91-80-5,CN(C)CCN(CC1=CC=CS1)C2=CC=CC=N2
-Organic Chemicals,Chromatography identified as GC-MS,MS1,,239,300,315,302,C17H18ClN3O,,tinuvin,3896-11-5,CC1=CC(=C(C(=C1)N2N=C3C=CC(=CC3=N2)Cl)O)C(C)(C)C
-,,,,,,,,C18H12O9,,eckol,88798-74-7,C1=C(C=C(C=C1O)OC2=C(C=C(C3=C2OC4=C(C=C(C=C4O3)O)O)O)O)O

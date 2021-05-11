@@ -1,0 +1,5 @@
+sample_id,chemical_id,assay_time,concentration,conc_unit
+S0000001,C0000002,2014/1/2,16,mg/L
+S0000001,C0000004,2014/1/4,5.8,mg/L
+S0000001,C0000005,2014/1/1,22.9,mg/L
+S0000001,C0000007,2014/1/5,1005.6,mg/L

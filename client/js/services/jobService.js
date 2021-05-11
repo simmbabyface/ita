@@ -58,6 +58,10 @@ angular.module('ITAApp')
         return $http.post('/sample_chemical', {sample_id: sample_id});
     };
 
+    jobServiceAPI.sample_chemical_component = function(sample_id){
+        return $http.post('/sample_chemical_component', {sample_id: sample_id});
+    };
+
     // chemical
     jobServiceAPI.chemical_detail = function(chemical_id){
         return $http.post('/chemical_detail', {chemical_id: chemical_id});
@@ -78,6 +82,10 @@ angular.module('ITAApp')
 
     jobServiceAPI.assay_chemical = function(assay_id){
         return $http.post('/assay_chemical', {assay_id: assay_id});
+    };
+
+    jobServiceAPI.assay_component = function(assay_id){
+        return $http.post('/assay_component', {assay_id: assay_id});
     };
 
     jobServiceAPI.assay_sample = function(assay_id){

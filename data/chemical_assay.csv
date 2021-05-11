@@ -1,0 +1,4 @@
+chemical_id,assay_id,assay_time,model,n,EC50,conc_unit
+C0000001,A0000004,2020/12/16,Hill,9,0.00049,ng/mL.medium 
+C0000002,A0000004,2020/12/16,Hill,7,0.00138,ng/mL.medium 
+C0000007,A0000004,2020/12/16,Hill,5,0.00049,ng/mL.medium 

@@ -281,6 +281,23 @@ def sample_chemical_handler(db):
     rows = db.fetchall()
     return json.dumps(rows, default=datetime_handler)
 
+@app.post('/sample_chemical_component')
+def sample_chemical_component_handler(db):
+    response.headers['Content-Type'] = 'application/json'
+    try:
+        data = request.json
+    except HTTPError as e:
+        response.status = 400
+        return {'error': 'HTTP Error'}
+
+    if data is None:
+        response.status = 400
+        return {'error': 'empty request body'}
+
+    db.execute('SELECT * FROM sample_chemical JOIN (SELECT component_id, chemical_id FROM component_chemical) AS a USING(chemical_id) WHERE sample_id = %s;', (data['sample_id'], ))
+    rows = db.fetchall()
+    return json.dumps(rows, default=datetime_handler)
+
 @app.post('/chemical_detail')
 def chemical_detail_handler(db):
     response.headers['Content-Type'] = 'application/json'
@@ -363,6 +380,23 @@ def assay_chemical_handler(db):
         return {'error': 'empty request body'}
 
     db.execute('SELECT * FROM chemical_assay WHERE assay_id = %s;', (data['assay_id'], ))
+    rows = db.fetchall()
+    return json.dumps(rows, default=datetime_handler)
+
+@app.post('/assay_component')
+def assay_component_handler(db):
+    response.headers['Content-Type'] = 'application/json'
+    try:
+        data = request.json
+    except HTTPError as e:
+        response.status = 400
+        return {'error': 'HTTP Error'}
+
+    if data is None:
+        response.status = 400
+        return {'error': 'empty request body'}
+
+    db.execute('SELECT * FROM component_assay WHERE assay_id = %s;', (data['assay_id'], ))
     rows = db.fetchall()
     return json.dumps(rows, default=datetime_handler)
 
