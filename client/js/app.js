@@ -19,6 +19,9 @@ app.config(function($routeProvider, $locationProvider) {
     }).when('/chemical', {
         templateUrl: 'views/chemical.html',
         controller: 'chemicalController'
+    }).when('/analyze', {
+        templateUrl: 'views/analyze.html',
+        controller: 'analyzeController'
     }).when('/assay', {
         templateUrl: 'views/assay.html',
         controller: 'assayController'

@@ -11,6 +11,7 @@ import psycopg2
 # import uuid
 from bottle import HTTPError, request, response, run, Bottle, static_file, redirect
 # from datetime import datetime, timedelta
+from command_line2 import input_mapping
 
 # logging.config.dictConfig(json.load(open('logging.json', 'rb')))
 
@@ -34,6 +35,10 @@ def chemical_redirect():
 @app.get('/assay')
 def chemical_redirect():
     redirect('/#assay')
+
+@app.get('/analyze')
+def analyze_redirect():
+    redirect('/#analyze')
 
 @app.get('/sampleItem')
 def sample_item_redirect():
@@ -417,173 +422,21 @@ def assay_sample_handler(db):
     rows = db.fetchall()
     return json.dumps(rows, default=datetime_handler)
 
-    # start_time: start_time,
-    #         end_time: end_time,
-    #         type: type,
-    #         assay: assay,
-    #         toxicity: toxicity,
-    #         cas: cas
+@app.post('/analyze_chemical')
+def analyze_chemical_handler(db):
+    response.headers['Content-Type'] = 'application/json'
+    try:
+        data = request.json
+    except HTTPError as e:
+        response.status = 400
+        return {'error': 'HTTP Error'}
 
-    # try:
-    #     current_hand = HandPoker.from_dict(data['current_hand'])
-    #     to_place_pokers = set(data['to_place_pokers'])
-    #     usable_pokers = set(data['usable_pokers'])
-    #     time_limit = float(data['time_limit'])
-    #     round_id = data['round_id']
-    #     if 'client_version' not in data:  # no client version should be developer test call
-    #         data['client_version'] = 'none'
-    # except TypeError as e:
-    #     logger.error(f'TypeError: {e.args}')
-    #     response.status = 400
-    #     return {'error': 'incorrect parameters'}
-    # except KeyError as e:
-    #     logger.error(f'Missing Key: {e.args}')
-    #     response.status = 400
-    #     return {'error': 'incorrect parameters'}
-    # except HandPokerException:
-    #     logger.error(f'Error parsing current hand: {data["current_hand"]}')
-    #     response.status = 400
-    #     return {'error': 'incorrect parameters'}
+    if data is None:
+        response.status = 400
+        return {'error': 'empty request body'}
 
-    # new_hand = poker_agent.plan(current_hand, to_place_pokers, usable_pokers, time_limit)
-    # response_dict = new_hand.to_dict()
-
-    # if len(to_place_pokers) == 5:  # 新的一轮
-    #     response_dict['round_id'] = str(uuid.uuid4())
-    # else:
-    #     response_dict['round_id'] = round_id
-
-    # logger.info(f'Input: {data}, Output: {response_dict}')
-    # return json.dumps(response_dict)
-
-
-# @app.post('/send_error_report')
-# def send_error_report_handler():
-#     logger = logging.getLogger('error_report')
-#     response.headers['Content-Type'] = 'application/json'
-#     try:
-#         data = request.json
-#     except HTTPError as e:
-#         response.status = 400
-#         return {'error': 'HTTP Error'}
-
-#     if data is None:
-#         response.status = 400
-#         return {'error': 'empty request body'}
-
-#     # token verification
-#     if 'token' not in data:
-#         response.status = 400
-#         return {'error': 'empty token'}
-#     try:
-#         jwt.decode(data['token'], JWT_SECRET, algorithms=['HS256'])
-#     except jwt.ExpiredSignatureError:
-#         response.status = 400
-#         return {'error': 'token expired'}
-#     except (jwt.InvalidTokenError, jwt.DecodeError, jwt.InvalidSignatureError):
-#         response.status = 400
-#         return {'error': 'invalid token'}
-
-#     if 'machine_id' not in data or 'error' not in data:
-#         response.status = 400
-#         return {'error': 'empty machine id or empty error'}
-
-#     logger.error(f'{data["machine_id"]}: {data["error"]}')
-#     return {'success': 1}
-
-
-# ### Licensing ###
-
-# @app.get('/serial_generator')
-# def serial_generator_handler(db):
-#     if 'pass' not in request.query or request.query['pass'] != DB_SECRET:
-#         response.status = 400
-#         return
-#     count = int(request.query.get('count', 1))  # support bulk generate
-#     result = ""
-#     for _ in range(count):
-#         db.execute('INSERT INTO license (created_on) VALUES (current_timestamp) RETURNING serial_id;')
-#         row = db.fetchone()
-#         if row:
-#             result += row['serial_id']
-#             result += '<br>'
-#     return result
-
-
-# @app.get('/serial_list')
-# def serial_list_handler(db):
-#     if 'pass' not in request.query or request.query['pass'] != DB_SECRET:
-#         response.status = 400
-#         return
-#     db.execute('SELECT * FROM license;')
-#     rows = db.fetchall()
-#     if rows:
-#         return str(rows)
-
-
-# @app.get('/register_serial')
-# def register_serial_handler(db):
-#     response.headers['Content-Type'] = 'application/json'
-#     if 'serial_id' not in request.query or 'machine_id' not in request.query or 'client_version' not in request.query:
-#         response.status = 400
-#         return {'error': 'incorrect parameters'}
-#     try:
-#         db.execute('SELECT machine_id FROM license WHERE serial_id = %s;', (request.query['serial_id'],))
-#         row = db.fetchone()
-#         if row:
-#             if row['machine_id'] is not None:  # already registered
-#                 response.status = 400
-#                 return {'error': 'already registered'}
-#         else:
-#             response.status = 400
-#             return {'error': 'invalid serial number'}
-#     except psycopg2.DataError:
-#             response.status = 400
-#             return {'error': 'invalid serial number'}
-
-#     try:
-#         db.execute(
-#             'UPDATE license SET machine_id = %s, verified_on=current_timestamp, client_version = %s WHERE serial_id = %s;',
-#             (request.query['machine_id'], request.query['client_version'], request.query['serial_id'],)
-#         )
-#         if db.rowcount == 1:
-#             return {'success': 1}
-#         else:
-#             response.status = 500
-#             return {'error': 'internal database error'}
-#     except psycopg2.DataError:
-#             response.status = 500
-#             return {'error': 'internal database error'}
-#     response.status = 500
-#     return {'error': 'internal database error'}
-
-
-# @app.get('/verify_machine')
-# def verify_machine_handler(db):
-#     """
-#     Verify machine, if success, return access token.
-#     """
-#     response.headers['Content-Type'] = 'application/json'
-#     if 'machine_id' not in request.query:
-#         response.status = 400
-#         return {'error': 'empty machine_id'}
-#     try:
-#         db.execute('SELECT serial_id FROM license WHERE machine_id = %s;', (request.query['machine_id'],))
-#         row = db.fetchone()
-#         if row:
-#             return json.dumps({
-#                 'token': jwt.encode({'exp': datetime.utcnow() + timedelta(hours=10)}, JWT_SECRET, algorithm='HS256').decode(
-#                     'utf-8')
-#             })
-#         else:
-#             response.status = 400
-#             return {'error': 'invalid machine_id'}
-#     except psycopg2.DataError:
-#             response.status = 400
-#             return {'error': 'invalid machine_id'}
-#     response.status = 400
-#     return {'error': 'invalid machine_id'}
-
+    input_mapping(data['smiles'], data['filename'])
+    return
 
 if __name__ == '__main__':
     # run(app, host='localhost', port=8080, debug=True, reloader=True)

@@ -92,6 +92,14 @@ angular.module('ITAApp')
         return $http.post('/assay_sample', {assay_id: assay_id});
     };
 
+    // analyze
+    jobServiceAPI.analyze_chemical = function(smiles, filename) {
+        return $http.post('/analyze_chemical', {
+            smiles: smiles,
+            filename: filename
+        });
+    };
+
     jobServiceAPI.createUnregistered = function(smiles, captcha_id, captcha_code){
         return $http.post('/createUnregistered', {
             smiles: smiles,

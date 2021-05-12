@@ -98,7 +98,6 @@ angular.module('ITAApp')
             toxicity,
             smiles
         ).success(function(res){
-            console.log(res);
             $scope.chemicals = res;
         });
     };
