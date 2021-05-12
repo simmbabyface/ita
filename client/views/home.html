@@ -2,7 +2,7 @@
 <div id="top" class="jumbotron">
   <div class="container highlight">
     <h1>ITA Dashboard</h1>
-    <h2>high-throughput <b>I</b>ntegrated <b>T</b>oxicology <b>A</b>nalyzer</h2>
+    <h2>High-throughput <b>I</b>ntegrated <b>T</b>oxicology <b>A</b>nalyzer</h2>
     <p><a class="btn btn-primary" href="about">Learn more about ITA <span class="glyphicon glyphicon-circle-arrow-right"></span></a></p>
   </div> <!-- /.container -->
 </div> <!-- /.jumbotron -->
@@ -10,9 +10,9 @@
 <div class="container container-inner">
   <div class="row introductions">
     <div class="col-md-12">
-      <h3>Search</h3>
+      <h3><b><font size="5.5" color="#191970">ITA Database Search</font></b></h3>
     </div>
-    <div class="col-md-5ths col-sm-3 introduction">
+    <div class="col-md-3ths col-sm-4 introduction">
       <div ng-click="redirect('/sample')" class="clickable">
         <img src="img/view-sample.png" />
       </div>
@@ -20,50 +20,80 @@
       <p>   </p>
     </div> <!-- /.introduction -->
 
-    <div class="col-md-5ths col-sm-3 introduction">
-      <div ng-click="redirect('/analyze')" class="clickable">
-        <img src="img/view-analyze.png" />
-      </div>
-      <h3>Analyze</h3>
-    </div> <!-- /.introduction -->
-
-    <div class="col-md-5ths col-sm-3 introduction">
+    <div class="col-md-3ths col-sm-4 introduction">
       <div ng-click="redirect('/assay')" class="clickable">
         <img src="img/view-assay.png" />
       </div>
       <h3>Bioactivity</h3>
     </div> <!-- /.introduction -->
 
-    <div class="col-md-5ths col-sm-3 introduction">
+    <div class="col-md-3ths col-sm-4 introduction">
       <div ng-click="redirect('/chemical')" class="clickable">
         <img src="img/view-chemical.png" />
       </div>
       <h3>Chemical</h3>
     </div> <!-- /.introduction -->
 
-    <div class="col-md-5ths col-sm-3 introduction">
-      <div ng-click="redirect('/pathway')" class="clickable">
-        <img src="img/view-pathway.png" />
-      </div>
-      <h3>Pathway</h3>
-    </div> <!-- /.introduction -->
   </div> <!-- /.row -->
 </div> <!-- /.container -->
+
+
+<div class="container container-inner">
+  <div class="row introductions">
+    <div class="col-md-12">
+      <h3><b><font size="5.5" color="#191970">Computational Tools</font></b></h3>
+    </div>
+
+    <div class="col-md-3ths col-sm-3 introduction">
+      <div ng-click="redirect('/analyze')" class="clickable">
+        <img src="img/HealthEffect.png" />
+      </div>
+      <h3>Health Effect Prioritization</h3>
+    </div> <!-- /.introduction -->
+
+    <div class="col-md-3ths col-sm-3 introduction">
+      <div ng-click="redirect('/analyze')" class="clickable">
+        <img src="img/ER_activity.png" />
+      </div>
+      <h3>Estrogen Activity Prediction</h3>
+    </div> <!-- /.introduction -->
+
+    <div class="col-md-3ths col-sm-3 introduction">
+      <a href = "http://172.16.131.141:9954/rcees/dock/main.htm"><img src="img/view-pathway.png" /></a>
+      <h3>Docking based MIE</h3>
+    </div> <!-- /.introduction -->
+
+    <div class="col-md-3ths col-sm-3 introduction">
+      <a href = "http://172.16.131.33:9944/rcees/ligand/main.htm"><img src="img/Target2.png" /></a>
+      <h3>Ligand based MIE</h3>
+    </div> <!-- /.introduction -->
+
+  </div> <!-- /.row -->
+</div> <!-- /.container -->
+
 
 <div class="container container-inner">
   <div class="row overview">
     <div class="col-md-12">
-      <h3>Workflow</h3>
+      <h3><b><font size="5.5" color="#191970">Workflow</font></b></h3>
     </div>
     <div class="col-md-12 text-center">
-<!--       <p>
-        China is facing severe problems on environmental pollution and food safety. The traditional Dose-Response is being challenged by the combination effects and low-dose effects of toxic substances. Currently, even the most advanced toxicity evaluation systems, such as Tox 21 program in US, are only based on single pure chemical and they are not focusing on how to quickly identify unknown toxic chemicals and evaluate the combined toxic effects from a real complex sample. We propose to integrate chemical analysis with bio-analytical systems for toxicity evaluations on real samples with low-dose exposure, and identification of unknown toxic chemicals. With the development of novel signaling pathway-based biosensors and establishment of effect-directed toxic chemical screening and identification systems, the present proposal aims to develop a high-throughput integrated toxicology analyzer in order to set up a technical platform for effective and efficient evaluation of combined toxic effects and discovery of emerging toxic chemicals. This system will serve as an important technical support for environment protection and food safety poison analysis in China, and quickly identify the main toxic substances with their concentrations and toxicity in an incident.
-      </p> -->
       <img src="img/Scheme.png" />
     </div>
   </div> 
 </div> 
 
+
+<div class="container container-inner">
+  <div class="row overview">
+    <div class="col-md-12">
+      <h3><b><font size="5.5" color="#191970">Instrument</font></b></h3>
+    </div>
+    <div class="col-md-12 text-center">
+      <img src="img/robot.jpg" width="600" height="400"/>
+    </div>
+  </div> 
+</div> 
 
 <!-- <div class="container container-inner container-alternate">
   <h3 id="reference" class="subhead">Project Overview</h3>

@@ -1,14 +1,14 @@
-from __future__ import division
-import sys, getopt
+# from __future__ import division
+# import sys, getopt
 import pandas as pd
-import numpy as np
+# import numpy as np
 # activate my-rdkit-env
 from rdkit import Chem
-from rdkit.Chem import Draw
+# from rdkit.Chem import Draw
 import matplotlib.pyplot as plt
 import os
 import seaborn as sns
-import time
+# import time
 # import urllib2
 # from sklearn import metrics
 
