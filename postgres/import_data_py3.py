@@ -5,7 +5,7 @@ import os
 
 
 conn = psycopg2.connect(user = "babyface", password = "5555", host = "localhost", port = "5432", database = "ita")
-conn.set_client_encoding('GBK')
+conn.set_client_encoding('utf-8')
 cur = conn.cursor()
 
 
@@ -104,7 +104,11 @@ def create_sample_assay_table():
 	 FOREIGN KEY (assay_id) REFERENCES assay(assay_id) ON DELETE CASCADE,
 	 assay_time TIMESTAMP,
 	 model VARCHAR(10),
-	 n VARCHAR(10),
+	 bottom VARCHAR,
+	 top VARCHAR,
+	 logEC50 VARCHAR,
+	 hill_slope VARCHAR,
+	 span VARCHAR,
 	 EC50 VARCHAR,
 	 conc_unit VARCHAR(20)
 	 );"""
@@ -120,7 +124,11 @@ def create_chemical_assay_table():
 	 FOREIGN KEY (assay_id) REFERENCES assay(assay_id) ON DELETE CASCADE,
 	 assay_time TIMESTAMP,
 	 model VARCHAR(10),
-	 n VARCHAR(10),
+	 bottom VARCHAR,
+	 top VARCHAR,
+	 logEC50 VARCHAR,
+	 hill_slope VARCHAR,
+	 span VARCHAR,
 	 EC50 VARCHAR,
 	 conc_unit VARCHAR(20)
 	 );
@@ -165,7 +173,11 @@ def create_component_assay_table():
 	 FOREIGN KEY (assay_id) REFERENCES assay(assay_id) ON DELETE CASCADE,
 	 assay_time TIMESTAMP,
 	 model VARCHAR(10),
-	 n VARCHAR(10),
+	 bottom VARCHAR,
+	 top VARCHAR,
+	 logEC50 VARCHAR,
+	 hill_slope VARCHAR,
+	 span VARCHAR,
 	 EC50 VARCHAR,
 	 conc_unit VARCHAR(20)
 	 );
