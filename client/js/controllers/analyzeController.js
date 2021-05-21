@@ -20,7 +20,6 @@ angular.module('ITAApp')
         });
     };
 
-    var FILE_NAME = 'plot';
     $scope.finished = false;
     $scope.shouldDisableButton = false;
 
@@ -31,11 +30,12 @@ angular.module('ITAApp')
         }
         $scope.shouldDisableButton = true;
         jobService.analyze_chemical(
-            smiles,
-            FILE_NAME
+            $scope.smiles,
+            $scope.smiles
         ).success(function(res){
             $scope.finished = true;
             $scope.shouldDisableButton = false;
+            $scope.image_path = 'img/health_effect_prioritization/' + smiles + '.png';
         });
     };
 
