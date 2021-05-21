@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="middlepart">
+    <div class="search-title">
+      <img src="img/ER_activity.png" width="30px" height="30px" /> Chemical Query for Estrogen Activity Prediction
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form name="form "class="form-horizontal" role="form" novalidate="novalidate" method="post">
+          <div class="form-group">
+            <div class="col-md-3">
+              <label class="control-label">SMILES</label>
+            </div>
+            <div class="col-md-9">
+              <input class="form-control" ng-model="smiles" id="smiles" name="smiles" autofocus="autofocus" />
+            </div>
+          </div>
+          <div style="text-align: center;">
+            <iframe id="sketch" src="js/marvinjs-19.9.0-all/editorws.html" style="overflow: hidden; min-width: 500px; min-height: 400px; border: 1px solid darkgray;" />
+          </div>
+          <div class="text-center">
+            <button ng-click="predict_chemical()" class="btn btn-primary" ng-disabled="shouldDisableButton">Predict</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div ng-if="finished == true">
+      <div><img ng-src="{{image_path1}}" width="800" height="600"></div>
+    </div>
+    <div ng-if="finished == true">
+      <div><img ng-src="{{image_path2}}" width="800" height="600"></div>
+    </div>
+  </div>
+</div>

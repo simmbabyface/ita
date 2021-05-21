@@ -1,5 +1,5 @@
 angular.module('ITAApp')
-.controller('analyzeController', function($scope, $cookies, $timeout, $location, jobService){
+.controller('predictionController', function($scope, $cookies, $timeout, $location, jobService){
 	var marvinSketcherInstance;
     angular.element(document).ready(function () {
         MarvinJSUtil.getEditor("#sketch").then(function(sketcherInstance) {
@@ -23,19 +23,19 @@ angular.module('ITAApp')
     $scope.finished = false;
     $scope.shouldDisableButton = false;
 
-    $scope.analyze_chemical = function() {
+    $scope.predict_chemical = function() {
         var smiles = $scope.smiles;
         if (smiles == null || smiles == '') {
         	return;
         }
         $scope.shouldDisableButton = true;
-        jobService.analyze_chemical(
-            $scope.smiles,
+        jobService.predict_chemical(
             $scope.smiles
         ).success(function(res){
             $scope.finished = true;
             $scope.shouldDisableButton = false;
-            $scope.image_path = 'img/health_effect_prioritization/' + $scope.smiles + '.png';
+            $scope.image_path1 = 'img/estrogen_activity_prediction/' + $scope.smiles + '_1.png';
+            $scope.image_path2 = 'img/estrogen_activity_prediction/' + $scope.smiles + '_2.png';
         });
     };
 

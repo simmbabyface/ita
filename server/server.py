@@ -12,6 +12,7 @@ import psycopg2
 from bottle import HTTPError, request, response, run, Bottle, static_file, redirect
 # from datetime import datetime, timedelta
 from command_line2 import input_mapping
+from start_prediction import input_mapping_prediction
 
 # logging.config.dictConfig(json.load(open('logging.json', 'rb')))
 
@@ -39,6 +40,10 @@ def chemical_redirect():
 @app.get('/analyze')
 def analyze_redirect():
     redirect('/#analyze')
+
+@app.get('/prediction')
+def prediction_redirect():
+    redirect('/#prediction')
 
 @app.get('/sampleItem')
 def sample_item_redirect():
@@ -436,6 +441,22 @@ def analyze_chemical_handler(db):
         return {'error': 'empty request body'}
 
     input_mapping(data['smiles'], data['filename'])
+    return
+
+@app.post('/predict_chemical')
+def predict_chemical_handler(db):
+    response.headers['Content-Type'] = 'application/json'
+    try:
+        data = request.json
+    except HTTPError as e:
+        response.status = 400
+        return {'error': 'HTTP Error'}
+
+    if data is None:
+        response.status = 400
+        return {'error': 'empty request body'}
+
+    input_mapping_prediction(data['smiles'])
     return
 
 if __name__ == '__main__':

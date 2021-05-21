@@ -92,11 +92,17 @@ angular.module('ITAApp')
         return $http.post('/assay_sample', {assay_id: assay_id});
     };
 
-    // analyze
+    // analyze & predict
     jobServiceAPI.analyze_chemical = function(smiles, filename) {
         return $http.post('/analyze_chemical', {
             smiles: smiles,
             filename: filename
+        });
+    };
+
+    jobServiceAPI.predict_chemical = function(smiles, filename) {
+        return $http.post('/predict_chemical', {
+            smiles: smiles
         });
     };
 

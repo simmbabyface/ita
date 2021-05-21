@@ -22,6 +22,9 @@ app.config(function($routeProvider, $locationProvider) {
     }).when('/analyze', {
         templateUrl: 'views/analyze.html',
         controller: 'analyzeController'
+    }).when('/prediction', {
+        templateUrl: 'views/prediction.html',
+        controller: 'predictionController'
     }).when('/assay', {
         templateUrl: 'views/assay.html',
         controller: 'assayController'
