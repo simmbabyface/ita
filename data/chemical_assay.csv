@@ -1,4 +1,4 @@
-chemical_id,assay_id,assay_time,model,n,EC50,conc_unit
-C0000001,A0000004,2020/12/16,Hill,9,0.00049,ng/mL.medium 
-C0000002,A0000004,2020/12/16,Hill,7,0.00138,ng/mL.medium 
-C0000007,A0000004,2020/12/16,Hill,5,0.00049,ng/mL.medium 
+chemical_id,assay_id,assay_time,model,bottom,top,logEC50,hill_slope,span,EC50,conc_unit
+C0000001,A0000004,12/16/2020,Hill,1.014,2.357,-5.128,1.411,1.344,7.45E-06,ng/¦ÌL.medium 
+C0000002,A0000004,12/16/2020,Hill,1.058,3.085,1.146,0.9809,2.026,1.40E-05,ng/¦ÌL.medium 
+C0000007,A0000004,12/16/2020,Hill,0.8551,4.966,1.628,0.7877,4.111,4.25E-05,ng/¦ÌL.medium 

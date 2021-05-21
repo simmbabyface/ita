@@ -1,7 +1,11 @@
 # from __future__ import division
 # import sys, getopt
 import pandas as pd
+<<<<<<< HEAD
+import numpy as np
+=======
 # import numpy as np
+>>>>>>> d519c8e1a884837ea99033bfb8fa2eefdc7c04f8
 # activate my-rdkit-env
 from rdkit import Chem
 # from rdkit.Chem import Draw
@@ -13,6 +17,10 @@ import seaborn as sns
 # from sklearn import metrics
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> d519c8e1a884837ea99033bfb8fa2eefdc7c04f8
 def input_mapping(inputfile, outputfile):
 	m = Chem.MolFromSmiles(inputfile)
 	compXfrag = pd.read_csv(r'componentXunique20fragment_16.csv', index_col = 0, header = 0)
@@ -37,3 +45,14 @@ def input_mapping(inputfile, outputfile):
 	ax = sns.barplot(x=componentXscore.index, y="Test Chemical", data=componentXscore)
 	plt.title('Health Effect Prioritization',fontsize= 18)
 	plt.savefig(os.path.join('..', 'client', 'img', outputfile+'.png'),dpi=800)
+<<<<<<< HEAD
+
+
+# def main():
+# 	input_mapping('C1=CC=CC=C1', 'Test')
+
+
+# if __name__ == '__main__':
+# 	main()
+=======
+>>>>>>> d519c8e1a884837ea99033bfb8fa2eefdc7c04f8
