@@ -1,4 +1,4 @@
-var app = angular.module('ITAApp', ['ngRoute', 'ngCookies', 'angular-jqcloud']);
+var app = angular.module('ITAApp', ['ngRoute', 'ngCookies', 'angular-jqcloud', 'ui.bootstrap']);
 
 app.config(function($routeProvider, $locationProvider) {
     if (window.history && history.pushState){

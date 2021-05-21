@@ -38,7 +38,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="values in assay_sample_info">
+          <tr ng-repeat="values in assay_sample_info" popover-trigger="mouseenter" popover-placement="top" uib-popover-html="getPopoverContent(values.sample_id)">
             <td><a href="sampleItem/{{values.sample_id}}">{{values.sample_id}}</a></td>
             <td>{{values.sample_id | date}}</td>
             <td>{{values.model}}</td>
@@ -71,7 +71,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="values in assay_component_info">
+          <tr ng-repeat="values in assay_component_info" popover-trigger="mouseenter" popover-placement="top" uib-popover-html="getPopoverContent(values.component_id)">
             <td>{{values.component_id}}</td>
             <td>{{values.assay_time | date}}</td>
             <td>{{values.model}}</td>
@@ -104,7 +104,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="values in assay_chemical_info">
+          <tr ng-repeat="values in assay_chemical_info" popover-trigger="mouseenter" popover-placement="top" uib-popover-html="getPopoverContent(values.chemical_id)">
             <td><a href="chemicalItem/{{values.chemical_id}}">{{values.chemical_id}}</a></td>
             <td>{{values.assay_time | date}}</td>
             <td>{{values.model}}</td>
@@ -119,7 +119,5 @@
           </tr>
         </tbody>
       </table>
-      <div class="col-md-1"><button type="button" class="btn btn-default" ng-show="preDownload" ng-click="generateDownload()">Save Results</button><span class="glyphicon glyphicon-refresh rotatinginline" ng-show="inDownload"></span><span ng-show="inDownload">Loading...</span><a href="#" id="download" class="btn btn-default" ng-show="afterDownload">Download</a></div>
-    </div>
   </div>
 </div>
