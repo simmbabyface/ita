@@ -37,3 +37,4 @@ def input_mapping(inputfile, outputfile):
 	ax = sns.barplot(x=componentXscore.index, y="Test Chemical", data=componentXscore)
 	plt.title('Health Effect Prioritization', fontsize=18)
 	plt.savefig(os.path.join('..', 'client', 'img', 'health_effect_prioritization', outputfile + '.png'), dpi=800)
+	plt.clf()

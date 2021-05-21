@@ -193,6 +193,7 @@ def input_mapping_prediction(inputfile):
             size=20,
             weight='bold')
     plt.savefig(os.path.join('..', 'client', 'img', 'estrogen_activity_prediction', inputfile + '_2.png'), dpi=800)
+    plt.clf()
     # plt.show()
 
 
