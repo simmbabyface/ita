@@ -143,12 +143,12 @@ def input_mapping_prediction(inputfile):
     # print('保存文件成功')
     active_porb=out[0]
     inactive_porb=1-active_porb
-    elements = ['活性概率值', '无活性概率值']
+    elements = ['雌激素活性概率值', '']
     weight1 = [active_porb,inactive_porb]
-    cs = ['orange','cyan']
+    cs = ['#D3545F','#9EA0A1']
     outer_cs = cs
     inner_cs = cs
-    fig = plt.figure(figsize=(12, 8))
+    fig = plt.figure(figsize=(7, 7))
     #ax1=plt.subplot2grid((1,2),(0,0))
     #ax2=plt.subplot2grid((1,2),(0,1))
     #ax1.set_xticks([])
@@ -166,7 +166,7 @@ def input_mapping_prediction(inputfile):
                                         counterclock=False,
                                         colors=outer_cs,
                                         # 锲形块边界属性字典
-                                        wedgeprops={'edgecolor': 'white',
+                                        wedgeprops={'edgecolor': 'None',
                                                     'linewidth': 1,
                                                     'linestyle': '-'
                                                     },
@@ -190,19 +190,20 @@ def input_mapping_prediction(inputfile):
     
     plt.title(label='化学品雌激素受体激活活性预测',
             # color='blue',
-            size=20,
-            weight='bold')
+            size=18,)
+    plt.text(-0.75,-1.15,'≥24%时即认为具有雌激素活性', ha='left',fontsize=16,wrap=True)
     plt.savefig(os.path.join('..', 'client', 'img', 'estrogen_activity_prediction', inputfile + '_2.png'), dpi=800)
-    plt.clf()
     # plt.show()
 
 
-def main():
-    input_mapping_prediction('CC12CCC3C(CCc4cc(O)ccc43)C1CCC2O')
+# def main():
+#     input_mapping_prediction('CC12CCC3C(CCc4cc(O)ccc43)C1CCC2O')
 		
 
 # if __name__ == '__main__':
 #     main()                
+
+
 # #__name__ 是当前模块名，当模块被直接运行时模块名为 __main__ 。这句话的意思就是，当模块被直接运行时，以下代码块将被运行，当模块是被导入时，代码块不被运行。
 # if __name__ == '__main__':
 # 	main(sys.argv[1:])

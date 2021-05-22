@@ -1,8 +1,4 @@
 chemical_type,MS_Type,Chemical_mz,chemical_name,molecular_formula,CAS,canonical_smiles
 Organic Chemicals,Chromatography identified as LC-MS,272.18,α-Estradiol (E2),C18H24O2,50-28-2,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O
 Organic Chemicals,Chromatography identified as LC-MS,270.16,Estrone (E1),C18H22O2,53-16-7,CC12CCC3C(C1CCC2=O)CCC4=C3C=CC(=C4)O
-Organic Chemicals,Chromatography identified as LC-MS,288.17,Estriol (E3),C18H24O3,50-27-1,CC12CCC3C(C1CC(C2O)O)CCC4=C3C=CC(=C4)O
-Organic Chemicals,Chromatography identified as LC-MS,296.18,Ethinylestradiol (EE2),C20H24O2,57-63-6,CC12CCC3C(C1CCC2(C#C)O)CCC4=C3C=CC(=C4)O
-Organic Chemicals,Chromatography identified as LC-MS,228.29,Bisphenol A (BPA),C15H16O2,80-05-7,OC1=CC=C(C(C)(C)C2=CC=C(O)C=C2)C=C1
-Organic Chemicals,Chromatography identified as LC-MS,220.18,4-n-Nonylphenol (4-NP),C15H24O,104-40-5,CCCCCCCCCC1=CC=C(C=C1)O
-Organic Chemicals,Chromatography identified as LC-MS,268.15,Diethylstilbestrol (DES),C18H20O2,56-53-1,CCC(=C(CC)C1=CC=C(C=C1)O)C2=CC=C(C=C2)O
+Organic Chemicals,Chromatography identified as LC-MS,268.15,Diethylstilbestrol (DES),C18H20O2,56-53-1,CC\C(=C(\CC)C1=CC=C(O)C=C1)C1=CC=C(O)C=C1

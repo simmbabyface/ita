@@ -33,8 +33,20 @@ def input_mapping(inputfile, outputfile):
 			componentXscore.iloc[j,i] = score
 	# componentXscore.to_csv(outputfile+time.strftime('%Y%m%d-%H%M%S')+'.csv')
 	
-
-	ax = sns.barplot(x=componentXscore.index, y="Test Chemical", data=componentXscore)
-	plt.title('Health Effect Prioritization', fontsize=18)
-	plt.savefig(os.path.join('..', 'client', 'img', 'health_effect_prioritization', outputfile + '.png'), dpi=800)
 	plt.clf()
+	fig = plt.figure(figsize=(10, 8),dpi=600)
+	ax = sns.barplot(x=componentXscore.index, y="Test Chemical", data=componentXscore)
+	ax.tick_params(axis='x', labelsize= 18)
+	ax.tick_params(axis='y', labelsize= 18)
+	ax.set_xlabel('Health effects', fontsize=18) 
+	ax.set_ylabel('Score', fontsize=18)
+	plt.title('Health Effect Prioritization', fontsize=22)
+	plt.savefig(os.path.join('..', 'client', 'img', 'health_effect_prioritization', outputfile + '.png'), dpi=800)
+	# plt.clf()
+
+# def main():
+#     input_mapping('CC12CCC3C(CCc4cc(O)ccc43)C1CCC2O','CC12CCC3C(CCc4cc(O)ccc43)C1CCC2O')
+		
+
+# if __name__ == '__main__':
+#     main() 

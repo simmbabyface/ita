@@ -144,8 +144,8 @@ def create_sample_chemical_table():
 	 FOREIGN KEY (sample_id) REFERENCES sample(sample_id) ON DELETE CASCADE,
 	 FOREIGN KEY (chemical_id) REFERENCES chemical(chemical_id) ON DELETE CASCADE,
 	 assay_time TIMESTAMP,
-	 concentration VARCHAR(10),
-	 conc_unit VARCHAR(10)
+	 concentration VARCHAR,
+	 conc_unit VARCHAR
 	 );
 	"""
 	cur.execute(clause1)
@@ -192,8 +192,8 @@ def create_component_chemical_table():
 	 chemical_id CHAR(10),
 	 FOREIGN KEY (component_id) REFERENCES component(component_id) ON DELETE CASCADE,
 	 assay_time TIMESTAMP,
-	 concentration VARCHAR(10),
-	 conc_unit VARCHAR(20)
+	 concentration VARCHAR,
+	 conc_unit VARCHAR
 	 );
 	"""
 	cur.execute(clause1)

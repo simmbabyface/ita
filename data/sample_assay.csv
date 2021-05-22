@@ -1,2 +1,2 @@
 sample_id,assay_id,assay_time,model,bottom,top,logEC50,hill_slope,span,EC50,conc_unit
-S0000001,A0000004,2020/12/16,Hill,0.9564,2.446,4.284,0.9911,1.49,0.019,ng/µL.medium
+S0000001,A0000004,2021/05/12,Hill,0.9564,2.446,4.284,0.9911,1.49,0.019,ng/µL.medium

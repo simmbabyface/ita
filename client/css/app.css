@@ -469,3 +469,7 @@ footer a:hover {
   padding-right: 0;
   padding-left: 0;
 }
+
+.popover{
+  max-width:500px;
+}

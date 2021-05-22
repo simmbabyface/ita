@@ -10,18 +10,20 @@ angular.module('ITAApp')
     $scope.samples = Array();
     $scope.searched = false;
     
+    console.log(1);
     jobService.get_all_biological_process_targets_keyed_by_toxicities().success(function(res){
         tox_biological_process_target_map = res;
         $scope.toxicities = [$scope.default].concat(Object.keys(res));
-        $scope.biological_process_targets = [$scope.default].concat(Object.values(res).flat(1));
+        $scope.biological_process_targets = Array.from(new Set([$scope.default].concat(Object.values(res).flat(1))));
+        console.log($scope.biological_process_targets);
     });
 
     $scope.filter_biological_process_target = function() {
         if ($scope.toxicity != $scope.default) {
-            $scope.biological_process_targets = [$scope.default].concat(tox_biological_process_target_map[$scope.toxicity]);
+            $scope.biological_process_targets = Array.from(new Set([$scope.default].concat(tox_biological_process_target_map[$scope.toxicity])));
             $scope.biological_process_target = $scope.default;
         } else {
-            $scope.biological_process_targets = [$scope.default].concat(Object.values(tox_biological_process_target_map).flat(1));
+            $scope.biological_process_targets = Array.from(new Set([$scope.default].concat(Object.values(tox_biological_process_target_map).flat(1))));
             $scope.biological_process_target = $scope.default;
         }
     }
